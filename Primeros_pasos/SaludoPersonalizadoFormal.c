@@ -1,10 +1,10 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
+ * @authors Equipo docente programacion grado de ingenieria
  * @university  UAL
  * @date 2019-02-06
- 
+
   Este programa saludara al usuario incorporando su nombre y apellidos al saludo formal
- 
+
  */
 
 #include <stdio.h>
@@ -14,7 +14,7 @@ int main(){
 
 	printf("Por favor, introduzca su nombre: ");
 	scanf(" %[^\n]s",nombre);
-        printf("Por favor, introduzca sus apellidos: ");
+        printf("Por favor, introduzca sus apellidos a continuacion: ");
 	scanf(" %[^\n]s",apellidos);
 	printf("\n\nSaludos D. %s", nombre);
 	printf(" %s/n", apellidos);
