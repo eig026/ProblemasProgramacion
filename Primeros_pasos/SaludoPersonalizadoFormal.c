@@ -14,10 +14,10 @@ int main(){
 
 	printf("Por favor, introduzca su nombre: ");
 	scanf(" %[^\n]s",nombre);
-        printf("Por favor, introduzca sus apellidos: ");
+    printf("Por favor, introduzca sus apellidos: ");
 	scanf(" %[^\n]s",apellidos);
 	printf("\n\nSaludos D. %s", nombre);
-	printf(" %s/n", apellidos);
+	printf(" %s", apellidos);
 	printf("\n\nPulse una tecla para finalizar");
 	getch();
 	return 0;
