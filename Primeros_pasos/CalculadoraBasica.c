@@ -15,7 +15,7 @@ int main(){
 	
 	do{ system("cls");
 		printf("Realizaremos una operacion aritmetica simple:\n\n");
-		printf("Introduzca el primer valor con el que operar: ");
+		printf("Introducir el primer valor con el que operar: ");
 		scanf(" %d",&a);
 		printf("Introduzca el segundo valor con el que operar: ");
 		scanf(" %d",&b);
