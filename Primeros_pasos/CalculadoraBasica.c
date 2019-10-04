@@ -13,7 +13,7 @@
 
 int main(){
 	int a, b;
-	char operacion, cc;
+	char operacion, c;
 
 	do{ system("cls");
 		printf("Realizaremos una operacion aritmetica simple:\n\n");
@@ -23,7 +23,7 @@ int main(){
 		scanf(" %d",&b);
 		printf("\n");
 		printf("Introduzca + para sumar, - para restar o * para multiplicar: ");
-		scanf(" %cc",&operacion);
+		scanf(" %c",&operacion);
 		switch(operacion){
         case '+':   printf("El resultado es: %d\n", a+b);
                     break;
@@ -35,7 +35,7 @@ int main(){
                     break;
 		}
 	   	printf("\nDesea efectuar una nueva operacion (S/N)? ");
-	   	cc=toupper(getch());
-	}while (cc!='N');
+	   	c=toupper(getch());
+	}while (c!='N');
     return 0;
 }
