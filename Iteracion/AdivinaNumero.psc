@@ -25,10 +25,3 @@ Algoritmo Adivina_Numero
 	FinSi
 	
 FinAlgoritmo
-
-    © 2019 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
