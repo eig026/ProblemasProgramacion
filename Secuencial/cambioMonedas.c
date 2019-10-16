@@ -1,12 +1,12 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
+ * @authors Equipo docente programacion grado de ingenieria
  * @university  UAL
  * @date 2019-02-06
- 
+
 */
 
 
- 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -14,9 +14,9 @@
 
 void main(){
 	char c;
-	intp,pc;   /* precio del articulo (euros+céntimos)*/
-	inti,ic;   /* importe pagado (euros+centimos      */
-	intresto;  /* resto de las divisiones sucesivas   */
+	int p,pc;   /* precio del articulo (euros+céntimos)*/
+	int i,ic;   /* importe pagado (euros+centimos      */
+	int resto;  /* resto de las divisiones sucesivas   */
 	int b500;   /* numero de billetes de 500 euros     */
 	int b200;   /* numero de billetes de 200 euros     */
 	int b100;   /* numero de billetes de 100 euros     */
