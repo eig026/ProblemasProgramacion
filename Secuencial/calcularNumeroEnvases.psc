@@ -4,13 +4,13 @@ Algoritmo CalcularNumeroenvases
 	// envases disponibles: 50, 20, 10, 5, 2 y 1 litros
 
 	Var	
-		n: entero		// número de litros a envasar
+		n: entero	// número de litros a envasar
 		n50: entero	// n. de envases de 50 litros
 		n20: entero	// n. de envases de 20 litros
 		n10: entero	// n. de envases de 10 litros
-		n5: entero		// n. de envases de 5 litros
-		n2: entero		// n. de envases de 2 litros
-		n1: entero		// n. de envases de 1 litros
+		n5: entero	// n. de envases de 5 litros
+		n2: entero	// n. de envases de 2 litros
+		n1: entero	// n. de envases de 1 litros
 		resto: entero	// resto de divisiones sucesivas	
 	
 	Escribir "Introduzca número de litros a envasar: ";
