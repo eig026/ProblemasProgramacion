@@ -1,8 +1,8 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
+ * @authors Equipo docente programacion grado de ingenieria
  * @university  UAL
  * @date 2019-02-06
- 
+
  */
 
 
@@ -120,9 +120,9 @@ int main(){
 						u2=(a1*c2-c1*a2)/(-a1*b2+a2*b1);
 						printf("\nRectas secantes: ");
 						if((0<u1)&&(u1<1)&&(0<u2)&&(u2<1)){
-							printf("\nLos segmentos de linea se cortan");
-							printf("Punto de interseccion: (%.2f,%.2f)\n",x1+u1*a1,y1+u1*b1);
-							printf("Punto de interseccion: (%.2f,%.2f)\n",x3+u2*a2,y3+u2*b2);
+							printf("\nLos segmentos de linea se cortan:\n");
+							printf("Punto de interseccion Segmento 1: (%.2f,%.2f)\n",x1+u1*a1,y1+u1*a2);
+							printf("Punto de interseccion Segmento 2: (%.2f,%.2f)\n",x3+u2*b1,y3+u2*b2);
 						}else{
 							printf("\nLos segmentos de linea no se cortan");
 						}
