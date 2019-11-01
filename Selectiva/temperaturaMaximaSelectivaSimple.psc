@@ -10,7 +10,7 @@ Var
 	Si (t1>=t2) Entonces
 		tmax <- t1;
 	Sino	
-		tmax <- t3;
+		tmax <- t2;
 	Finsi
 	
 	Escribir "Temperatura máxima: ", tmax;
