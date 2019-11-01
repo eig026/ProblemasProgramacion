@@ -75,18 +75,18 @@ Var
 							   Escribir "(",x3,",",y3,")a(",x3+u2*b1,",",y3+u2*b2,")"
 							Sino
 							   Escribir("Segm. solapam.:")
-							   Escribir "(",x3+u1*b1,",",y3+u1*b1,") a (",x3+u2*b2,",",y3+u2*b2
+							   Escribir "(",x3+u1*b1,",",y3+u1*b1,") a (",x3+u2*b2,",",y3+u2*b2,")"
 							Fin si
 						Sino	
 							Si(u1<=0)
 							   Entonces
 							   Escribir("Segm. solapamiento:")
-							   Escribir "(",x3,",",y3,") a (",	x4,",",y4,")"
+							   Escribir "(", x3,",",y3,") a (", x4,",",y4,")"
 							Sino
 							   Si(u1<1)
 								   Entonces
 								   Escribir("Segm. solapam.:")
-								   Escribir "(",x3+u1*b1,",",y3+u1*b2,") a (",	x4,",",y4,")"
+								   Escribir "(",x3+u1*b1,",",y3+u1*b2,") a (", x4,",",y4,")"
 							   Sino
 								   Escribir("No intersectan")
 							   Fin si
