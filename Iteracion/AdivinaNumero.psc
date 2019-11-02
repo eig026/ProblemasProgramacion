@@ -7,7 +7,7 @@ Algoritmo Adivina_Numero
 	
 	Escribir "Adivine el numero (de 1 a 100):"
 	Leer num_ingresado
-	Mientras num_secreto<>num_ingresado {&} intentos>1 Hacer
+	Mientras num_secreto<>num_ingresado & intentos>1 Hacer
 		Si num_secreto>num_ingresado Entonces
 			Escribir "Muy bajo"
 		SiNo 
