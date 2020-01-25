@@ -1,6 +1,5 @@
 Algoritmo tarifaTaxi
-// programa que calcula e imprime en pantalla la 	
-// tarifa de un taxi en función de los km recorridos
+// programa que calcula e imprime en pantalla la tarifa de un taxi según los km recorridos
 Const
 	FIJO=30	   // Tarifa fija				
 	T1=15	   // Tarifa 1: euro/km de 30-100 km 
