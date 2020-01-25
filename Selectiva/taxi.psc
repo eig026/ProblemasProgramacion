@@ -7,7 +7,6 @@ Const
 Var	
 	km: real		// kilómetros recorridos
 	total: real		// Total a cobrar en euros
-	
 	Escribir("Introduzca kms recorridos: ")
 	Leer km
 	Si km<=0
