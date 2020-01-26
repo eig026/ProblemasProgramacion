@@ -20,7 +20,6 @@ int main(){
 	float z;
 	int pos,neg;
 	int n,i;
-
 	do{ system("cls");
 		printf("CONCAVIDAD/CONVEXIDAD POLIGONO\n");
 		printf("==============================\n\n");
