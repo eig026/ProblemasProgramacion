@@ -1,8 +1,8 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
+ * @authors Equipo docente programacion grado de ingenieria
  * @university  UAL
  * @date 2019-02-06
- 
+
 *  */
 
 
@@ -23,7 +23,7 @@ int main(){
 	do{ system("cls");
 		printf("CONCAVIDAD/CONVEXIDAD POLIGONO\n");
 		printf("==============================\n\n");
-		do{	printf("Nº de vertices: ");
+		do{	printf("Num. de vertices: ");
 			scanf(" %d",&n);
 		}while(n<3);
 		i=1;
