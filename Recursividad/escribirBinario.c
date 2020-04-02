@@ -9,7 +9,7 @@ int main(){
 	char c;
    int n;
 
-	do{ 	clrscr();
+	do{
 			printf("CONVERSION DECIMAL --> BINARIO\n");
 			printf("==============================\n\n");
 			do{	printf("Introduzca entero positivo: ");
@@ -29,4 +29,4 @@ void escribir_binario(int n){
 			printf("%d",n%2);
 	}
 }
-
+

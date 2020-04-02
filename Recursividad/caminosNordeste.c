@@ -9,7 +9,7 @@ int main(){
 	char c;
 	int x1,y1,x2,y2;
 
-	do{ 	clrscr();
+	do{
 			printf("NUMERO DE CAMINOS NORDESTE\n");
 			printf("==========================\n\n");
 			printf("Introduzca A (x1,y1): ");
@@ -32,4 +32,3 @@ long int caminos_NE(int x1, int y1, int x2, int y2){
 						return(1);
 					else	return(caminos_NE(x1+1,y1,x2,y2)+caminos_NE(x1,y1+1,x2,y2));
 }
-
