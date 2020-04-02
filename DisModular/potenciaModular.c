@@ -1,13 +1,14 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
+ * @authors Equipo docente programacion grado de ingenieria
  * @university  UAL
  * @date 2019-02-06
- 
- 
- 
+
+
+
  */
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <conio.h>
 #include <ctype.h>
 #include <math.h>
@@ -19,7 +20,7 @@ int main(){
 	float b;
    int e;
 
-	do{ 	clrscr();
+	do{
 			printf("POTENCIA\n");
 			printf("========\n\n");
 			printf("Introduzca numero base: ");
@@ -56,4 +57,4 @@ float potencia(float b,int e){
 			}
 	}
 	return pot;
-}
+}
