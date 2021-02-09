@@ -1,3 +1,5 @@
+// Ejemplo sin catalogar
+
 #include <stdio.h>
 #include <conio.h>
 #include <ctype.h>
@@ -18,7 +20,7 @@ int main(){
 	int i;
 	double a,h,p,t,w,x;
 
-	do{ 	clrscr();
+	do{ 	//clrscr();
 			printf("ANALISIS DE FOURIER MOVIMIENTO ONDULATORIO\n");
 			printf("==========================================\n\n");
 			leer_datos(&a,&h,&p,&t);
