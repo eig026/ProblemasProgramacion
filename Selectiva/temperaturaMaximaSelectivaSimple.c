@@ -1,8 +1,8 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
+ * @authors Equipo docente programacion grado de ingenieria
  * @university  UAL
  * @date 2019-02-06
- 
+
  */
 /* temperatura Maxima0           */
 /* programa que calcula el mayor */
