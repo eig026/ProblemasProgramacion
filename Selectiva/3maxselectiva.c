@@ -1,8 +1,8 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
+ * @authors Equipo docente programacion grado de ingenieria
  * @university  UAL
  * @date 2019-02-06
- 
+
 /* temperaturaMaxima                                  */
 /* programa que calcula la mayor de tres temperaturas */
 
@@ -14,8 +14,8 @@
 
 int main(){
     char c;
-    float t1,t2,t3;    /* temperaturas leídas */
-    float tmax;        /* temperatura máxima  */
+    float t1,t2,t3;    /* temperaturas leï¿½das */
+    float tmax;        /* temperatura mï¿½xima  */
 
     do{ system("cls");
         printf("MAXIMA DE TRES TEMPERATURAS\n");
@@ -40,4 +40,3 @@ int main(){
     }while (c!='N');
     return 0;
 }
-
