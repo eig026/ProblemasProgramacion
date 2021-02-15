@@ -1,10 +1,10 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
+ * @authors Equipo docente programacion grado de ingenieria
  * @university  UAL
  * @date 2019-02-06
- 
+
   Este programa saludara al usuario incorporando su nombre y apellidos al saludo
- 
+
  */
 
 #include <stdio.h>
@@ -17,6 +17,6 @@ int main(){
 	printf("\n\nSaludos D. %s", nombre);
 	printf("\nBienvenido al fantastico mundo de la programacion");
 	printf("\n\nPulse una tecla para finalizar");
-	getch();
+	getchar();
 	return 0;
 }

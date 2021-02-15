@@ -1,13 +1,15 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
+ * @authors Equipo docente programacion grado de ingenieria
  * @university  UAL
  * @date 2019-02-06
- 
-  calcularMasaBolaHierro: programa que calcula la masa en Kg de una bola  
-  esferica de hierro, a partir de su diametro en cm    
+
+  calcularMasaBolaHierro: programa que calcula la masa en Kg de una bola
+  esferica de hierro, a partir de su diametro en cm
  */
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
 
 #define PI 3.1415
 #define densidad  0.00786   /* Kg/cm3                   */
@@ -29,7 +31,8 @@ int main(){
       masa=densidad*volumen;
       printf("\nMasa: %.2f Kg", masa);
       printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-      c=toupper(getch());
+      fflush(stdin);
+      c=toupper(getchar());
     }while (c!='N');
 return 0;
 }

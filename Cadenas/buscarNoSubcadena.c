@@ -17,7 +17,7 @@ int main(){
 	char c;
 	cadena cad1,cad2;
 
-	do{ 	clrscr();
+	do{ 	system("cls");
 			printf("PALABRAS DE UNA CADENA QUE NO ESTAN EN OTRA\n");
 			printf("===========================================\n\n");
 			printf("Introduzca primera cadena: ");

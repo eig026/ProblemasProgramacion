@@ -19,6 +19,6 @@ int main(){
     printf("\n\nSaludos D. %s", nombre);
     printf(" %s", apellidos);
     printf("\n\nPulse una tecla para finalizar");
-    getch();
+    getchar();
     return 0;
 }
