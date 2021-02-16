@@ -18,6 +18,5 @@ int main(){
 	printf("\nBienvenido al fantastico mundo de la programacion");
 	printf("\n\nPulse una tecla para finalizar");
 	getchar();
-
 	return 0;
 }
