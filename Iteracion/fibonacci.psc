@@ -10,7 +10,7 @@ Var	n: entero		// numero del termino
 		Escribir "Introduzca Nº de termino: ";
 		Leer n; 
 	Hasta que (n>0)
-	fib_1<-1;
+	fib_1<-0;
 	fib_2<-1;
 	i<-1;
 	Mientras (i<=n) Hacer
