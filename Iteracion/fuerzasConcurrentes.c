@@ -1,5 +1,5 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
+ * @authors Equipo docente programacion grado de ingenieria
  * @university  UAL
  * @date 2019-02-06
 *  */
@@ -48,6 +48,7 @@ int main(){
         printf("\nResultante de %d fuerzas:",n);
         printf(" (%.1f,%.1f,%.1f)",rx,ry,rz);
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
+
         c=toupper(getch());
    }while (c!='N');
    return 0;

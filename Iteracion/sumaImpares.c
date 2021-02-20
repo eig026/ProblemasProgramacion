@@ -1,8 +1,8 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
+ * @authors Equipo docente programacion grado de ingenieria
  * @university  UAL
  * @date 2019-02-06
- 
+
 *  */
 
 
@@ -17,7 +17,7 @@ int main(){
 	int i,n;
 	float suma;
 
-	do{ 	clrscr();
+	do{ 	//clrscr();
 			printf("SUMA DE NUMEROS IMPARES ENTRE 0 y 1000\n");
 			printf("======================================\n\n");
 			do{	printf("Introduzca limite superior: ");
@@ -35,4 +35,4 @@ int main(){
 			c=toupper(getch());
 	}while (c!='N');
    return 0;
-}
+}

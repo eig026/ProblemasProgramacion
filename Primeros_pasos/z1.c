@@ -10,6 +10,7 @@ int main(){
 			printf("\n");
 			printf("======\n\n");
 
+
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
 			fflush(stdin);
 			c=toupper(getchar());
