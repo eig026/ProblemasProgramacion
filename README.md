@@ -9,6 +9,8 @@ Ejemplos de la asignatura de Programación de primer curso segundo cuatrimestre 
 
 - Primeros pasos ---- Ejemplos básicos equivalentes a "hola Mundo"
 - Secuenciales    --- Ejemplos donde la solución se corresponde con un programa secuencial
+  - [Calcular la masa de una bola de hierro] (https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/CalcularMasaBolaHierro.md)
+
 - Selectiva      ---- Ejemplos de aplicación de las condicionales.
 
 
