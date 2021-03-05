@@ -11,3 +11,5 @@ En este capítulo se recopilan un conjunto de ejemplos simples que tienen por ob
  - [Calcular la masa de una bola de hierro](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/CalcularMasaBolaHierro.md)
 
  - Selectiva      ---- Ejemplos de aplicación de las condicionales.
+
+[Capitulo siguiente][Secuencia]
