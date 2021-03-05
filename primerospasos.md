@@ -13,3 +13,5 @@ En este capítulo se recopilan un conjunto de ejemplos simples que tienen por ob
  - Selectiva      ---- Ejemplos de aplicación de las condicionales.
 
 [Capitulo siguiente][Secuencia]
+
+ [Secuencia]: https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/secuencia.md
