@@ -1,4 +1,4 @@
-# Cuaderno de problemas de programación para estudios técnicos
+# **Cuaderno de problemas de PROGRAMACIÓN para estudios técnicos**
 
 
 Este material se ha plateado con un enfoque eminentemente práctico donde los conceptos básicos del diseño y codificación de algoritmos en divesos lenguajes de programación, en especial C, se describe a través de la resolución de casos prácticos ligados al ámbito de la ingeniería, por lo que es mas un cuaderno de trabajo que un libro como tal.
@@ -14,10 +14,8 @@ De cara a simplificar la lectura y comprensión de los ejercicios no se muestra 
 Se han incorporado también hiperenlaces en el propio documento que facilitan la navegabilidad dentro del mismo entre los ejercicios propuestos y sus soluciones.
 
 
-
+### [Primeros pasos](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/primerospasos.md)
 
 - Primeros pasos ---- Ejemplos básicos equivalentes a "hola Mundo"
 - Secuenciales    --- Ejemplos donde la solución se corresponde con un programa secuencial
-  - [Calcular la masa de una bola de hierro](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/CalcularMasaBolaHierro.md)
-
-- Selectiva      ---- Ejemplos de aplicación de las condicionales.
+  
