@@ -16,7 +16,7 @@ Se han incorporado también hiperenlaces en el propio documento que facilitan la
 ___
 
 ### [Primeros pasos ][Primeros_pasos]
-
+### [Programación estructurada. Secuencia ][Secuencia]
 
  [Primeros_pasos]: https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/primerospasos.md
- [Secuencia]: https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/primerospasos.md
+ [Secuencia]: https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/secuencial.md
