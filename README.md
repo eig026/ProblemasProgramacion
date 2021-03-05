@@ -13,9 +13,9 @@ De cara a simplificar la lectura y comprensión de los ejercicios no se muestra 
 
 Se han incorporado también hiperenlaces en el propio documento que facilitan la navegabilidad dentro del mismo entre los ejercicios propuestos y sus soluciones.
 
+___
 
-### [Primeros pasos](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/primerospasos.md)
+### [Primeros pasos ][Primeros_pasos]
 
-- Primeros pasos ---- Ejemplos básicos equivalentes a "hola Mundo"
-- Secuenciales    --- Ejemplos donde la solución se corresponde con un programa secuencial
-  
+
+ [Primeros_pasos]: https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/primerospasos.md
