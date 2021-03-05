@@ -27,3 +27,5 @@ radio=diámetro/2
 
 ## Propuestas de solución
 {++ sdfasdf ++}
+
+[Solucion en pseudocodigo](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/CalcularMasaBolaHierro/CalcularMasaBolaHierro.psc)
