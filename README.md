@@ -19,3 +19,4 @@ ___
 
 
  [Primeros_pasos]: https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/primerospasos.md
+ [Secuencia]: https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/primerospasos.md
