@@ -5,9 +5,19 @@ En este capítulo se recopilan un conjunto de ejemplos simples que tienen por ob
 ## Mensajes en pantalla
 
 
- El primer problema que plantea a los estudiantes cuando se enfrentan a un nuevo lenguaje de programación es el de escribir un mensaje en pantalla. Existe un dicho entre programadores:
+ El primer problema que plantea a los estudiantes cuando se enfrentan a un nuevo lenguaje de programación es el de escribir un mensaje en pantalla.
+
+ Existe un dicho entre programadores:
 
 >Un programador al nacer no llora dice *hola mundo*
+
+Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
+
+:raised_hand_with_fingers_splayed: Saludar al usuario utilizando su nombre y apellidos. Esta información será pedida de forma separada, utilizando el teclado como entrada
+
+
+
+## Un primer cálculo
 
  - [Calcular la masa de una bola de hierro](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/CalcularMasaBolaHierro.md)
 
