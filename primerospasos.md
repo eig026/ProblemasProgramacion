@@ -14,8 +14,8 @@ En este capítulo se recopilan un conjunto de ejemplos simples que tienen por ob
 Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
 
 :raised_hand_with_fingers_splayed: Saludar al usuario utilizando su nombre y apellidos. Esta información será pedida de forma separada, utilizando el teclado como entrada.
- &ensp;&ensp;&ensp;[:arrow_down_small: Ver aqui  SaludoPersonalizadoFormal.c](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/SaludoPersonalizadoFormal.c)
- &ensp;&ensp;&ensp;[:arrow_down_small: Ver aqui  SaludoPersonalizadoFormal.c](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/SaludoPersonalizadoFormal.py)
+ &ensp;&ensp;&ensp;[:arrow_down_small: Ver aqui  SaludoPersonalizadoFormal.p](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/SaludoPersonalizadoFormal.c)
+ &ensp;&ensp;&ensp;[:infinity: Ver aqui  SaludoPersonalizadoFormal.py](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/SaludoPersonalizadoFormal.py)
 
 
 *********
@@ -31,6 +31,6 @@ Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
 
 &ensp;&ensp;&ensp;[:arrow_down_small: CalculadoraBasica.c](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/CalculadoraBasica.c)
 
-&ensp;&ensp;&ensp;[:infinite: CalculadoraBasica.py](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/CalculadoraBasica.py)
+&ensp;&ensp;&ensp;[:infinity: CalculadoraBasica.py](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/CalculadoraBasica.py)
 
 [Capitulo siguiente](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/secuencia.md)
