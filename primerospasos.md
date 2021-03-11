@@ -22,9 +22,8 @@ Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
  :abacus:  Realizar un programa en C que lea los valores de **x** e **y** y muestre en pantalla el resultado de la función:
 **f(x,y)=(x+y)/2y**
 
- - [Calcular la masa de una bola de hierro](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/CalcularMasaBolaHierro.md)
+[:arrow_down_small: Desacargar aqui  EvaluarExpresion.c](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/EvaluarExpresion.c)
 
- - Selectiva      ---- Ejemplos de aplicación de las condicionales.
 
 [Capitulo siguiente][Secuencia]
 
