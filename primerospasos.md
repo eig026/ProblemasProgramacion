@@ -13,11 +13,14 @@ En este capítulo se recopilan un conjunto de ejemplos simples que tienen por ob
 
 Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
 
-:raised_hand_with_fingers_splayed: Saludar al usuario utilizando su nombre y apellidos. Esta información será pedida de forma separada, utilizando el teclado como entrada
+:raised_hand_with_fingers_splayed: Saludar al usuario utilizando su nombre y apellidos. Esta información será pedida de forma separada, utilizando el teclado como entrada. [:arrow_down_small:](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/SaludoPersonalizadoFormal.c)
 
 
 
 ## Un primer cálculo
+
+ :abacus: :calc: Realizar un programa en C que lea los valores de *x* e *y* y muestre en pantalla el resultado de la función:
+$f(x,y)=\frac{x+y}{2y}$
 
  - [Calcular la masa de una bola de hierro](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/CalcularMasaBolaHierro.md)
 
