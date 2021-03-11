@@ -13,7 +13,7 @@ En este capítulo se recopilan un conjunto de ejemplos simples que tienen por ob
 
 Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
 
-:raised_hand_with_fingers_splayed: Saludar al usuario utilizando su nombre y apellidos. Esta información será pedida de forma separada, utilizando el teclado como entrada. [:arrow_down_small: Desacargar aqui  SaludoPersonalizadoFormal.c](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/SaludoPersonalizadoFormal.c)
+:raised_hand_with_fingers_splayed: Saludar al usuario utilizando su nombre y apellidos. Esta información será pedida de forma separada, utilizando el teclado como entrada. &ensp;&ensp;&ensp;[:arrow_down_small: Desacargar aqui  SaludoPersonalizadoFormal.c](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/SaludoPersonalizadoFormal.c)
 
 
 *********
@@ -23,11 +23,11 @@ Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
  :abacus:  Realizar un programa en C que lea los valores de **x** e **y** y muestre en pantalla el resultado de la función:
 **f(x,y)=(x+y)/2y**
 
- &ensp;[:arrow_down_small: Desacargar aqui  EvaluarExpresion.c](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/EvaluarExpresion.c)
+ &ensp;&ensp;&ensp;[:arrow_down_small: Desacargar aqui  EvaluarExpresion.c](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/EvaluarExpresion.c)
 
 :abacus:  Realizar un programa en C que lea el valor de dos operandos enteros, y posteriormente, dependiendo que cual sea el código  de la operación a realizar **(+,*,/,-)**, muestre en pantalla el resultado de dicha operación.
 
-[:arrow_down_small: Desacargar aqui  CalculadoraBasica.c](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/CalculadoraBasica.c)
+&ensp;&ensp;&ensp;[:arrow_down_small: Desacargar aqui  CalculadoraBasica.c](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/CalculadoraBasica.c)
 
 
 
