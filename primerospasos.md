@@ -7,6 +7,7 @@ En este capítulo se recopilan un conjunto de ejemplos simples que tienen por ob
 
  El primer problema que plantea a los estudiantes cuando se enfrentan a un nuevo lenguaje de programación es el de escribir un mensaje en pantalla. Existe un dicho entre programadores:
 
+>Un programador al nacer no llora dice *hola mundo*
 
  - [Calcular la masa de una bola de hierro](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/CalcularMasaBolaHierro.md)
 
