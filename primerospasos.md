@@ -24,7 +24,10 @@ Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
 
 [:arrow_down_small: Desacargar aqui  EvaluarExpresion.c](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/EvaluarExpresion.c)
 
+:abacus:  Realizar un programa en C que lea el valor de dos operandos enteros, y posteriormente, dependiendo que cual sea el código  de la operación a realizar **(+,*,/,-)**, muestre en pantalla el resultado de dicha operación.
 
-[Capitulo siguiente][Secuencia]
+[:arrow_down_small: Desacargar aqui  CalculadoraBasica.c](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/CalculadoraBasica.c)
 
- [Secuencia]: https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/secuencia.md
+
+
+[Capitulo siguiente](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/secuencia.md)
