@@ -1,4 +1,3 @@
-
 print("Por favor, introduzca su nombre: ")
 nombre = input()
 print("Por favor, introduzca sus apellidos:")
