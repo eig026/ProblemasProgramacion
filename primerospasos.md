@@ -44,11 +44,10 @@ Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
 *********
 ## Plantilla
 
-Para facilitar la ejecución de los casos de prueba es habitual que sea necesario repetir la ejecución del programa 
+Para facilitar la ejecución de los casos de prueba es habitual que sea necesario repetir la ejecución del programa
 
  &ensp;&ensp;&ensp;[:arrow_down_small: Ver aqui  Plantilla](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Primeros_pasos/template.c)
 
-
+*********
 
 [Capitulo siguiente](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/secuencia.md)
-

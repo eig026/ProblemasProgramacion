@@ -33,10 +33,6 @@ También llamada validación consiste en la ejecución del código escrito para 
 
 
 
-
-
 ********************************
 
-
-
-
+[Capitulo siguiente](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/selectiva.md)
