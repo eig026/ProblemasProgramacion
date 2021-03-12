@@ -16,14 +16,14 @@ Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
 
 :raised_hand_with_fingers_splayed: Saludar al usuario utilizando su nombre y apellidos. Esta información será pedida de forma separada, utilizando el teclado como entrada.
 
- &ensp;&ensp;&ensp;[:arrow_down_small: Ver aqui  SaludoPersonalizadoFormal.c](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/SaludoPersonalizadoFormal.c)
+ &ensp;&ensp;&ensp;[:arrow_down_small: Ver aqui  SaludoPersonalizadoFormal.c](https://github.com/MaterialesProgramacion/ProblemasProgramacion/tree/master/Primeros_pasos/SaludoPersonalizadoFormal.c)
 
-  &ensp;&ensp;&ensp;[:arrow_double_down: Ver aqui  SaludoPersonalizadoFormal.cpp](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/SaludoPersonalizadoFormal.cpp)
+  &ensp;&ensp;&ensp;[:arrow_double_down: Ver aqui  SaludoPersonalizadoFormal.cpp](https://github.com/MaterialesProgramacion/ProblemasProgramacion/tree/master/Primeros_pasos/SaludoPersonalizadoFormal.cpp)
 
-  &ensp;&ensp;&ensp;[:eight_pointed_black_star: Ver aqui  SaludoPersonalizadoFormal.java](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/SaludoPersonalizadoFormal.java)
+  &ensp;&ensp;&ensp;[:eight_pointed_black_star: Ver aqui  SaludoPersonalizadoFormal.java](https://github.com/MaterialesProgramacion/ProblemasProgramacion/tree/master/Primeros_pasos/SaludoPersonalizadoFormal.java)
 
 
- &ensp;&ensp;&ensp;[:infinity: Ver aqui  SaludoPersonalizadoFormal.py](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/SaludoPersonalizadoFormal.py)
+ &ensp;&ensp;&ensp;[:infinity: Ver aqui  SaludoPersonalizadoFormal.py](https://github.com/MaterialesProgramacion/ProblemasProgramacion/tree/master/Primeros_pasos/SaludoPersonalizadoFormal.py)
 
 
 *********
@@ -33,13 +33,13 @@ Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
  :abacus:  Realizar un programa en C que lea los valores de **x** e **y** y muestre en pantalla el resultado de la función:
 **f(x,y)=(x+y)/2y**
 
- &ensp;&ensp;&ensp;[:arrow_down_small: Ver aqui  EvaluarExpresion.c](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/EvaluarExpresion.c)
+ &ensp;&ensp;&ensp;[:arrow_down_small: Ver aqui  EvaluarExpresion.c](https://github.com/MaterialesProgramacion/ProblemasProgramacion/tree/master/Primeros_pasos/EvaluarExpresion.c)
 
 :abacus:  Realizar un programa en C que lea el valor de dos operandos enteros, y posteriormente, dependiendo que cual sea el código  de la operación a realizar **(+,*,/,-)**, muestre en pantalla el resultado de dicha operación.
 
-&ensp;&ensp;&ensp;[:arrow_down_small: CalculadoraBasica.c](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/CalculadoraBasica.c)
+&ensp;&ensp;&ensp;[:arrow_down_small: CalculadoraBasica.c](https://github.com/MaterialesProgramacion/ProblemasProgramacion/tree/master/Primeros_pasos/CalculadoraBasica.c)
 
-&ensp;&ensp;&ensp;[:infinity: CalculadoraBasica.py](https://github.com/MaterialesProgramacion/CuadernoProblemas/blob/master/Primeros_pasos/CalculadoraBasica.py)
+&ensp;&ensp;&ensp;[:infinity: CalculadoraBasica.py](https://github.com/MaterialesProgramacion/ProblemasProgramacion/tree/master/Primeros_pasos/CalculadoraBasica.py)
 
 *********
 ## Plantilla
