@@ -20,6 +20,11 @@ ___
 
 ### [Primeros pasos ][Primeros_pasos]
 ### [Programación estructurada. Secuencia ][Secuencia]
+### [Programación estructurada. Selectiva ][Selectiva]
+### [Programación estructurada. Iteracion ][Iteracion]
 
  [Primeros_pasos]: primerospasos.md
  [Secuencia]: secuencia.md
+ [Selectiva]: selectiva.md
+ [Iteracion]: selectiva.md
+ 
