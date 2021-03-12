@@ -1,6 +1,5 @@
 
-![]<img src="ualprog.png" width="100">
-
+<img src="ualprog.png" width="100">
 
 # **Cuaderno de problemas de PROGRAMACIÓN para estudios técnicos**
 
