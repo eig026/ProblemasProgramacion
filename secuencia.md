@@ -21,8 +21,18 @@ Es la traducción a un lenguaje de programación de los algoritmos y conlleva la
 ## **Prueba**
 También llamada validación consiste en la ejecución del código escrito para comprobar que las salidas generadas se corresponden con la solución al problema según las entradas definidas para cada caso.
 
+*******************************************
+
+# Problemas de solucion secuencial
+
+### Calculo de la masa de una bola de hierro
+
+    &ensp;&ensp;&ensp;[:arrow_down_small: Desacargar aqui  CalculadoraBasica.c]
+    &ensp;&ensp;&ensp;[:arrow_down_small: Desacargar aqui  CalculadoraBasica.c]
+
+
+********************************
 
 
 
 
-&ensp;&ensp;&ensp;[:arrow_down_small: Desacargar aqui  CalculadoraBasica.c]
