@@ -1,4 +1,8 @@
 ![](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/ualprog.png){width=50%} 
+
+
+[smile]: smile.png
+{: height="36px" width="36px"}
 # **Cuaderno de problemas de PROGRAMACIÓN para estudios técnicos**
 
 
