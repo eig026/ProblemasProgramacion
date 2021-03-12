@@ -1,4 +1,5 @@
 ![](ualprog.png){width=50%} 
+<img src="ualprog.png" width="100">
 
 
 # **Cuaderno de problemas de PROGRAMACIÓN para estudios técnicos**
