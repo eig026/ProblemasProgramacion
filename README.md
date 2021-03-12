@@ -1,4 +1,4 @@
-![](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/ualprog.png){width: 100px} 
+![](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/ualprog.png){width=50%} 
 # **Cuaderno de problemas de PROGRAMACIÓN para estudios técnicos**
 
 
