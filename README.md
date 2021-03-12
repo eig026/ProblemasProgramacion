@@ -1,4 +1,4 @@
-![](ualprog.png){width=50%} 
+
 <img src="ualprog.png" width="100">
 
 
