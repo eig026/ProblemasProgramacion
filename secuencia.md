@@ -27,8 +27,11 @@ También llamada validación consiste en la ejecución del código escrito para 
 
 ### Calculo de la masa de una bola de hierro
 
-    &ensp;&ensp;&ensp;[:arrow_down_small: Desacargar aqui  CalculadoraBasica.c]
-    &ensp;&ensp;&ensp;[:arrow_down_small: Desacargar aqui  CalculadoraBasica.c]
+&ensp;&ensp;&ensp;[:arrow_down_small: Enunciado] (https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/1.%20EnunciadosProblemas/CalcularMasaBolaHierro/CalcularMasaBolaHierro.md)
+&ensp;&ensp;&ensp;[:arrow_down_small: Ver aqui  CalculoMasaBolaHierro.c](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/CalcularMasaBolaHierro.c)
+
+
+
 
 
 ********************************
