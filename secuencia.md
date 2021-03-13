@@ -23,7 +23,7 @@ También llamada validación consiste en la ejecución del código escrito para 
 
 *******************************************
 
-# Problemas de solucion secuencial
+# Problemas de solución secuencial
 
 ### Calculo de la masa de una bola de hierro
 
