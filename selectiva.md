@@ -2,7 +2,7 @@
 
 
 
-
+# Problemas donde se necesita el uso de la estructura de selección/decisión
 
 
 ********************************
