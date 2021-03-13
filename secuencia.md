@@ -27,7 +27,7 @@ También llamada validación consiste en la ejecución del código escrito para 
 
 ### Calculo de la masa de una bola de hierro
 
-> :triangular_flag_on_post: 
+> :triangular_flag_on_post:
 > Construir un programa que calcule e imprima en pantalla la masa en kilogramos de una bola de hierro dado por teclado su diámetro en centímetros. Conocidos el valor de la densidad del hierro, densidad(Fe)=7.86 g/cm3
 
 > #### Entrada
@@ -42,6 +42,9 @@ También llamada validación consiste en la ejecución del código escrito para 
 > - radio=diámetro/2
 
 &ensp;&ensp;&ensp;[:arrow_down_small: Ver aqui  CalculoMasaBolaHierro.c](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/CalcularMasaBolaHierro.c)
+
+&ensp;&ensp;&ensp;[:paw_prints: Ver aqui  CalculoMasaBolaHierro.psc](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/CalcularMasaBolaHierro.psc)
+
 
 
 
