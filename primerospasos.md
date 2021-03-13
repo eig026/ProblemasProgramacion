@@ -25,7 +25,7 @@ Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
 
  &ensp;&ensp;&ensp;[:infinity: Ver aqui  SaludoPersonalizadoFormal.py](https://github.com/MaterialesProgramacion/ProblemasProgramacion/tree/master/Primeros_pasos/SaludoPersonalizadoFormal.py)
 
- &ensp;&ensp;&ensp;[:negative_squared_cross_mark: Ver aqui  HolaMundo.](https://github.com/MaterialesProgramacion/ProblemasProgramacioasmn/tree/master/Primeros_pasos/HolaMundo.asm)
+ &ensp;&ensp;&ensp;[:negative_squared_cross_mark: Ver aqui  HolaMundo.asm](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Primeros_pasos/HolaMundo.asm)
 
 *********
 
