@@ -45,7 +45,13 @@ También llamada validación consiste en la ejecución del código escrito para 
 &ensp;&ensp;&ensp;[:arrow_down_small: Ver aqui  CalculoMasaBolaHierro.c](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/CalcularMasaBolaHierro.c)
 
 
+### Calculo vectorial básico
 
+> :triangular_flag_on_post:
+> Construir un programa que lea por teclado los componentes espaciales de dos vectores y que calcule e imprima en pantalla la suma de los dos vectores, su producto escalar y  vectorial.
+
+&ensp;&ensp;&ensp;[:paw_prints: Ver aqui  CalculoMasaBolaHierro.psc](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/calculoVectorial.psc)
+&ensp;&ensp;&ensp;[:arrow_down_small: Ver aqui  CalculoMasaBolaHierro.c](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/calculoVectorial.c)
 
 ********************************
 
