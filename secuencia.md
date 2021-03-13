@@ -27,9 +27,7 @@ También llamada validación consiste en la ejecución del código escrito para 
 
 ### Calculo de la masa de una bola de hierro
 
-&ensp;&ensp;&ensp;[ Enunciado](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/1.%20EnunciadosProblemas/CalcularMasaBolaHierro/CalcularMasaBolaHierro.md)
-
-> :triangular_flag_on_post: Enunciado
+> :triangular_flag_on_post: 
 > Construir un programa que calcule e imprima en pantalla la masa en kilogramos de una bola de hierro dado por teclado su diámetro en centímetros. Conocidos el valor de la densidad del hierro, densidad(Fe)=7.86 g/cm3
 
 > #### Entrada
