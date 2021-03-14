@@ -58,6 +58,11 @@ También llamada validación consiste en la ejecución del código escrito para 
 
 > :triangular_flag_on_post: Una empresa de envasado automático de aceite dispone de diversos tipos de envases con capacidades de 50, 20, 10, 5, 2 y 1 litro, respectivamente. Construir un programa que dado por teclado un número entero de litros a envasar, determine el menor número de envases completos necesarios e indique el número de envases de cada tipo, presentándolos en pantalla
 
+### Aceleración Normal
+
+> :triangular_flag_on_post: Diseñar un programa que calcule la aceleración normal (o centrípeta) de una partícula con movimiento circular uniforme, dados por teclado la velocidad angular $\omega$ de la misma ($rad/sg$) y el radio $R$ de la trayectoria ($m$), y que presente el resultado en pantalla. Nota:  	$a_N=\omega^2R$.
+
+
 ********************************
 [Capítulo anterior](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/primerospasos.md) |
 [Capítulo siguiente](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/selectiva.md)
