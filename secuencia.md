@@ -58,6 +58,11 @@ También llamada validación consiste en la ejecución del código escrito para 
 
 > :triangular_flag_on_post: Una empresa de envasado automático de aceite dispone de diversos tipos de envases con capacidades de 50, 20, 10, 5, 2 y 1 litro, respectivamente. Construir un programa que dado por teclado un número entero de litros a envasar, determine el menor número de envases completos necesarios e indique el número de envases de cada tipo, presentándolos en pantalla
 
+&ensp;&ensp;&ensp;[:paw_prints: Ver aqui  calcularNumeroEnvases.psc](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/calcularNumeroEnvases.psc)
+&ensp;&ensp;&ensp;[:arrow_down_small: Ver aqui  calcularNumeroEnvases.c](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/calcularNumeroEnvases.c)
+
+
+
 ### Aceleración Normal
 
 > :triangular_flag_on_post: Diseñar un programa que calcule la aceleración normal (o centrípeta) de una partícula con movimiento circular uniforme, dados por teclado la velocidad angular (<img src="https://render.githubusercontent.com/render/math?math=\omega">) de la misma *rad/sg* y el radio *R* de la trayectoria (*m*), y que presente el resultado en pantalla. Nota:	<img src="https://render.githubusercontent.com/render/math?math=a_N=\omega^2R">.

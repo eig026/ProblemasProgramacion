@@ -7,13 +7,19 @@ Sin embargo, al describir la resolución de un problema, es normal que tengamos 
 ```
  Si condición 
  entonces 
- hacer acción X ... 
-  sino 
-   hacer acción Y ... 
+    hacer acción X ... 
+    sino 
+      hacer acción Y ... 
 ```
 
 
 # Problemas donde se necesita el uso de la estructura de selección/decisión
+
+
+### Exceso de velocidad
+> :triangular_flag_on_post:
+Construir un programa que lea por teclado un valor de velocidad y que escriba en pantalla un mensaje si la velocidad supera los 120 Km/h y en cuanta cantidad los supera
+
 
 
 ********************************
