@@ -57,3 +57,23 @@ Iconos
 :sparkle:
 :ballot_box_with_check:
 :white_check_mark:
+
+Tabla HTML
+
+<table>
+    <tr>
+        <td>Foo</td>
+        <td>afdgafg</td>
+    </tr>
+    <tr>
+        <td>o</td>
+        <td>afg</td>
+    </tr>
+</table>
+
+*******************
+
+```cs
+var test = "texto en C#";
+Console.WriteLine(test);
+```
