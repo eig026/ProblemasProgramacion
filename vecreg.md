@@ -6,5 +6,5 @@
 
 
 ********************************
-[Capitulo anterior](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/modulos.md)
-[Capitulo siguiente](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/archivos.md)
+[Capítulo anterior](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/modulos.md) |
+[Capítulo siguiente](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/archivos.md)

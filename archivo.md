@@ -6,4 +6,4 @@
 
 ********************************
 
-[Capitulo anterior](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/vecreg.md)
+[Capítulo anterior](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/vecreg.md)

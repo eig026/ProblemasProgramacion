@@ -6,5 +6,5 @@
 
 
 ********************************
-[Capitulo anterior](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/secuencia.md) | 
-[Capitulo siguiente](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/iterativa.md)
+[Capítulo anterior](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/secuencia.md) |
+[Capítulo siguiente](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/iterativa.md)
