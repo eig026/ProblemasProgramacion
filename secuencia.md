@@ -61,6 +61,14 @@ También llamada validación consiste en la ejecución del código escrito para 
 ### Aceleración Normal
 
 > :triangular_flag_on_post: Diseñar un programa que calcule la aceleración normal (o centrípeta) de una partícula con movimiento circular uniforme, dados por teclado la velocidad angular $\omega$ de la misma ($rad/sg$) y el radio $R$ de la trayectoria ($m$), y que presente el resultado en pantalla. Nota:  	$a_N=\omega^2R$.
+> 
+
+La *función Gamma* satisface $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ a través de la integral de Euler
+
+$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$
+
 
 
 ********************************
