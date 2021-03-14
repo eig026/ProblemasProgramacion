@@ -35,7 +35,7 @@ También llamada validación consiste en la ejecución del código escrito para 
 > - Debe ser un valor positivo
 > - masa >0
 > #### Fórmulas de cálculo:
-> - masa=***densidad*volumen***
+> - masa=***densidad*** * ***volumen***
 > - Densidad=<img src="https://render.githubusercontent.com/render/math?math=7.86 \quad g/cm^3">
 > Volumen =<img src="https://render.githubusercontent.com/render/math?math=4/3*PI*radio^3">
 > - PI=***3.141593***
