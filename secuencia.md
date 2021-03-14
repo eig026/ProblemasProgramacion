@@ -35,11 +35,11 @@ También llamada validación consiste en la ejecución del código escrito para 
 > - Debe ser un valor positivo
 > - masa >0
 > #### Fórmulas de cálculo:
-> - masa=densidad*volumen
-> - densidad(Fe)=7.86 g/cm3
-> - volumen(esfera)=4*PI*radio3/3
-> - PI=3.141593
-> - radio=diámetro/2
+> - masa=***densidad*volumen***
+> - Densidad=<img src="https://render.githubusercontent.com/render/math?math=7.86 \quad g/cm^3">
+> Volumen =<img src="https://render.githubusercontent.com/render/math?math=4/3*PI*radio^3">
+> - PI=***3.141593***
+> - radio=***diámetro/2***
 
 &ensp;&ensp;&ensp;[:paw_prints: Ver aqui  CalculoMasaBolaHierro.psc](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/CalcularMasaBolaHierro.psc)
 &ensp;&ensp;&ensp;[:arrow_down_small: Ver aqui  CalculoMasaBolaHierro.c](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/CalcularMasaBolaHierro.c)
@@ -61,10 +61,27 @@ También llamada validación consiste en la ejecución del código escrito para 
 ### Aceleración Normal
 
 > :triangular_flag_on_post: Diseñar un programa que calcule la aceleración normal (o centrípeta) de una partícula con movimiento circular uniforme, dados por teclado la velocidad angular (<img src="https://render.githubusercontent.com/render/math?math=\omega">) de la misma *rad/sg* y el radio *R* de la trayectoria (*m*), y que presente el resultado en pantalla. Nota:	<img src="https://render.githubusercontent.com/render/math?math=a_N=\omega^2R">.
->
 
 
+### Centigrados to Fahrenheit
 
+> :triangular_flag_on_post: Diseñar un programa que convierta grados centígrados (Celsius) a Fahrenheit.
+
+### Masa de un tronco cónico
+> :triangular_flag_on_post: Diseñar un programa que calcule e imprima la masa en kg de una pieza de hierro maciza con forma de tronco de cono circular recto, dados por teclado los valores de los radios *a* y *b* (cm), y el valor de la altura *h* (cm)
+Volumen=<img src="https://render.githubusercontent.com/render/math?math=\pi h(a^2+ab+b^2)/3">
+Densidad=<img src="https://render.githubusercontent.com/render/math?math=7.86 \quad g/cm^3">
+
+
+### Momento de fuerza
+> :triangular_flag_on_post: Diseñar un programa que calcule el momento (M) de una fuerza con respecto a un punto, dados por teclado las componentes de la fuerza (F), las coordenadas de su punto de aplicación (A) y las del punto respecto del cual se calcula el momento (O). Presentar el resultado especificando el módulo y la dirección (vector unitario) de dicho vector
+
+
+### Momento angular
+> :triangular_flag_on_post: Diseñar un programa que calcule el momento angular (L) del sistema de la figura con respecto al punto O, dados por teclado el valor de la masa  **m** de cada esfera (Kg), la longitud del brazo **R** (metros) y la velocidad angular <img src="https://render.githubusercontent.com/render/math?math=$\omega$"> (rad/sg)
+
+### Cambio de modenas
+> :triangular_flag_on_post:Diseñar un programa que calcule e imprima en pantalla el cambio que se debe devolver a un cliente, utilizando el menor número de billetes y/o monedas, por la compra de un artículo, dados por teclado su precio (euros y céntimos de euro) así como el importe pagado por el cliente (euros y céntimos de euro)
 
 ********************************
 [Capítulo anterior](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/primerospasos.md) |
