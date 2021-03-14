@@ -59,5 +59,5 @@ También llamada validación consiste en la ejecución del código escrito para 
 > :triangular_flag_on_post: Una empresa de envasado automático de aceite dispone de diversos tipos de envases con capacidades de 50, 20, 10, 5, 2 y 1 litro, respectivamente. Construir un programa que dado por teclado un número entero de litros a envasar, determine el menor número de envases completos necesarios e indique el número de envases de cada tipo, presentándolos en pantalla
 
 ********************************
-
+[Capitulo anterior](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/primerospasos.md)
 [Capitulo siguiente](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/selectiva.md)

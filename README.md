@@ -32,8 +32,14 @@ ___
 ### [Programación estructurada. Secuencia ][Secuencia]
 ### [Programación estructurada. Selectiva ][Selectiva]
 ### [Programación estructurada. Iteracion ][Iteracion]
+### [Diseño estructurado. Abstracciones Funcionales ][Modulos]
+### [Diseño estructurado. Abstracciones de datos. Vectores y Registros ][VecReg]
+### [Gestion de archivos][Archivos]
 
  [Primeros_pasos]: primerospasos.md
  [Secuencia]: secuencia.md
  [Selectiva]: selectiva.md
- [Iteracion]: selectiva.md
+ [Iteracion]: iteracion.md
+ [Modulos]: modulos.md
+ [VecReg]: vecreg.md
+ [Archivos]: archivos.md
