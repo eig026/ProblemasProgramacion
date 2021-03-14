@@ -1,6 +1,6 @@
 # **Primeros pasos**
 
-En este capítulo se recopilan un conjunto de ejemplos simples que tienen por objetivo ser el primer contacto de los alumnos con la programación estructurada en lenguaje C. Pero debemos tener en cuenta que a partir del segundo capítulo la base fundamental de la resolución de los problemas será en pseudocódigo.
+En este capítulo se recopilan un conjunto de ejemplos simples que tienen por objetivo ser el primer contacto de los alumnos con la programación estructurada. Debemos tener en cuenta que a partir del segundo capítulo la base fundamental de la resolución de los problemas será en pseudocódigo y el Lenguaje C.
 
 *********
 
