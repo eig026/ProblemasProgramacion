@@ -80,6 +80,7 @@ Densidad=<img src="https://render.githubusercontent.com/render/math?math=7.86 \q
 ### Momento angular
 > :triangular_flag_on_post: Diseñar un programa que calcule el momento angular (L) del sistema de la figura con respecto al punto O, dados por teclado el valor de la masa  **m** de cada esfera (Kg), la longitud del brazo **R** (metros) y la velocidad angular <img src="https://render.githubusercontent.com/render/math?math=$\omega$"> (rad/sg)
 
+
 ### Cambio de modenas
 > :triangular_flag_on_post:Diseñar un programa que calcule e imprima en pantalla el cambio que se debe devolver a un cliente, utilizando el menor número de billetes y/o monedas, por la compra de un artículo, dados por teclado su precio (euros y céntimos de euro) así como el importe pagado por el cliente (euros y céntimos de euro)
 
