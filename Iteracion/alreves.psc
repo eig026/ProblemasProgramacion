@@ -1,4 +1,5 @@
 Algoritmo alreves
+
 	Escribir ('Que número deseas invertir')
 	Leer num
 	sum=0
