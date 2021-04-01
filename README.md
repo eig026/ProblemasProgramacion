@@ -1,4 +1,5 @@
 
+<link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
 <img src="ualprog.png" width="100">
 
 # **Cuaderno de problemas de PROGRAMACIÓN para estudios técnicos**
