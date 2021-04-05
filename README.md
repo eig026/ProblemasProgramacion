@@ -24,7 +24,7 @@ Si bien no todos los problemas están resueltos en todos los lenguajes. La sigui
 - :arrow_down_small: C
 - :arrow_double_down: C++
 - :eight_pointed_black_star: Java
-- :infinity: Python
+- ![](/iconos/pytho.png) Python
 - :negative_squared_cross_mark: MIPS
 
 ___
