@@ -16,16 +16,16 @@ Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
 
 :raised_hand_with_fingers_splayed: Saludar al usuario utilizando su nombre y apellidos. Esta información será pedida de forma separada, utilizando el teclado como entrada.
 
- &ensp;&ensp;&ensp; <img src="iconos/c.png">[Ver aqui  SaludoPersonalizadoFormal.c](./Primeros_pasos/SaludoPersonalizadoFormal.c)
+ &ensp;&ensp;&ensp; <img src="iconos/c.png">[SaludoPersonalizadoFormal.c](./Primeros_pasos/SaludoPersonalizadoFormal.c)
 
-  &ensp;&ensp;&ensp;  <img src="iconos/cplus.png">[Ver aqui  SaludoPersonalizadoFormal.cpp](./Primeros_pasos/SaludoPersonalizadoFormal.cpp)
+  &ensp;&ensp;&ensp;  <img src="iconos/cplus.png">[SaludoPersonalizadoFormal.cpp](./Primeros_pasos/SaludoPersonalizadoFormal.cpp)
 
-  &ensp;&ensp;&ensp; <img src="iconos/java.png">[Ver aqui  SaludoPersonalizadoFormal.java](./Primeros_pasos/SaludoPersonalizadoFormal.java)
+  &ensp;&ensp;&ensp; <img src="iconos/java.png">[SaludoPersonalizadoFormal.java](./Primeros_pasos/SaludoPersonalizadoFormal.java)
 
 
- &ensp;&ensp;&ensp; <img src="iconos/python.png">[Ver aqui  SaludoPersonalizadoFormal.py](./Primeros_pasos/SaludoPersonalizadoFormal.py)
+ &ensp;&ensp;&ensp; <img src="iconos/python.png">[SaludoPersonalizadoFormal.py](./Primeros_pasos/SaludoPersonalizadoFormal.py)
 
- &ensp;&ensp;&ensp; <img src="iconos/mip.png">[Ver aqui  HolaMundo.asm](./Primeros_pasos/HolaMundo.asm)
+ &ensp;&ensp;&ensp; <img src="iconos/mip.png">[HolaMundo.asm](./Primeros_pasos/HolaMundo.asm)
 
 *********
 
@@ -34,7 +34,7 @@ Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
   <img src="iconos/prob.png">  Realizar un programa en C que lea los valores de **x** e **y** y muestre en pantalla el resultado de la función:
 **f(x,y)=(x+y)/2y**
 
- &ensp;&ensp;&ensp; <img src="iconos/c.png">[Ver aqui  EvaluarExpresion.c](./Primeros_pasos/EvaluarExpresion.c)
+ &ensp;&ensp;&ensp; <img src="iconos/c.png">[EvaluarExpresion.c](./Primeros_pasos/EvaluarExpresion.c)
 
  <img src="iconos/prob.png">  Realizar un programa en C que lea el valor de dos operandos enteros, y posteriormente, dependiendo que cual sea el código  de la operación a realizar **(+,*,/,-)**, muestre en pantalla el resultado de dicha operación.
 
@@ -47,7 +47,7 @@ Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
 
 Para facilitar la ejecución de los casos de prueba es habitual que sea necesario repetir la ejecución del programa
 
- &ensp;&ensp;&ensp; <img src="iconos/c.png">[Ver aqui  Plantilla](./Primeros_pasos/template.c)
+ &ensp;&ensp;&ensp; <img src="iconos/c.png">[Plantilla](./Primeros_pasos/template.c)
 
 *********
 
