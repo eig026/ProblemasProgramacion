@@ -17,7 +17,7 @@ Sin embargo, al describir la resolución de un problema, es normal que tengamos 
 
 
 ### Exceso de velocidad
-> ![](iconos/prob.png)
+>  <img src="iconos/prob.png">
 Construir un programa que lea por teclado un valor de velocidad y que escriba en pantalla un mensaje si la velocidad supera los 120 Km/h y en cuanta cantidad los supera
 
 
