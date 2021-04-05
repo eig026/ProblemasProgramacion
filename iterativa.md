@@ -9,5 +9,6 @@
 
 
 ********************************
-[Capítulo anterior. Selectiva](selectiva.md) |
+[Capítulo anterior. Selectiva](selectiva.md)
+|
 [Capítulo siguiente. Modulos](modulos.md)
