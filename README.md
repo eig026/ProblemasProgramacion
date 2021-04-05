@@ -27,9 +27,9 @@ Si bien no  los problemas están resueltos en todos los lenguajes. La siguiente 
 
 <img src="iconos/pseudo.png"> Pseudocódigo
 
-   ![](iconos/c.png) C
+   <img src="iconos/c.png"> C
 
-   ![](/iconos/cplus.png) C++
+   <img src="iconos/cplus.png"> C++
 
    ![](/iconos/java.png)  Java
 
