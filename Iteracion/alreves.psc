@@ -1,6 +1,6 @@
 Algoritmo alreves
 
-	Escribir ('Que número deseas invertir')
+	Escribir ('Que nÃºmero deseas invertir')
 	Leer num
 	sum=0
 	mientras num<>0 hacer
@@ -10,6 +10,6 @@ Algoritmo alreves
 		num <- trunc(num / 10)
 		Escribir t
 	Finmientras
-	Escribir 'el número es:',sum
+	Escribir 'el nÃºmero es:',sum
 FinAlgoritmo
 

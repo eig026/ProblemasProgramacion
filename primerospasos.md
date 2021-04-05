@@ -51,4 +51,6 @@ Para facilitar la ejecución de los casos de prueba es habitual que sea necesari
 
 *********
 
-[Capítulo siguiente](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/secuencia.md)
+[Capítulo siguiente][Secuencia]
+
+[Secuencia](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/secuencia.md)
