@@ -16,38 +16,38 @@ Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
 
 :raised_hand_with_fingers_splayed: Saludar al usuario utilizando su nombre y apellidos. Esta información será pedida de forma separada, utilizando el teclado como entrada.
 
- &ensp;&ensp;&ensp;![](iconos/c.png)[Ver aqui  SaludoPersonalizadoFormal.c](https://github.com/MaterialesProgramacion/ProblemasProgramacion/tree/master/Primeros_pasos/SaludoPersonalizadoFormal.c)
+ &ensp;&ensp;&ensp; <img src="iconos/c.png">[Ver aqui  SaludoPersonalizadoFormal.c](./Primeros_pasos/SaludoPersonalizadoFormal.c)
 
-  &ensp;&ensp;&ensp;![](iconos/cplus.png)[Ver aqui  SaludoPersonalizadoFormal.cpp](https://github.com/MaterialesProgramacion/ProblemasProgramacion/tree/master/Primeros_pasos/SaludoPersonalizadoFormal.cpp)
+  &ensp;&ensp;&ensp;  <img src="iconos/cplus.png">[Ver aqui  SaludoPersonalizadoFormal.cpp](./Primeros_pasos/SaludoPersonalizadoFormal.cpp)
 
-  &ensp;&ensp;&ensp;![](iconos/java.png)[Ver aqui  SaludoPersonalizadoFormal.java](https://github.com/MaterialesProgramacion/ProblemasProgramacion/tree/master/Primeros_pasos/SaludoPersonalizadoFormal.java)
+  &ensp;&ensp;&ensp; <img src="iconos/java.png">[Ver aqui  SaludoPersonalizadoFormal.java](./Primeros_pasos/SaludoPersonalizadoFormal.java)
 
 
- &ensp;&ensp;&ensp;![](iconos/python.png)[Ver aqui  SaludoPersonalizadoFormal.py](https://github.com/MaterialesProgramacion/ProblemasProgramacion/tree/master/Primeros_pasos/SaludoPersonalizadoFormal.py)
+ &ensp;&ensp;&ensp; <img src="iconos/python.png">[Ver aqui  SaludoPersonalizadoFormal.py](./Primeros_pasos/SaludoPersonalizadoFormal.py)
 
- &ensp;&ensp;&ensp;![](iconos/mip.png)[Ver aqui  HolaMundo.asm](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Primeros_pasos/HolaMundo.asm)
+ &ensp;&ensp;&ensp; <img src="iconos/mip.png">[Ver aqui  HolaMundo.asm](./Primeros_pasos/HolaMundo.asm)
 
 *********
 
 ## Un primer cálculo
 
- :abacus:  Realizar un programa en C que lea los valores de **x** e **y** y muestre en pantalla el resultado de la función:
+  <img src="iconos/prob.png">  Realizar un programa en C que lea los valores de **x** e **y** y muestre en pantalla el resultado de la función:
 **f(x,y)=(x+y)/2y**
 
- &ensp;&ensp;&ensp;![](iconos/c.png)[Ver aqui  EvaluarExpresion.c](https://github.com/MaterialesProgramacion/ProblemasProgramacion/tree/master/Primeros_pasos/EvaluarExpresion.c)
+ &ensp;&ensp;&ensp; <img src="iconos/c.png">[Ver aqui  EvaluarExpresion.c](./Primeros_pasos/EvaluarExpresion.c)
 
-:abacus:  Realizar un programa en C que lea el valor de dos operandos enteros, y posteriormente, dependiendo que cual sea el código  de la operación a realizar **(+,*,/,-)**, muestre en pantalla el resultado de dicha operación.
+ <img src="iconos/prob.png">  Realizar un programa en C que lea el valor de dos operandos enteros, y posteriormente, dependiendo que cual sea el código  de la operación a realizar **(+,*,/,-)**, muestre en pantalla el resultado de dicha operación.
 
-&ensp;&ensp;&ensp;![](iconos/c.png)[CalculadoraBasica.c](https://github.com/MaterialesProgramacion/ProblemasProgramacion/tree/master/Primeros_pasos/CalculadoraBasica.c)
+&ensp;&ensp;&ensp; <img src="iconos/c.png">[CalculadoraBasica.c](./Primeros_pasos/CalculadoraBasica.c)
 
-&ensp;&ensp;&ensp;![](iconos/python.png)[CalculadoraBasica.py](https://github.com/MaterialesProgramacion/ProblemasProgramacion/tree/master/Primeros_pasos/CalculadoraBasica.py)
+&ensp;&ensp;&ensp; <img src="iconos/python.png">[CalculadoraBasica.py](./Primeros_pasos/CalculadoraBasica.py)
 
 *********
 ## Plantilla
 
 Para facilitar la ejecución de los casos de prueba es habitual que sea necesario repetir la ejecución del programa
 
- &ensp;&ensp;&ensp;![](iconos/c.png)[Ver aqui  Plantilla](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Primeros_pasos/template.c)
+ &ensp;&ensp;&ensp; <img src="iconos/c.png">[Ver aqui  Plantilla](./Primeros_pasos/template.c)
 
 *********
 

@@ -31,11 +31,11 @@ Si bien no  los problemas están resueltos en todos los lenguajes. La siguiente 
 
    <img src="iconos/cplus.png"> C++
 
-   ![](/iconos/java.png)  Java
+    <img src="iconos/java.png">  Java
 
-   ![](/iconos/python.png)  Python
+    <img src="iconos/python.png">  Python
 
-   ![](/iconos/mip.png) MIPS
+    <img src="iconos/mip.png"> MIPS
 
 ___
 
