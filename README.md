@@ -18,13 +18,13 @@ De cara a simplificar la lectura y comprensión de los ejercicios no se muestra 
 Se han incorporado también hiperenlaces en el propio documento que facilitan la navegabilidad dentro del mismo entre los ejercicios propuestos y sus soluciones.
 __________________
 #### Lista de lenguajes
-Si bien no todos los problemas están resueltos en todos los lenguajes. La siguiente clave ayudará a identificarlos
+Si bien no  los problemas están resueltos en todos los lenguajes. La siguiente clave ayudará a identificarlos
 
-- :paw_prints: pseudocódigo
+-   ![](iconos/pseudo.png) Pseudocódigo
 -   ![](iconos/c.png) C
 -   ![](/iconos/cplus.png) C++
--   ![](/iconos/java.png) Ejemplos en Java
--   ![](/iconos/python.png) Ejemplos en Python
+-   ![](/iconos/java.png)  Java
+-   ![](/iconos/python.png) Python
 - :negative_squared_cross_mark: MIPS
 
 ___
