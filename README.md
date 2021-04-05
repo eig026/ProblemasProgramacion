@@ -22,7 +22,10 @@ __________________
 #### Lista de lenguajes
 Si bien no  los problemas están resueltos en todos los lenguajes. La siguiente clave ayudará a identificarlos
 
+
    ![](iconos/pseudo.png) Pseudocódigo
+
+<img src="iconos/pseudo.png"> Pseudocódigo
 
    ![](iconos/c.png) C
 

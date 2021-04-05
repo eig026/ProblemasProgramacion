@@ -9,5 +9,5 @@
 
 
 ********************************
-[Capítulo anterior](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/selectiva.md) |
-[Capítulo siguiente](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/modulos.md)
+[Capítulo anterior. Selectiva](selectiva.md) |
+[Capítulo siguiente. Modulos](modulos.md)
