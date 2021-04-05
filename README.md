@@ -20,12 +20,12 @@ __________________
 #### Lista de lenguajes
 Si bien no  los problemas están resueltos en todos los lenguajes. La siguiente clave ayudará a identificarlos
 
--   ![](iconos/pseudo.png) Pseudocódigo
--   ![](iconos/c.png) C
--   ![](/iconos/cplus.png) C++
--   ![](/iconos/java.png)  Java
--   ![](/iconos/python.png) Python
-- :negative_squared_cross_mark: MIPS
+   ![](iconos/pseudo.png) Pseudocódigo
+   ![](iconos/c.png) C
+   ![](/iconos/cplus.png) C++
+   ![](/iconos/java.png)  Java
+   ![](/iconos/python.png) Python
+   ![](/iconos/mip.png) MIPS
 
 ___
 
