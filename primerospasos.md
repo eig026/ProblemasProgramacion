@@ -51,4 +51,4 @@ Para facilitar la ejecución de los casos de prueba es habitual que sea necesari
 
 *********
 
-[Capítulo siguiente.Secuencia](secuencia.md)
+[Capítulo siguiente. Secuencia](secuencia.md)

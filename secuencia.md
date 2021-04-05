@@ -87,9 +87,8 @@ Densidad=<img src="https://render.githubusercontent.com/render/math?math=7.86 \q
 
 
 ### Cambio de modenas
->  ![](iconos/prob.png) Diseñar un programa que calcule e imprima en pantalla el cambio que se debe devolver a un cliente, utilizando el menor número de billetes y/o monedas, por la compra de un artículo, dados por teclado su precio (euros y céntimos de euro) así como el importe pagado por el clie
-  nte (euros y céntimos de euro)
+>  ![](iconos/prob.png) Diseñar un programa que calcule e imprima en pantalla el cambio que se debe devolver a un cliente, utilizando el menor número de billetes y/o monedas, por la compra de un artículo, dados por teclado su precio (euros y céntimos de euro) así como el importe pagado por el cliente (euros y céntimos de euro)
 
 ********************************
-[Capítulo anterior](primerospasos.md) 
-[Capítulo siguiente](selectiva.md)
+[Capítulo anterior. Primeros pasos](primerospasos.md)
+[Capítulo siguiente. Selectiva ](selectiva.md)

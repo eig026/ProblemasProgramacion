@@ -16,7 +16,9 @@ Todos los problemas que aparecen en este libro se pueden descargar utilizando lo
 De cara a simplificar la lectura y comprensión de los ejercicios no se muestra siempre la versión en C y en pseudocódigo de la solución propuesta, pero si se proporciona un enlace para descargar ambas soluciones, en concreto a partir de segunda parte del cuaderno sólo se incluyen los ejemplos en C y solo algunos de ellos o sólo parte de la solución completa, puesto que se habilita su descarga a los lectores de este libro.
 
 Se han incorporado también hiperenlaces en el propio documento que facilitan la navegabilidad dentro del mismo entre los ejercicios propuestos y sus soluciones.
+
 __________________
+
 #### Lista de lenguajes
 Si bien no  los problemas están resueltos en todos los lenguajes. La siguiente clave ayudará a identificarlos
 
