@@ -23,8 +23,8 @@ Si bien no todos los problemas están resueltos en todos los lenguajes. La sigui
 - :paw_prints: pseudocódigo
 - :arrow_down_small: C
 - :arrow_double_down: C++
-- ![./iconos/java.png](./iconos/java.png) Java
-- ![./iconos/pytho.png](./iconos/pytho.png) Python
+- ![./iconos/java.png] Ejemplos en Java
+- ![./iconos/python.png](./iconos/pytho.png) Ejemplos en Python
 - :negative_squared_cross_mark: MIPS
 
 ___
