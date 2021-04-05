@@ -23,18 +23,18 @@ __________________
 Si bien no  los problemas están resueltos en todos los lenguajes. La siguiente clave ayudará a identificarlos
 
 
-   
+
 <img src="iconos/pseudo.png"> Pseudocódigo
 
-   <img src="iconos/c.png"> C
+<img src="iconos/c.png"> C
 
-   <img src="iconos/cplus.png"> C++
+<img src="iconos/cplus.png"> C++
 
-    <img src="iconos/java.png">  Java
+<img src="./iconos/java.png"> Java
 
-    <img src="iconos/python.png">  Python
+<img src="./iconos/python.png"> Python
 
-    <img src="iconos/mip.png"> MIPS
+<img src="./iconos/mip.png"> MIPS
 
 ___
 
