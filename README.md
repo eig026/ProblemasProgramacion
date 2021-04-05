@@ -20,12 +20,17 @@ __________________
 #### Lista de lenguajes
 Si bien no  los problemas están resueltos en todos los lenguajes. La siguiente clave ayudará a identificarlos
 
-   ![](iconos/pseudo.png){ width=70% } Pseudocódigo
-   ![](iconos/c.png){ width=70% } C
-   ![](/iconos/cplus.png){ width=70% } C++
-   ![](/iconos/java.png){ width=70% }  Java
-   ![](/iconos/python.png) { width=70% } Python
-   ![](/iconos/mip.png){ width=70% } MIPS
+   ![](iconos/pseudo.png) Pseudocódigo
+
+   ![](iconos/c.png) C
+
+   ![](/iconos/cplus.png) C++
+
+   ![](/iconos/java.png)  Java
+
+   ![](/iconos/python.png)  Python
+
+   ![](/iconos/mip.png) MIPS
 
 ___
 
