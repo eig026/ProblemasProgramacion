@@ -14,7 +14,7 @@ En este capítulo se recopilan un conjunto de ejemplos simples que tienen por ob
 
 Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
 
-:raised_hand_with_fingers_splayed: Saludar al usuario utilizando su nombre y apellidos. Esta información será pedida de forma separada, utilizando el teclado como entrada.
+ Saludar al usuario utilizando su nombre y apellidos. Esta información será pedida de forma separada, utilizando el teclado como entrada.
 
  &ensp;&ensp;&ensp; <img src="iconos/c.png">[SaludoPersonalizadoFormal.c](./Primeros_pasos/SaludoPersonalizadoFormal.c)
 
