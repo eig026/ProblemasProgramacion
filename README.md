@@ -21,10 +21,10 @@ __________________
 Si bien no todos los problemas están resueltos en todos los lenguajes. La siguiente clave ayudará a identificarlos
 
 - :paw_prints: pseudocódigo
-- :arrow_down_small: C
-- :arrow_double_down: C++
-- ![/iconos/java.png] Ejemplos en Java
-- ![/iconos/python.png] Ejemplos en Python
+-   ![](iconos/c.png) C
+-   ![](/iconos/cplus.png) C++
+-   ![](/iconos/java.png) Ejemplos en Java
+-   ![](/iconos/python.png) Ejemplos en Python
 - :negative_squared_cross_mark: MIPS
 
 ___
