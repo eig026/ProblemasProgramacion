@@ -92,4 +92,5 @@ Densidad=<img src="https://render.githubusercontent.com/render/math?math=7.86 \q
 
 ********************************
 [Capítulo anterior. Primeros pasos](primerospasos.md)
+|
 [Capítulo siguiente. Selectiva ](selectiva.md)
