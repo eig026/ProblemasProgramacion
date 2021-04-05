@@ -23,5 +23,6 @@ Construir un programa que lea por teclado un valor de velocidad y que escriba en
 
 
 ********************************
-[Capítulo anterior. Secuencia]/secuencia.md) |
+[Capítulo anterior. Secuencia](secuencia.md)
+|
 [Capítulo siguiente. Iterativa](iterativa.md)
