@@ -69,8 +69,8 @@ También llamada validación consiste en la ejecución del código escrito para 
 >   <img src="iconos/prob.png"> Diseñar un programa que calcule la aceleración normal (o centrípeta) de una partícula con movimiento circular uniforme, dados por teclado la velocidad angular (<img src="https://render.githubusercontent.com/render/math?math=\omega">) de la misma *rad/sg* y el radio *R* de la trayectoria (*m*), y que presente el resultado en pantalla. Nota:	<img src="https://render.githubusercontent.com/render/math?math=a_N=\omega^2R">.
 
 
-&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  centigradosaFarenheit.pscl.psc](./Secuencial/aceleracionNormal.psc)
-&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ centigradosaFarenheit.c](./Secuencial/aceleracionNormal.c)
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  aceleracionNormal.psc](./Secuencial/aceleracionNormal.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ aceleracionNormal.c](./Secuencial/aceleracionNormal.c)
 
 
 ### Centigrados to Fahrenheit
