@@ -70,7 +70,7 @@ También llamada validación consiste en la ejecución del código escrito para 
 
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  aceleracionNormal.psc](./Secuencial/aceleracionNormal.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/aceleracionNormal.psc)
-&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ aceleracionNormal.c](./Secuencial/aceleracionNormal.centigradosaFarenheit)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ aceleracionNormal.c](./Secuencial/aceleracionNormal.c)
 
 
 ### Centigrados to Fahrenheit
@@ -85,7 +85,7 @@ También llamada validación consiste en la ejecución del código escrito para 
 Volumen=<img src="https://render.githubusercontent.com/render/math?math=\pi h(a^2+ab+b^2)/3">
 Densidad=<img src="https://render.githubusercontent.com/render/math?math=7.86 \quad g/cm^3">
 
-&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  masaPiezaTroncoCono.psc](./Secuencial/masaPiezaTroncoCono.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  masaPiezaTroncoCono.psc](./Secuencial/masaPiezaTroncoCono.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/masaPiezaTroncoCono.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ masaPiezaTroncoCono.c](./Secuencial/masaPiezaTroncoCono.c)
 
 
@@ -94,15 +94,21 @@ Densidad=<img src="https://render.githubusercontent.com/render/math?math=7.86 \q
 ### Momento de fuerza
 >   <img src="iconos/prob.png"> Diseñar un programa que calcule el momento (M) de una fuerza con respecto a un punto, dados por teclado las componentes de la fuerza (F), las coordenadas momentoFuerza su punto de aplicación (A) y las del punto respecto del cual se calcula el momento (O). Presentar el resultado especificando el módulo y la dirección (momentoFuerzator unitario) de dicho vector
 
-&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  momentoFuerza.psc](./Secuencial/momentoFuerza.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  momentoFuerza.psc](./Secuencial/momentoFuerza.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/momentoFuerza.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ momentoFuerza.c](./Secuencial/momentoFuerza.c)
 
 ### Momento angular
 >   <img src="iconos/prob.png"> Diseñar un programa que calcule el momento angular (L) del sistema de la figura con respecto al punto O, dados por teclado el valor de la masa  **m** de cada esfera (Kg), la longitud del brazo **R** (metros) y la velocidad angular <img src="https://render.githubusercontent.com/render/math?math=$\omega$"> (rad/sg)
 
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  momentoFuerza.psc](./Secuencial/momentoAngular<.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/momentoAngular.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ momentoFuerza.c](./Secuencial/momentoAngular.c)
 
 ### Cambio de modenas
 >   <img src="iconos/prob.png"> Diseñar un programa que calcule e imprima en pantalla el cambio que se debe devolver a un cliente, utilizando el menor número de billetes y/o monedas, por la compra de un artículo, dados por teclado su precio (euros y céntimos de euro) así como el importe pagado por el cliente (euros y céntimos de euro)
+
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  momentoFuerza.psc](./Secuencial/cambioMonedas.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/cambioMonedas.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ momentoFuerza.c](./Secuencial/cambioMonedas.c)
+
 
 ********************************
 [Capítulo anterior. Primeros pasos](primerospasos.md)
