@@ -42,7 +42,7 @@ También llamada validación consiste en la ejecución del código escrito para 
 > - PI=***3.141593***
 > - radio=***diámetro/2***
 
-&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  CalculoMasaBolaHierro.psc descargar](./Secuencial/CalcularMasaBolaHierro.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/CalcularMasaBolaHierro.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  CalculoMasaBolaHierro.psc](./Secuencial/CalcularMasaBolaHierro.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/CalcularMasaBolaHierro.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ CalculoMasaBolaHierro.c](./Secuencial/CalcularMasaBolaHierro.c)
 
 
@@ -51,7 +51,7 @@ También llamada validación consiste en la ejecución del código escrito para 
 >  <img src="iconos/prob.png">
 > Construir un programa que lea por teclado los componentes espaciales de dos vectores y que calcule e imprima en pantalla la suma de los dos vectores, su producto escalar y  vectorial.
 
-&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[calculoVectorial.psc](./Secuencial/calculoVectorial.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[calculoVectorial.psc](./Secuencial/calculoVectorial.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/calculoVectorial.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[  calculoVectorial.c](./Secuencial/calculoVectorial.c)
 
 
@@ -59,7 +59,7 @@ También llamada validación consiste en la ejecución del código escrito para 
 
 >   <img src="iconos/prob.png"> Una empresa de envasado automático de aceite dispone de diversos tipos de envases con capacidades de 50, 20, 10, 5, 2 y 1 litro, respectivamente. Construir un programa que dado por teclado un número entero de litros a envasar, determine el menor número de envases completos necesarios e indique el número de envases de cada tipo, presentándolos en pantalla
 
-&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[ calcularNumeroEnvases.psc](./Secuencial/calcularNumeroEnvases.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[ calcularNumeroEnvases.psc](./Secuencial/calcularNumeroEnvases.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/calcularNumeroEnvases.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ calcularNumeroEnvases.c](./Secuencial/calcularNumeroEnvases.c)
 
 
@@ -69,15 +69,15 @@ También llamada validación consiste en la ejecución del código escrito para 
 >   <img src="iconos/prob.png"> Diseñar un programa que calcule la aceleración normal (o centrípeta) de una partícula con movimiento circular uniforme, dados por teclado la velocidad angular (<img src="https://render.githubusercontent.com/render/math?math=\omega">) de la misma *rad/sg* y el radio *R* de la trayectoria (*m*), y que presente el resultado en pantalla. Nota:	<img src="https://render.githubusercontent.com/render/math?math=a_N=\omega^2R">.
 
 
-&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  aceleracionNormal.psc](./Secuencial/aceleracionNormal.psc)
-&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ aceleracionNormal.c](./Secuencial/aceleracionNormal.c)
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  aceleracionNormal.psc](./Secuencial/aceleracionNormal.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/aceleracionNormal.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ aceleracionNormal.c](./Secuencial/aceleracionNormal.centigradosaFarenheit)
 
 
 ### Centigrados to Fahrenheit
 
 >   <img src="iconos/prob.png"> Diseñar un programa que convierta grados centígrados (Celsius) a Fahrenheit.
 
-&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  centigradosaFarenheit.psc](./Secuencial/centigradosaFarenheit.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  centigradosaFarenheit.psc](./Secuencial/centigradosaFarenheit.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/centigradosaFarenheit.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ centigradosaFarenheit.c](./Secuencial/centigradosaFarenheit.c)
 
 ### Masa de un tronco cónico
