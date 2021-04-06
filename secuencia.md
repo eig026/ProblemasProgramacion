@@ -42,7 +42,7 @@ También llamada validación consiste en la ejecución del código escrito para 
 > - PI=***3.141593***
 > - radio=***diámetro/2***
 
-&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  CalculoMasaBolaHierro.psc](./Secuencial/CalcularMasaBolaHierro.psc) <https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/CalcularMasaBolaHierro.psc>
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  CalculoMasaBolaHierro.psc descargar](./Secuencial/CalcularMasaBolaHierro.psc) [Ver] (https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/CalcularMasaBolaHierro.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ CalculoMasaBolaHierro.c](./Secuencial/CalcularMasaBolaHierro.c)
 
 
