@@ -69,19 +69,33 @@ También llamada validación consiste en la ejecución del código escrito para 
 >   <img src="iconos/prob.png"> Diseñar un programa que calcule la aceleración normal (o centrípeta) de una partícula con movimiento circular uniforme, dados por teclado la velocidad angular (<img src="https://render.githubusercontent.com/render/math?math=\omega">) de la misma *rad/sg* y el radio *R* de la trayectoria (*m*), y que presente el resultado en pantalla. Nota:	<img src="https://render.githubusercontent.com/render/math?math=a_N=\omega^2R">.
 
 
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  centigradosaFarenheit.pscl.psc](./Secuencial/aceleracionNormal.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ centigradosaFarenheit.c](./Secuencial/aceleracionNormal.c)
+
+
 ### Centigrados to Fahrenheit
 
 >   <img src="iconos/prob.png"> Diseñar un programa que convierta grados centígrados (Celsius) a Fahrenheit.
+
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  centigradosaFarenheit.psc](./Secuencial/centigradosaFarenheit.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ centigradosaFarenheit.c](./Secuencial/centigradosaFarenheit.c)
 
 ### Masa de un tronco cónico
 >   <img src="iconos/prob.png"> Diseñar un programa que calcule e imprima la masa en kg de una pieza de hierro maciza con forma de tronco de cono circular recto, dados por teclado los valores de los radios *a* y *b* (cm), y el valor de la altura *h* (cm)
 Volumen=<img src="https://render.githubusercontent.com/render/math?math=\pi h(a^2+ab+b^2)/3">
 Densidad=<img src="https://render.githubusercontent.com/render/math?math=7.86 \quad g/cm^3">
 
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  masaPiezaTroncoCono.psc](./Secuencial/masaPiezaTroncoCono.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ masaPiezaTroncoCono.c](./Secuencial/masaPiezaTroncoCono.c)
+
+
+
 
 ### Momento de fuerza
->   <img src="iconos/prob.png"> Diseñar un programa que calcule el momento (M) de una fuerza con respecto a un punto, dados por teclado las componentes de la fuerza (F), las coordenadas de su punto de aplicación (A) y las del punto respecto del cual se calcula el momento (O). Presentar el resultado especificando el módulo y la dirección (vector unitario) de dicho vector
+>   <img src="iconos/prob.png"> Diseñar un programa que calcule el momento (M) de una fuerza con respecto a un punto, dados por teclado las componentes de la fuerza (F), las coordenadas momentoFuerza su punto de aplicación (A) y las del punto respecto del cual se calcula el momento (O). Presentar el resultado especificando el módulo y la dirección (momentoFuerzator unitario) de dicho vector
 
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  momentoFuerza.psc](./Secuencial/momentoFuerza.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ momentoFuerza.c](./Secuencial/momentoFuerza.c)
 
 ### Momento angular
 >   <img src="iconos/prob.png"> Diseñar un programa que calcule el momento angular (L) del sistema de la figura con respecto al punto O, dados por teclado el valor de la masa  **m** de cada esfera (Kg), la longitud del brazo **R** (metros) y la velocidad angular <img src="https://render.githubusercontent.com/render/math?math=$\omega$"> (rad/sg)
