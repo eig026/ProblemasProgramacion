@@ -40,7 +40,17 @@ Construir un programa que lea por teclado el nivel de un huracán y que presente
 
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  huracanes.psc](./Selectiva/huracanes.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/huracanes.psc)
-&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ huracanes.c](./Selectiva/huracanes.c)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ huracanes.c](./Selectiva/huracanes.c) &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ huracanesalternativa.c](./Selectiva/huracanes2.c)
+
+
+### Calcular el área de un triangulo
+
+>  <img src="iconos/prob.png">
+La fórmula de Herón halla el área de un triángulo del cual se conocen todos sus lados. El área se calcula a partir del semiperímetro del triángulo s y de la longitud de los lados (l1, l2 y l3)
+
+
+
+
 
 
 
