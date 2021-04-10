@@ -52,7 +52,7 @@ La fórmula de Herón halla el área de un triángulo del cual se conocen todos 
 ### Raices de una ecuación de segundo grado
 >  <img src="iconos/prob.png">
 Construir un programa que calcule e imprima en pantalla las raíces de la ecuación de segundo grado:
-Ax^2 +Bx+C=0, dados por teclado los coeficientes A, B y C
+Ax^2^ +Bx+C=0, dados por teclado los coeficientes A, B y C
 
 
 
