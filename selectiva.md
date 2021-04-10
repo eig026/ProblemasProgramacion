@@ -90,8 +90,8 @@ El sistema debe de ser compatible indeterminado y los autovectores son solucione
 
 -  Rango =2
 
-	a_ij*a_kl-a_il*a_kj <> 0 Hay dos ecuaciones linealmente independientes (i y k):
-     a*x+b*y+c*z=0         d*x+e*y+f*z=0
+	a_ij * a_kl-a_il * a_kj <> 0 Hay dos ecuaciones linealmente independientes (i y k):
+     a * x + b * y + c * z=0         d * x + e * y + f * z=0
 Las variables de las columnas j y l se pueden expresar en función de la tercera variable. Hay un autovector asociado al autovalor que se puede calcular asignando el valor 1 a la tercera variable, calculando los valores de las otras variables, y normalizando el vector resultante.   
 
 -  Rango =1
