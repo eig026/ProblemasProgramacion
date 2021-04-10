@@ -44,12 +44,15 @@ Construir un programa que lea por teclado el nivel de un huracán y que presente
 
 
 ### Calcular el área de un triangulo
-
 >  <img src="iconos/prob.png">
 La fórmula de Herón halla el área de un triángulo del cual se conocen todos sus lados. El área se calcula a partir del semiperímetro del triángulo s y de la longitud de los lados (l1, l2 y l3)
 
 
 
+### Raices de una ecuación de segundo grado
+>  <img src="iconos/prob.png">
+Construir un programa que calcule e imprima en pantalla las raíces de la ecuación de segundo grado:
+$Ax^2 +Bx+C=0$, dados por teclado los coeficientes A, B y C
 
 
 
