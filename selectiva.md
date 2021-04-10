@@ -45,7 +45,7 @@ Construir un programa que lea por teclado el nivel de un huracán y que presente
 
 ### Calcular el área de un triangulo
 >  <img src="iconos/prob.png">
-La fórmula de Herón halla el área de un triángulo del cual se conocen todos sus lados. El área se calcula a partir del semiperímetro del triángulo s y de la longitud de los lados (l1, l2 y l3)
+La fórmula de Herón halla el área de un triángulo del cual se conocen todos sus lados. El área se calcula a partir del semiperímetro del triángulo s y de la longitud de los lados (l_1, l_2 y l_3)
 
 
 
@@ -61,6 +61,7 @@ Construir un programa que calcule e imprima en pantalla las raíces de la ecuaci
  
 ### Calcular la tarifa de taxi
 >  <img src="iconos/prob.png">
+
 La tarifa de un taxi es la siguiente:
  -     Una cantidad fija de 30 € si no se sobrepasan los 30 km de recorrido.
  -     Para más de 30 km se consideran los siguientes supuestos:
@@ -77,9 +78,9 @@ Construir un programa que determine si dos segmentos de línea recta en el plano
 >  <img src="iconos/prob.png">
 Construir un programa en C que calcule e imprima en pantalla el autovector (o autovectores) asociado(s) a un autovalor, dados por teclado los coeficientes del sistema lineal homogéneo de ecuaciones a resolver:
 
-        $a_{11}*x+a_{12}*y+a_{13}*z=0$
-        $a_{21}*x+a_{22}*y+a_{23}*z=0$
-        $a_{31}*x+a_{32}*y+a_{33}*z=0$
+        a_11*x+a_12*y+a_13*z=0
+        a_21*x+a_22*y+a_23*z=0$
+        a_31*x+a_32*y+a_33*z=0$
 
 El sistema debe de ser compatible indeterminado y los autovectores son soluciones no nulas, linealmente independientes. Para la determinación de los autovectores hay que analizar el rango de la matriz de coeficientes M: 
 
@@ -89,8 +90,8 @@ El sistema debe de ser compatible indeterminado y los autovectores son solucione
 
 -  Rango =2
 
-	$a_{ij}*a_{kl}-a_{il}*a_{kj}\not=0$ Hay dos ecuaciones linealmente independientes (i y k):
-     $a*x+b*y+c*z=0$         $d*x+e*y+f*z=0$
+	a_ij*a_kl-a_il*a_kj <> 0 Hay dos ecuaciones linealmente independientes (i y k):
+     a*x+b*y+c*z=0         d*x+e*y+f*z=0
 Las variables de las columnas j y l se pueden expresar en función de la tercera variable. Hay un autovector asociado al autovalor que se puede calcular asignando el valor 1 a la tercera variable, calculando los valores de las otras variables, y normalizando el vector resultante.   
 
 -  Rango =1
