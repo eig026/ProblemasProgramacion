@@ -55,6 +55,10 @@ Construir un programa que calcule e imprima en pantalla las raíces de la ecuaci
 Ax^2^ +Bx+C=0, dados por teclado los coeficientes A, B y C
 
 
+– Superíndices: 360ˆoˆ 
+– Subíndices: H~2~O 
+– Tachado: ~~tachado~~ tachado
+
 
 
 ********************************
