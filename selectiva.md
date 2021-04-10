@@ -20,6 +20,21 @@ Sin embargo, al describir la resolución de un problema, es normal que tengamos 
 >  <img src="iconos/prob.png">
 Construir un programa que lea por teclado un valor de velocidad y que escriba en pantalla un mensaje si la velocidad supera los 120 Km/h y en cuanta cantidad los supera
 
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  CalculoMasaBolaHierro.psc](./Selectiva/excesoVelocidad.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/excesoVelocidad.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ CalculoMasaBolaHierro.c](./Selectiva/excesoVelocidad.c)
+
+
+
+### Calcular la temperatura máxima
+>  <img src="iconos/prob.png">
+Construir un programa que lea por teclado dos valores de temperatura en grados centígrados y que determine e imprima en pantalla el mayor valor
+
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  CalculoMasaBolaHierro.psc](./Selectiva/temperaturaMaximaSelectivaSimple.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/temperaturaMaximaSelectivaSimple.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ CalculoMasaBolaHierro.c](./Selectiva/temperaturaMaximaSelectivaSimple.c)
+
+
+
+
 
 
 ********************************
