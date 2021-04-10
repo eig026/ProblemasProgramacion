@@ -55,6 +55,48 @@ Construir un programa que calcule e imprima en pantalla las raíces de la ecuaci
 <img src="https://render.githubusercontent.com/render/math?math=Ax^2^ +Bx+C=0">, dados por teclado los coeficientes A, B y C
 
 
+### Mayor de tres temperaturas
+>  <img src="iconos/prob.png">
+ Construir un programa que calcule e imprima la mayor de tres temperaturas (Centígrados) introducidas por teclado.
+ 
+### Calcular la tarifa de taxi
+>  <img src="iconos/prob.png">
+La tarifa de un taxi es la siguiente:
+ -     Una cantidad fija de 30 € si no se sobrepasan los 30 km de recorrido.
+ -     Para más de 30 km se consideran los siguientes supuestos:
+     -      Si no se sobrepasan los 100 km, 15 € por km que exceda de los 30, además de los 30 €.
+     -      Si se sobrepasan los 100 km, 10 € por km que exceda de los 100, 15 € por km desde los 30 a los 100, y los 30 €.
+
+
+### Intersección de dos segmentos en el plano
+>  <img src="iconos/prob.png">
+Construir un programa que determine si dos segmentos de línea recta en el plano XY se cruzan e imprima en pantalla el punto/segmento de intersección o un mensaje de texto en caso de que no se crucen, dados por teclado las coordenadas cartesianas (x,y) de dos parejas de puntos diferentes que definen cada uno de los segmentos.
+
+
+### Calculo de autovectores
+>  <img src="iconos/prob.png">
+Construir un programa en C que calcule e imprima en pantalla el autovector (o autovectores) asociado(s) a un autovalor, dados por teclado los coeficientes del sistema lineal homogéneo de ecuaciones a resolver:
+
+        $a_{11}*x+a_{12}*y+a_{13}*z=0$
+        $a_{21}*x+a_{22}*y+a_{23}*z=0$
+        $a_{31}*x+a_{32}*y+a_{33}*z=0$
+
+El sistema debe de ser compatible indeterminado y los autovectores son soluciones no nulas, linealmente independientes. Para la determinación de los autovectores hay que analizar el rango de la matriz de coeficientes M: 
+
+-   Rango=3
+ 
+  **Determinante(M)\not =0**  Sistema compatible determinado. La única solución es (0,0,0) que no es un autovector, el sistema lineal de ecuaciones no se corresponde con ningún autovalor
+
+-  Rango =2
+
+	$a_{ij}*a_{kl}-a_{il}*a_{kj}\not=0$ Hay dos ecuaciones linealmente independientes (i y k):
+     $a*x+b*y+c*z=0$         $d*x+e*y+f*z=0$
+Las variables de las columnas j y l se pueden expresar en función de la tercera variable. Hay un autovector asociado al autovalor que se puede calcular asignando el valor 1 a la tercera variable, calculando los valores de las otras variables, y normalizando el vector resultante.   
+
+-  Rango =1
+
+
+
 
 
 ********************************
