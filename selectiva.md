@@ -104,6 +104,24 @@ La variable j se puede expresar en función de las otras dos. Hay dos autovector
 a_ij=0, Hay tres autovectores asociados al autovalor: (1,0,0), (0,1,0)$ y $(0,0,1).
 
 
+### Coincidencia de temperaturas
+>  <img src="iconos/prob.png">
+Diseñar un programa que lea por teclado tres temperaturas e imprima un mensaje en pantalla indicando si los tres valores coinciden, si al menos dos ellos coinciden o si los tres son diferentes.
+
+
+### Lectura de datos de sensor de temperatura
+>  <img src="iconos/prob.png">
+Un indicador de temperatura de un automóvil normalmente lee temperaturas en el intervalo -30º a 120º y el voltaje que proporciona el sensor a la salida del motor está comprendido entre 5 y 10 voltios. Suponiendo que la relación es lineal, diseñar un programa que calcule e imprima en pantalla la temperatura a partir de un valor del voltaje introducido previamente por teclado. Para valores de voltaje fuera del rango considerado, imprimir un mensaje de error en la lectura de la temperatura
+
+### Trasformación de coordenadas polares a coordenadas cartesianas
+>  <img src="iconos/prob.png">
+Diseñar un programa que permita pasar de coordenadas cartesianas bidimensionales a coordenadas polares. El programa leerá por teclado las coordenadas cartesianas e imprimirá en pantalla las coordenadas polares correspondientes.
+
+
+### Juego de adivinar un número
+>  <img src="iconos/prob.png">
+Diseñar un programa para adivinar e imprimir en pantalla un número de un solo dígito teniendo como información de entrada por teclado un carácter que indique si el número es par ('p') o impar ('i') y el resto de la división del número entre 5.
+
 
 
 ********************************
