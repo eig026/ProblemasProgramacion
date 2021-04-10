@@ -34,6 +34,13 @@ Construir un programa que lea por teclado dos valores de temperatura en grados c
 
 
 
+### Identificar el nivel del huracan
+>  <img src="iconos/prob.png">
+Construir un programa que lea por teclado el nivel de un huracán y que presente en pantalla la categoría (daño) asociada al mismo, según la clasificación de Saffir-Simpson
+
+
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  huracanes.psc](./Selectiva/huracanes.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/huracanes.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ huracanes.c](./Selectiva/huracanes.c)
 
 
 
