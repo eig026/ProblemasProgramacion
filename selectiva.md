@@ -123,6 +123,20 @@ Diseñar un programa que permita pasar de coordenadas cartesianas bidimensionale
 Diseñar un programa para adivinar e imprimir en pantalla un número de un solo dígito teniendo como información de entrada por teclado un carácter que indique si el número es par ('p') o impar ('i') y el resto de la división del número entre 5.
 
 
+###  Sumar dos ángulos
+>  <img src="iconos/prob.png">
+Construir un programa que lea por teclado dos ángulos y calcule e imprima en pantalla su suma. Cada ángulo vendrá dado en grados, minutos y segundos, los cuales serán leídos separadamente por teclado y adecuadamente validados (0<=grados<360, 0<=minutos<60, 0<=segundos<60). El resultado de la suma se presentará en pantalla con el mismo formato
+
+### Calculadora para vectores
+>  <img src="iconos/prob.png">
+Construir un algoritmo que pida por teclado dos vectores y un símbolo de operador (“+”: suma, “-”: resta, “.”: producto escalar, “x”: producto vectorial), realice la operación seleccionada y escriba el resultado en la pantalla
+
+### Ecuacion por reducción
+>  <img src="iconos/prob.png">
+Diseñar un programa que resuelva un sistema lineal de tres ecuaciones con tres incógnitas mediante el método de reducción, dados por teclado los coeficientes de las incógnitas y los términos independientes de cada ecuación, y que presente en pantalla las soluciones del mismo o un mensaje de error en el caso de que el sistema no tenga solución única (sistema incompatible o compatible indeterminado)
+
+
+
 
 ********************************
 [Capítulo anterior. Secuencia](secuencia.md)
