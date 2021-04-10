@@ -86,7 +86,7 @@ El sistema debe de ser compatible indeterminado y los autovectores son solucione
 
 -   Rango=3
  
-  **Determinante(M)\not =0**  Sistema compatible determinado. La única solución es (0,0,0) que no es un autovector, el sistema lineal de ecuaciones no se corresponde con ningún autovalor
+  **Determinante(M) <> 0**  Sistema compatible determinado. La única solución es (0,0,0) que no es un autovector, el sistema lineal de ecuaciones no se corresponde con ningún autovalor
 
 -  Rango =2
 
