@@ -49,7 +49,7 @@ ___
  [Primeros_pasos]: primerospasos.md
  [Secuencia]: secuencia.md
  [Selectiva]: selectiva.md
- [Iteracion]: iteracion.md
+ [Iteracion]: iterativa.md
  [Modulos]: modulos.md
  [VecReg]: vecreg.md
  [Archivos]: archivos.md
