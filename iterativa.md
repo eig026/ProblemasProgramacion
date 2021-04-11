@@ -7,7 +7,7 @@ A menudo en la resolución de un problema es necesario ejecutar  una instrucció
  Las estructuras  de  control  repetitivas  o  iterativas,  también conocidas   como   **bucles**,   nos   permiten   resolver   este tipo de problemas. Algunas se pueden usar cuando   el   número   de   veces   que   deben   repetirse   las operaciones es conocido y     otras       permiten    repetir    un    conjunto    de operaciones mientras se cumpla una condición.
 
 
-<img src="iconos/bucle.png">
+<img src=iconos/bucle.png=250x>
 
 
 
