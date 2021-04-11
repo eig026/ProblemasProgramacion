@@ -8,7 +8,7 @@ A menudo en la resolución de un problema es necesario ejecutar  una instrucció
 
 
 
-<img src="iconos/bucle.png"  width="200"/>
+<img src="iconos/bucle.png"  width="900"/>
 
 # Problemas donde se necesita utilizar bucles
 
