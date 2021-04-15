@@ -88,6 +88,11 @@ La tarifa de un taxi es la siguiente:
 Construir un programa que determine si dos segmentos de línea recta en el plano XY se cruzan e imprima en pantalla el punto/segmento de intersección o un mensaje de texto en caso de que no se crucen, dados por teclado las coordenadas cartesianas (x,y) de dos parejas de puntos diferentes que definen cada uno de los segmentos.
 
 
+ &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  interseccion.psc](./Selectiva/interseccion.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/interseccion.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ interseccion.c](./Selectiva/interseccion.c) &ensp;&ensp;&ensp; 
+ 
+
+
 ### Calculo de autovectores
 >  <img src="iconos/prob.png">
 Construir un programa en C que calcule e imprima en pantalla el autovector (o autovectores) asociado(s) a un autovalor, dados por teclado los coeficientes del sistema lineal homogéneo de ecuaciones a resolver:
@@ -118,9 +123,16 @@ La variable j se puede expresar en función de las otras dos. Hay dos autovector
 a_ij=0, Hay tres autovectores asociados al autovalor: (1,0,0), (0,1,0)$ y $(0,0,1).
 
 
+ &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  taxi.psc](./Selectiva/autovectores.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/autovectores.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ autovectores.c](./Selectiva/autovectores.c) &ensp;&ensp;&ensp; 
+ 
+
+
 ### Coincidencia de temperaturas
 >  <img src="iconos/prob.png">
 Diseñar un programa que lea por teclado tres temperaturas e imprima un mensaje en pantalla indicando si los tres valores coinciden, si al menos dos ellos coinciden o si los tres son diferentes.
+
+
 
 
 ### Lectura de datos de sensor de temperatura
