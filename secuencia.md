@@ -77,8 +77,8 @@ También llamada validación consiste en la ejecución del código escrito para 
 
 >   <img src="iconos/prob.png"> Diseñar un programa que convierta grados centígrados (Celsius) a Fahrenheit.
 
-&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  centigradosaFarenheit.psc](./Secuencial/centigradosaFarenheit.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/centigradosaFarenheit.psc)
-&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ centigradosaFarenheit.c](./Secuencial/centigradosaFarenheit.c)
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  centigradosaFarenheit.psc](./Secuencial/centrigradosaFahrenheit.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/centrigradosaFahrenheit.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ centigradosaFarenheit.c](./Secuencial/centrigradosaFahrenheit.c)
 
 ### Masa de un tronco cónico
 >   <img src="iconos/prob.png"> Diseñar un programa que calcule e imprima la masa en kg de una pieza de hierro maciza con forma de tronco de cono circular recto, dados por teclado los valores de los radios *a* y *b* (cm), y el valor de la altura *h* (cm)
