@@ -100,7 +100,7 @@ Densidad=<img src="https://render.githubusercontent.com/render/math?math=7.86 \q
 ### Momento angular
 >   <img src="iconos/prob.png"> Diseñar un programa que calcule el momento angular (L) del sistema de la figura con respecto al punto O, dados por teclado el valor de la masa  **m** de cada esfera (Kg), la longitud del brazo **R** (metros) y la velocidad angular <img src="https://render.githubusercontent.com/render/math?math=$\omega$"> (rad/sg)
 
-&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  momentoAngular.psc](./Secuencial/momentoAngular<.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/momentoAngular.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  momentoAngular.psc](./Secuencial/momentoAngular.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Secuencial/momentoAngular.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ momentoAngular.c](./Secuencial/momentoAngular.c)
 
 ### Cambio de modenas
