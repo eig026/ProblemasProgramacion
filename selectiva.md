@@ -48,16 +48,26 @@ Construir un programa que lea por teclado el nivel de un huracán y que presente
 La fórmula de Herón halla el área de un triángulo del cual se conocen todos sus lados. El área se calcula a partir del semiperímetro del triángulo s y de la longitud de los lados (l_1, l_2 y l_3)
 
 
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  calcularAreaTriangulo.psc](./Selectiva/calcularAreaTriangulo.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/calcularAreaTriangulo.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ calcularAreaTriangulo.c](./Selectiva/calcularAreaTriangulo.c) &ensp;&ensp;&ensp; 
+
 
 ### Raices de una ecuación de segundo grado
 >  <img src="iconos/prob.png">
 Construir un programa que calcule e imprima en pantalla las raíces de la ecuación de segundo grado:
 <img src="https://render.githubusercontent.com/render/math?math=Ax^2^ +Bx+C=0">, dados por teclado los coeficientes A, B y C
 
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  raicesEcuacionSegundoGrado.psc](./Selectiva/raicesEcuacionSegundoGrado.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/raicesEcuacionSegundoGrado.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ raicesEcuacionSegundoGrado.c](./Selectiva/raicesEcuacionSegundoGrado.c) &ensp;&ensp;&ensp; 
+
 
 ### Mayor de tres temperaturas
 >  <img src="iconos/prob.png">
  Construir un programa que calcule e imprima la mayor de tres temperaturas (Centígrados) introducidas por teclado.
+ 
+ &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  tresTemperaturas.psc](./Selectiva/tresTemperaturas.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/tresTemperaturas.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ tresTemperaturas.c](./Selectiva/tresTemperaturas.c) &ensp;&ensp;&ensp; 
+ 
 
 ### Calcular la tarifa de taxi
 >  <img src="iconos/prob.png">
@@ -67,6 +77,10 @@ La tarifa de un taxi es la siguiente:
  -     Para más de 30 km se consideran los siguientes supuestos:
      -      Si no se sobrepasan los 100 km, 15 € por km que exceda de los 30, además de los 30 €.
      -      Si se sobrepasan los 100 km, 10 € por km que exceda de los 100, 15 € por km desde los 30 a los 100, y los 30 €.
+
+ &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  taxi.psc](./Selectiva/taxi.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/taxi.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ taxi.c](./Selectiva/taxi.c) &ensp;&ensp;&ensp; 
+ 
 
 
 ### Intersección de dos segmentos en el plano
