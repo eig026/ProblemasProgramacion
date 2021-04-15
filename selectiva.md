@@ -123,7 +123,7 @@ La variable j se puede expresar en función de las otras dos. Hay dos autovector
 a_ij=0, Hay tres autovectores asociados al autovalor: (1,0,0), (0,1,0)$ y $(0,0,1).
 
 
- &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  taxi.psc](./Selectiva/autovectores.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/autovectores.psc)
+ &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  autovectores.psc](./Selectiva/autovectores.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/autovectores.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ autovectores.c](./Selectiva/autovectores.c) &ensp;&ensp;&ensp; 
  
 
