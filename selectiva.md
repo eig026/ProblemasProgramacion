@@ -40,7 +40,7 @@ Construir un programa que lea por teclado el nivel de un huracán y que presente
 
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  huracanes.psc](./Selectiva/huracanes.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/huracanes.psc)
-&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ huracanes.c](./Selectiva/huracanes.c) &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ huracanesalternativa.c](./Selectiva/huracanes2.c)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ huracanes1.c](./Selectiva/huracanes.c) &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ huracanesalternativa.c](./Selectiva/huracanes2.c)
 
 
 ### Calcular el área de un triangulo
@@ -58,7 +58,7 @@ Construir un programa que calcule e imprima en pantalla las raíces de la ecuaci
 ### Mayor de tres temperaturas
 >  <img src="iconos/prob.png">
  Construir un programa que calcule e imprima la mayor de tres temperaturas (Centígrados) introducidas por teclado.
- 
+
 ### Calcular la tarifa de taxi
 >  <img src="iconos/prob.png">
 
@@ -82,17 +82,17 @@ Construir un programa en C que calcule e imprima en pantalla el autovector (o au
         a_21*x+a_22*y+a_23*z=0$
         a_31*x+a_32*y+a_33*z=0$
 
-El sistema debe de ser compatible indeterminado y los autovectores son soluciones no nulas, linealmente independientes. Para la determinación de los autovectores hay que analizar el rango de la matriz de coeficientes M: 
+El sistema debe de ser compatible indeterminado y los autovectores son soluciones no nulas, linealmente independientes. Para la determinación de los autovectores hay que analizar el rango de la matriz de coeficientes M:
 
 -   Rango=3
- 
+
   **Determinante(M) <> 0**  Sistema compatible determinado. La única solución es (0,0,0) que no es un autovector, el sistema lineal de ecuaciones no se corresponde con ningún autovalor
 
 -  Rango =2
 
 	a_ij * a_kl-a_il * a_kj <> 0 Hay dos ecuaciones linealmente independientes (i y k):
      a * x + b * y + c * z=0         d * x + e * y + f * z=0
-Las variables de las columnas j y l se pueden expresar en función de la tercera variable. Hay un autovector asociado al autovalor que se puede calcular asignando el valor 1 a la tercera variable, calculando los valores de las otras variables, y normalizando el vector resultante.   
+Las variables de las columnas j y l se pueden expresar en función de la tercera variable. Hay un autovector asociado al autovalor que se puede calcular asignando el valor 1 a la tercera variable, calculando los valores de las otras variables, y normalizando el vector resultante.
 
 -  Rango =1
 
