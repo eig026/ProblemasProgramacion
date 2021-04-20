@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+
 # Programación estructurada. Selectiva
 
 
