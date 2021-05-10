@@ -12,10 +12,31 @@ A menudo en la resolución de un problema es necesario ejecutar  una instrucció
 
 <img src="iconos/bucle.png"  width="500"/>
 
-# Problemas donde se necesita utilizar bucles
+## Problemas donde se necesita utilizar bucles
 
 
-# Problemas donde se necesita utilizar bucles anidados
+### Mayor temperatura
+>  <img src="iconos/prob.png">
+
+Construir un programa que calcule e imprima la mayor de un conjunto de datos de temperaturas introducidas por teclado. El número de datos es conocido a priori (se lee porteclado).
+
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  excesoVelocidad.psc](./Selectiva/excesoVelocidad.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/excesoVelocidad.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ excesoVelocidad.c](./Selectiva/excesoVelocidad.c)
+
+### Mayor temperatura con centinela
+
+Construir un programa que calcule e imprima la mayor de un conjunto de datos de temperaturas introducidas por teclado. El número de datos no es conocido a priori, finalizándose la introducción de datos con el valor –999.
+
+
+### Fuerzas concurrentes
+Construir un programa que calcule e imprima la resultante de un conjunto de fuerzas concurrentes. Las componentes espaciales de cada fuerza son introducidas por
+teclado de una en una, finalizándose la entrada de datos con una fuerza nula
+
+### Adivinar un número
+Construir un programa que sea capaz de adivinar un número menor que 100, definido al azar en n intentos.
+
+
+## Problemas donde se necesita utilizar bucles anidados
 
 
 ********************************
