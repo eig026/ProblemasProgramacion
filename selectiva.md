@@ -42,7 +42,7 @@ Construir un programa que lea por teclado el nivel de un huracán y que presente
 
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  huracanes.psc](./Selectiva/huracanes.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/huracanes.psc)
-&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ huracanes1.c](./Selectiva/huracanes.c) &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ huracanesalternativa.c](./Selectiva/huracanes2.c)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ huracanes1.c](./Selectiva/huracanes1.c) &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ huracanesalternativa.c](./Selectiva/huracanes2.c)
 
 
 ### Calcular el área de un triangulo
@@ -135,35 +135,63 @@ a_ij=0, Hay tres autovectores asociados al autovalor: (1,0,0), (0,1,0)$ y $(0,0,
 Diseñar un programa que lea por teclado tres temperaturas e imprima un mensaje en pantalla indicando si los tres valores coinciden, si al menos dos ellos coinciden o si los tres son diferentes.
 
 
+ &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  tresTemperaturas.psc](./Selectiva/tresTemperaturas.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/tresTemperaturas.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ tresTemperaturas.c](./Selectiva/tresTemperaturas.c) &ensp;&ensp;&ensp; 
+ 
+
+
 
 
 ### Lectura de datos de sensor de temperatura
 >  <img src="iconos/prob.png">
 Un indicador de temperatura de un automóvil normalmente lee temperaturas en el intervalo -30º a 120º y el voltaje que proporciona el sensor a la salida del motor está comprendido entre 5 y 10 voltios. Suponiendo que la relación es lineal, diseñar un programa que calcule e imprima en pantalla la temperatura a partir de un valor del voltaje introducido previamente por teclado. Para valores de voltaje fuera del rango considerado, imprimir un mensaje de error en la lectura de la temperatura
 
+ &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  temperaturaSensor.psc](./Selectiva/temperaturaSensors.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/temperaturaSensor.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ temperaturaSensor.c](./Selectiva/temperaturaSensor.c) &ensp;&ensp;&ensp; 
+
+
 ### Trasformación de coordenadas polares a coordenadas cartesianas
 >  <img src="iconos/prob.png">
 Diseñar un programa que permita pasar de coordenadas cartesianas bidimensionales a coordenadas polares. El programa leerá por teclado las coordenadas cartesianas e imprimirá en pantalla las coordenadas polares correspondientes.
+
+ &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[ cartesianasPolares.psc](./Selectiva/cartesianasPolares.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/cartesianasPolares.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ cartesianasPolares.c](./Selectiva/cartesianasPolares.c) &ensp;&ensp;&ensp; 
+
 
 
 ### Juego de adivinar un número
 >  <img src="iconos/prob.png">
 Diseñar un programa para adivinar e imprimir en pantalla un número de un solo dígito teniendo como información de entrada por teclado un carácter que indique si el número es par ('p') o impar ('i') y el resto de la división del número entre 5.
 
+ &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[ adivinarNumero.psc](./Selectiva/adivinarNumero.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/adivinarNumero.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ adivinarNumero.c](./Selectiva/adivinarNumero.c) &ensp;&ensp;&ensp; 
+
+
+
 
 ###  Sumar dos ángulos
 >  <img src="iconos/prob.png">
 Construir un programa que lea por teclado dos ángulos y calcule e imprima en pantalla su suma. Cada ángulo vendrá dado en grados, minutos y segundos, los cuales serán leídos separadamente por teclado y adecuadamente validados (0<=grados<360, 0<=minutos<60, 0<=segundos<60). El resultado de la suma se presentará en pantalla con el mismo formato
 
+ &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[ sumarAngulos.psc](./Selectiva/sumarAngulos.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/sumarAngulos.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ sumarAngulos.c](./Selectiva/sumarAngulos.c) &ensp;&ensp;&ensp; 
+
+
 ### Calculadora para vectores
 >  <img src="iconos/prob.png">
 Construir un algoritmo que pida por teclado dos vectores y un símbolo de operador (“+”: suma, “-”: resta, “.”: producto escalar, “x”: producto vectorial), realice la operación seleccionada y escriba el resultado en la pantalla
+
+ &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[ calculoVectorial.psc](./Selectiva/calculoVectorial.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/calculoVectorial.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ calculoVectorial.c](./Selectiva/calculoVectorial.c) &ensp;&ensp;&ensp; 
+
+
 
 ### Ecuacion por reducción
 >  <img src="iconos/prob.png">
 Diseñar un programa que resuelva un sistema lineal de tres ecuaciones con tres incógnitas mediante el método de reducción, dados por teclado los coeficientes de las incógnitas y los términos independientes de cada ecuación, y que presente en pantalla las soluciones del mismo o un mensaje de error en el caso de que el sistema no tenga solución única (sistema incompatible o compatible indeterminado)
 
-
+ &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[ ecuacionReduccion.psc](./Selectiva/ecuacionReduccion.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/ecuacionReduccion.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ ecuacionReduccion.c](./Selectiva/ecuacionReduccion.c) &ensp;&ensp;&ensp; 
 
 
 ********************************
