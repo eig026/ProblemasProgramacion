@@ -27,13 +27,17 @@ Construir un programa que calcule e imprima la mayor de un conjunto de datos de 
 
 Construir un programa que calcule e imprima la mayor de un conjunto de datos de temperaturas introducidas por teclado. El número de datos no es conocido a priori, finalizándose la introducción de datos con el valor –999.
 
-&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  Mayor Temperatura.psc](./Iteracion/temperatura.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/temperatura.psc)
-&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ temperatura.c](./iteracion/temperatura.c)
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  Mayor Temperatura.psc](./Iteracion/temperaturaCentinela.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/temperaturaCentinela.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ temperaturaCentinela.c](./Iteracion/temperaturaCentinela.c)
 
 
 ### Fuerzas concurrentes
 Construir un programa que calcule e imprima la resultante de un conjunto de fuerzas concurrentes. Las componentes espaciales de cada fuerza son introducidas por
 teclado de una en una, finalizándose la entrada de datos con una fuerza nula
+
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  fuerzasConcurrentes.psc](./Iteracion/fuerzasConcurrentes.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/fuerzasConcurrentes.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ fuerzasConcurrentes.c](./Iteracion/fuerzasConcurrentes.c)
+
 
 ### Adivinar un número
 Construir un programa que sea capaz de adivinar un número menor que 100, definido al azar en n intentos.
