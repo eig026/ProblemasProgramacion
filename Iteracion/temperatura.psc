@@ -1,12 +1,11 @@
 Algoritmo temperaturaMaxima
-// programa que calcula la mayor temperatura de
-// un conjunto de datos de temperaturas             
-// El numero de datos es conocido a priori     
+// programa que calcula la mayor temperatura de  un conjunto de datos 
+// de temperaturas. El numero de datos es conocido a priori     
 Var     
 	n: entero        // numero de datos a leer       
  	i: entero        // contador del bucle           
 	t: real       	 // temperatura leida              
-      	tmax: real   	// temperatura maxima       
+      tmax: real   	// temperatura maxima       
 	
 	Escribir "Introduzca numero de datos: " 
 	Leer n;
