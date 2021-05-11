@@ -21,7 +21,7 @@ A menudo en la resolución de un problema es necesario ejecutar  una instrucció
 Construir un programa que calcule e imprima la mayor de un conjunto de datos de temperaturas introducidas por teclado. El número de datos es conocido a priori (se lee porteclado).
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  Mayor Temperatura.psc](./Iteracion/temperatura.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/temperatura.psc)
-&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ temperatura.c](./iteracion/temperatura.c)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ temperatura.c](./Iteracion/temperatura.c)
 
 ### Mayor temperatura con centinela
 
