@@ -5,8 +5,7 @@ Var
 	n: entero        // numero de datos a leer       
  	i: entero        // contador del bucle           
 	t: real       	 // temperatura leida              
-      tmax: real   	// temperatura maxima       
-	
+     tmax: real   	// temperatura maxima       
 	Escribir "Introduzca numero de datos: " 
 	Leer n;
 	Si n=0 
