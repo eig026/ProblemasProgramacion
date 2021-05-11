@@ -70,18 +70,20 @@ en la pantalla
 
 ### Sumatoria
 >  <img src="iconos/prob.png">
-Construir un programa que calcule e imprima en pantalla la sum <img src="https://render.githubusercontent.com/render/math?math=
-\sum_{i=1}^(i/2^i) 
-">
+Construir un programa que calcule e imprima en pantalla la sumatoria de n terminos de (i/2^i)
+donde el número de sumandos se introduce por teclado.
 
-(i/2^i)
-donde el número de sumandos se introduce por teclado
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[calculoSumatoria.psc](./Iteracion/3maxcalculoSumatoria.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/3maccalculoSumatoria.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ calculoSumatoria.c](./Iteracion/calculoSumatoria.c)
+
 
 ### Máximo Comun Divisor
 >  <img src="iconos/prob.png">
 Construir un programa que calcule e imprima en pantalla el máximo común
 divisor de dos números enteros positivos introducidos por teclado
 
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[maximoComunDivisor.psc](./Iteracion/maximoComunDivisor.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/maximoComunDivisor.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ maximoComunDivisor.c](./Iteracion/maximoComunDivisor.c)
 
 
 ## Problemas donde se necesita utilizar bucles anidados
@@ -90,6 +92,33 @@ divisor de dos números enteros positivos introducidos por teclado
 >  <img src="iconos/prob.png">
 Construir un programa que imprima en pantalla la tabla de multiplicar de los 9
 primeros números naturales
+
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[tablaMultiplicarFinal.psc](./Iteracion/tablaMultiplicarFinal.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/maximoComunDivisor.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ tablaMultiplicarFinal.c](./Iteracion/tablaMultiplicarFinal.c)
+
+
+
+###  Rectángulo con asteriscos
+>  <img src="iconos/prob.png"> 
+ Construir un programa que imprima en pantalla mediante asteriscos las aristas
+de un rectángulo, dados por teclado las dimensiones del mismo, donde la base debe estar
+comprendida entre 3 y 40, y la altura entre 3 y 20
+
+* * * * * * * * * * * * * * *
+*                           *
+*                           *
+*                           *
+*                           *
+* * * * * * * * * * * * * * *
+
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[rectanguloAsteriscos.psc](./Iteracion/rectanguloAsteriscos.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/rectanguloAsteriscos.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ rectanguloAsteriscos.c](./Iteracion/rectanguloAsteriscos.c)
+
+
+
+
+
+
 
 ********************************
 [Capítulo anterior. Selectiva](selectiva.md)
