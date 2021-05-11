@@ -89,8 +89,7 @@ divisor de dos números enteros positivos introducidos por teclado
 ## Problemas donde se necesita utilizar bucles anidados
 
 ###  Tabla de multiplicar
->  <img src="iconos/prob.png">
-Construir un programa que imprima en pantalla la tabla de multiplicar de los 9
+>  <img src="iconos/prob.png">  Construir un programa que imprima en pantalla la tabla de multiplicar de los 9
 primeros números naturales
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[tablaMultiplicarFinal.psc](./Iteracion/tablaMultiplicarFinal.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/maximoComunDivisor.psc)
@@ -99,8 +98,7 @@ primeros números naturales
 
 
 ###  Rectángulo con asteriscos
->  <img src="iconos/prob.png">  
- Construir un programa que imprima en pantalla mediante asteriscos las aristas
+>  <img src="iconos/prob.png">    Construir un programa que imprima en pantalla mediante asteriscos las aristas
 de un rectángulo, dados por teclado las dimensiones del mismo, donde la base debe estar
 comprendida entre 3 y 40, y la altura entre 3 y 20
 
