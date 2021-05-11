@@ -166,6 +166,7 @@ por teclado el nº de vértices del polígono (mayor o igual a 3), así como las
 imprima en pantalla todas las formas diferentes en que puede expresarse dicho número como la suma de cuatro cuadrados de enteros no negativos (teorema de los cuatro cuadrados de Lagrange). Por ejemplo
 
  10 = 02 + 02 + 12 + 32 = 0 + 0 + 1 + 9
+ 
  10 = 12 + 12 + 22 + 22 = 1 + 1 + 4 + 4
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[cuatroCuadrado.psc](./Iteracion/cuatroCuadrado.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/cuatroCuadrado.psc)
