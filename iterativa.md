@@ -116,6 +116,173 @@ comprendida entre 3 y 40, y la altura entre 3 y 20
 
 
 
+### Tabla de senos
+>  <img src="iconos/prob.png">   Construir un programa que imprima en pantalla las tablas de la función
+sin(n*x) para valores de n desde 1 hasta 10, y para valores de x de 0 a 90º con incrementos
+del ángulo de 0.1º.
+
+
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[tablaSenos.psc](./Iteracion/tablaSenos.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/tablaSenos.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ tablaSenos.c](./Iteracion/tablaSenos.c)
+
+
+
+### Raiz cuarta
+>  <img src="iconos/prob.png"> Construir un programa que calcule e imprima en pantalla la raíz cuarta de un
+número real positivo introducido por teclado. El número de decimales del cálculo se introducirá
+también por teclado y deberá ser inferior o igual a 10.
+
+
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[raizCuarta.psc](./Iteracion/raizCuarta.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/raizCuarta.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ raizCuarta.c](./Iteracion/raizCuarta.c)
+
+
+### Triangulo de Pascal
+>  <img src="iconos/prob.png"> Construir un programa que imprima en pantalla el triángulo de Tartaglia
+(también llamado triángulo de Pascal) dado por teclado el número de la última fila del mismo
+(con un máximo de 20 filas)
+
+
+
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[trianPascal.psc](./Iteracion/trianPascal.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/trianPascal.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ trianPascal.c](./Iteracion/trianPascal.c)
+
+
+
+
+### Convexidad de polígonos
+>  <img src="iconos/prob.png">  Construir un programa para identificar si un polígono es convexo (todos sus
+ángulos interiores son menores de 180º) o no (cóncavo), estudiando el cambio de signo de la
+componente z del producto vectorial de dos vectores de arista consecutivos. El programa solicitará
+por teclado el nº de vértices del polígono (mayor o igual a 3), así como las coordenadas bidimensionales (x,y) de cada uno de los vértices vi, identificando la concavidad/convexidad  e imprimiendo en pantalla el mensaje correspondiente.
+
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[analizarConvexos.psc](./Iteracion/analizarConvexos.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/analizarConvexos.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ analizarConvexos.c](./Iteracion/analizarConvexos.c)
+
+
+
+### Cuadrados de Lagrange
+>  <img src="iconos/prob.png"> Construir un programa que dado un número entero positivo por teclado,
+imprima en pantalla todas las formas diferentes en que puede expresarse dicho número como la suma de cuatro cuadrados de enteros no negativos (teorema de los cuatro cuadrados de Lagrange). Por ejemplo
+
+ 10 = 02 + 02 + 12 + 32 = 0 + 0 + 1 + 9
+ 10 = 12 + 12 + 22 + 22 = 1 + 1 + 4 + 4
+
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[cuatroCuadrado.psc](./Iteracion/cuatroCuadrado.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/cuatroCuadrado.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ cuatroCuadrado.c](./Iteracion/cuatroCuadrado.c)
+
+
+
+
+Diseñar un programa que calcule e imprima en pantalla la suma de todos los
+números impares múltiplos de 3 comprendidos entre 0 y n, dado un número entero positivo n
+por teclado
+
+
+
+Diseñar un programa que calcule e imprima en pantalla la potencia de un número, dados
+por teclado el número base (real) y el exponente (entero).
+
+
+
+
+Diseñar un programa que calcule e imprima en pantalla el factorial de un
+número entero no negativo dado por teclado.
+
+
+
+
+Diseñar un programa que dado por teclado un valor x mayor que –1 y menor
+que +1, calcule y presente en pantalla la siguiente suma: (Solución A.16)
+S(x) = x􀀀(x2=2)+(x3=3)􀀀(x4=4)+::::(xn=n) 1) Para un valor n dado introducido por
+teclado.
+2) Hasta un sumando n (no incluido) tal que abs(xn=n)  E, donde el valor de E también se
+introduce por teclado.
+
+
+
+Diseñar un programa que lea por teclado un conjunto de datos de temperatura
+en el intervalo [-50,+50], y que calcule su media aritmética y su desviación estándar. El
+tamaño del conjunto de datos no se especifica a priori, finalizándose la entrada de datos con
+el valor –99.
+
+
+
+Diseñar un programa que calcule la resistencia equivalente de un conjunto
+de hasta un máximo de 100 resistencias en paralelo. El programa deberá leer por teclado las
+resistencias individuales en ohmios, de una en una y adecuadamente validadas, finalizando
+la entrada de datos bien cuando se introduzca un valor 0 para la resistencia o bien cuando
+se haya introducido el nº máximo de resistencias, presentando en pantalla la resistencia
+equivalente en ohmios.
+
+
+Diseñar un programa que calcule e imprima en pantalla el centroide de
+un objeto con forma poligonal (centroide: posición del centro de masas para un objeto con
+densidad uniforme). El número de lados del polígono (n) será leído previamente por teclado,
+comprobándose que es mayor o igual a 3, introduciéndose a continuación en orden la abscisa
+(x) y la ordenada (y) de cada uno de los n vértices del polígono
+
+
+Diseñar un programa que integre la función f(x) = x3 􀀀 3x2 + 5 en un
+intervalo, esto es que calcule el área bajo la curva, mediante un proceso de muestreo en
+pasos discretos.
+
+
+
+
+Construir un programa que calcule una raíz (cero) de la función f(x) =
+x5 􀀀 x4 + x3 􀀀 3, mediante el método de bisección. Dicho método se basa
+en el teorema de Bolzano que dice que si una función f(x) es continua y toma en los extremos
+de un intervalo [a; b] valores de signo opuesto, entonces la función admite al menos una raíz
+en dicho intervalo. Para el cálculo de la raíz, se parte del intervalo inicial [xizq; xder], se calcula
+el punto medio xm y se evalúa el signo del producto f(xizq)  f(xm)
+
+Si f(xizq)  f(xm) < 0 se debe redefinir límite izquierdo del intervalo: xder   xm
+Si f(xizq)  f(xm) > 0 se debe redefinir límite izquierdo del intervalo: xizq   xm
+Si f(xizq)  f(xm) = 0 hay una raiz en xm
+El proceso anterior de reducción del intervalo a la mitad se repite hasta encontrar una
+raíz o bien hasta que el tamaño del intervalo sea menor que un valor de precisión E dado. En
+este último caso la raíz se aproxima por el valor central de dicho intervalo.
+El programa deberá leer por teclado dos valores a y b que cumplan la condición del teorema
+de Bolzano, así como un valor positivo para la precisión (exactitud o error) E deseada,
+escribiendo en pantalla la raíz (x) y el valor correspondiente de la función (f(x)). Si los valores
+dados no cumplen la condición de Bolzano se volverán a leer por teclado solo en el
+caso de que sean distintos y ninguno de ellos sea una raíz. El programa se ejecutará de
+forma reiterada para un nuevo conjunto de datos de entrada, finalizando su ejecución cuando
+coincidan los límites izquierdo y derecho del intervalo.
+
+
+Diseñar un programa que lea por teclado las distancias recorridas por un
+coche y los tiempos empleados en los diferentes tramos de su trayectoria, y que calcule
+e imprima la velocidad media empleada en toda la trayectoria, así como el primer tramo
+donde se alcanzó la máxima velocidad media por tramo, presentando la misma en la pantalla.
+
+
+Diseñar un programa que lea por teclado un número natural menor de 20,
+y que imprima en pantalla bien un rombo de asteriscos si el número es impar, o bien un
+triángulo rectángulo si el número es par.
+
+
+¿Qué es el invariante de un bucle?. Determinar el invariante del bucle(s)
+del siguiente problema y a partir del mismo diseñar el bucle(s), explicando brevemente los
+pasos realizados: dado un número natural menor de 20 presentar en pantalla un triángulo
+rectángulo con base y altura igual al número introducido y formado por los primeros números
+naturales en orden inverso.
+
+
+Construir un programa que dibuje en pantalla mediante asteriscos las aristas
+visibles de un paralelepípedo, dados por teclado las dimensiones del mismo adecuadamente
+validadas: ancho (entre 3 y 20 asteriscos), alto (entre 3 y 10) y profundidad (entre 3 y 10). En
+la impresión en pantalla se intentará simular una proyección paralela axonométrica de las caras
+visibles del paralelepípedo, según el formato indicado en los datos de prueba.
+
+
+
+
+
+
+
+
 
 
 ********************************
