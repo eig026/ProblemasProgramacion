@@ -70,11 +70,11 @@ en la pantalla
 
 ### Sumatoria
 >  <img src="iconos/prob.png">
-Construir un programa que calcule e imprima en pantalla la sum <img src="https://render.githubusercontent.com/render/math?math=\[
+Construir un programa que calcule e imprima en pantalla la sum <img src="https://render.githubusercontent.com/render/math?math=
 \sum_{i=1}^(i/2^i) 
-\]">
-Pn
-i=1(i=2i)
+">
+
+(i/2^i)
 donde el número de sumandos se introduce por teclado
 
 ### Máximo Comun Divisor
