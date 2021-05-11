@@ -16,22 +16,19 @@ A menudo en la resolución de un problema es necesario ejecutar  una instrucció
 
 
 ### Mayor temperatura
->  <img src="iconos/prob.png">
-Construir un programa que calcule e imprima la mayor de un conjunto de datos de temperaturas introducidas por teclado. El número de datos es conocido a priori (se lee porteclado).
+>  <img src="iconos/prob.png"> Construir un programa que calcule e imprima la mayor de un conjunto de datos de temperaturas introducidas por teclado. El número de datos es conocido a priori (se lee porteclado).
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  Mayor Temperatura.psc](./Iteracion/temperatura.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/temperatura.psc)
 
 ### Mayor temperatura con centinela
->  <img src="iconos/prob.png">
-Construir un programa que calcule e imprima la mayor de un conjunto de datos de temperaturas introducidas por teclado. El número de datos no es conocido a priori, finalizándose la introducción de datos con el valor –999.
+>  <img src="iconos/prob.png"> Construir un programa que calcule e imprima la mayor de un conjunto de datos de temperaturas introducidas por teclado. El número de datos no es conocido a priori, finalizándose la introducción de datos con el valor –999.
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  Mayor Temperatura.psc](./Iteracion/temperaturaCentinela.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/temperaturaCentinela.psc)
 
 
 
 ### Fuerzas concurrentes
->  <img src="iconos/prob.png">
-Construir un programa que calcule e imprima la resultante de un conjunto de fuerzas concurrentes. Las componentes espaciales de cada fuerza son introducidas por
+>  <img src="iconos/prob.png"> Construir un programa que calcule e imprima la resultante de un conjunto de fuerzas concurrentes. Las componentes espaciales de cada fuerza son introducidas por
 teclado de una en una, finalizándose la entrada de datos con una fuerza nula
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  fuerzasConcurrentes.psc](./Iteracion/fuerzasConcurrentes.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/fuerzasConcurrentes.psc)
@@ -39,26 +36,21 @@ teclado de una en una, finalizándose la entrada de datos con una fuerza nula
 
 
 ### Adivinar un número
->  <img src="iconos/prob.png">
-Construir un programa que sea capaz de adivinar un número menor que 100, definido al azar en n intentos.
+>  <img src="iconos/prob.png"> Construir un programa que sea capaz de adivinar un número menor que 100, definido al azar en n intentos.
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  AdivinaNumero.psc](./Iteracion/AdivinaNumero.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/AdivinaNumero.psc)
 
 
 
-
-
 ### Sucesión de Fibonacci
->  <img src="iconos/prob.png">
-Construir un programa que calcule e imprima en pantalla el término n-ésimo
+>  <img src="iconos/prob.png"> Construir un programa que calcule e imprima en pantalla el término n-ésimo
 de la serie de Fibonacci, dado por teclado el número del término a calcular
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  fibonacci.psc](./Iteracion/fibonacci.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/fibonacci.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ fibonacci.c](./Iteracion/fibonacci.c)
 
 ### Producto de Wallis
->  <img src="iconos/prob.png">
-Construir un programa que calcule el producto de Wallis (expresión utilizada
+>  <img src="iconos/prob.png"> Construir un programa que calcule el producto de Wallis (expresión utilizada
 en matemáticas para representar el valor de PI/2), hasta un factor tal que la diferencia en
 valor absoluto entre dicho término y el número 1 sea inferior a un valor dado (precisión). El
 programa leerá por teclado dicho valor de precisión, calculará el producto de Wallis hasta el
@@ -69,8 +61,7 @@ en la pantalla
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ fibonacci.c](./Iteracion/fibonacci.c)
 
 ### Sumatoria
->  <img src="iconos/prob.png">
-Construir un programa que calcule e imprima en pantalla la sumatoria de n terminos de (i/2^i)
+>  <img src="iconos/prob.png"> Construir un programa que calcule e imprima en pantalla la sumatoria de n terminos de (i/2^i)
 donde el número de sumandos se introduce por teclado.
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[calculoSumatoria.psc](./Iteracion/3maxcalculoSumatoria.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/3maccalculoSumatoria.psc)
@@ -78,12 +69,53 @@ donde el número de sumandos se introduce por teclado.
 
 
 ### Máximo Comun Divisor
->  <img src="iconos/prob.png">
-Construir un programa que calcule e imprima en pantalla el máximo común
+>  <img src="iconos/prob.png"> Construir un programa que calcule e imprima en pantalla el máximo común
 divisor de dos números enteros positivos introducidos por teclado
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[maximoComunDivisor.psc](./Iteracion/maximoComunDivisor.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/maximoComunDivisor.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ maximoComunDivisor.c](./Iteracion/maximoComunDivisor.c)
+
+### Múltiplos de tres
+>  <img src="iconos/prob.png">  Diseñar un programa que calcule e imprima en pantalla la suma de todos los
+números impares múltiplos de 3 comprendidos entre 0 y n, dado un número entero positivo n
+por teclado
+
+
+### Potencia de un número
+>  <img src="iconos/prob.png">  Diseñar un programa que calcule e imprima en pantalla la potencia de un número, dados
+por teclado el número base (real) y el exponente (entero).
+
+
+
+### Factorial
+>  <img src="iconos/prob.png">  Diseñar un programa que calcule e imprima en pantalla el factorial de un
+número entero no negativo dado por teclado.
+
+
+
+### Sumatoria
+>  <img src="iconos/prob.png">  Diseñar un programa que dado por teclado un valor x mayor que –1 y menor
+que +1, calcule y presente en pantalla la siguiente suma: (Solución A.16)
+S(x) = x􀀀(x2=2)+(x3=3)􀀀(x4=4)+::::(xn=n) 1) Para un valor n dado introducido por
+teclado.
+2) Hasta un sumando n (no incluido) tal que abs(xn=n)  E, donde el valor de E también se
+introduce por teclado.
+
+
+### Temperaturas en intervalo
+>  <img src="iconos/prob.png">  Diseñar un programa que lea por teclado un conjunto de datos de temperatura
+en el intervalo [-50,+50], y que calcule su media aritmética y su desviación estándar. El
+tamaño del conjunto de datos no se especifica a priori, finalizándose la entrada de datos con
+el valor –99.
+
+
+### Resistencia equivalente
+>  <img src="iconos/prob.png">  Diseñar un programa que calcule la resistencia equivalente de un conjunto
+de hasta un máximo de 100 resistencias en paralelo. El programa deberá leer por teclado las
+resistencias individuales en ohmios, de una en una y adecuadamente validadas, finalizando
+la entrada de datos bien cuando se introduzca un valor 0 para la resistencia o bien cuando
+se haya introducido el nº máximo de resistencias, presentando en pantalla la resistencia
+equivalente en ohmios.
 
 
 ## Problemas donde se necesita utilizar bucles anidados
@@ -175,63 +207,25 @@ imprima en pantalla todas las formas diferentes en que puede expresarse dicho n�
 
 
 
-Diseñar un programa que calcule e imprima en pantalla la suma de todos los
-números impares múltiplos de 3 comprendidos entre 0 y n, dado un número entero positivo n
-por teclado
 
+### Centroide de un polígono
 
-
-Diseñar un programa que calcule e imprima en pantalla la potencia de un número, dados
-por teclado el número base (real) y el exponente (entero).
-
-
-
-
-Diseñar un programa que calcule e imprima en pantalla el factorial de un
-número entero no negativo dado por teclado.
-
-
-
-
-Diseñar un programa que dado por teclado un valor x mayor que –1 y menor
-que +1, calcule y presente en pantalla la siguiente suma: (Solución A.16)
-S(x) = x􀀀(x2=2)+(x3=3)􀀀(x4=4)+::::(xn=n) 1) Para un valor n dado introducido por
-teclado.
-2) Hasta un sumando n (no incluido) tal que abs(xn=n)  E, donde el valor de E también se
-introduce por teclado.
-
-
-
-Diseñar un programa que lea por teclado un conjunto de datos de temperatura
-en el intervalo [-50,+50], y que calcule su media aritmética y su desviación estándar. El
-tamaño del conjunto de datos no se especifica a priori, finalizándose la entrada de datos con
-el valor –99.
-
-
-
-Diseñar un programa que calcule la resistencia equivalente de un conjunto
-de hasta un máximo de 100 resistencias en paralelo. El programa deberá leer por teclado las
-resistencias individuales en ohmios, de una en una y adecuadamente validadas, finalizando
-la entrada de datos bien cuando se introduzca un valor 0 para la resistencia o bien cuando
-se haya introducido el nº máximo de resistencias, presentando en pantalla la resistencia
-equivalente en ohmios.
-
-
-Diseñar un programa que calcule e imprima en pantalla el centroide de
+>  <img src="iconos/prob.png">  Diseñar un programa que calcule e imprima en pantalla el centroide de
 un objeto con forma poligonal (centroide: posición del centro de masas para un objeto con
 densidad uniforme). El número de lados del polígono (n) será leído previamente por teclado,
 comprobándose que es mayor o igual a 3, introduciéndose a continuación en orden la abscisa
 (x) y la ordenada (y) de cada uno de los n vértices del polígono
 
 
-Diseñar un programa que integre la función f(x) = x3 􀀀 3x2 + 5 en un
+### Integral definida
+>  <img src="iconos/prob.png"> Diseñar un programa que integre la función f(x) = x3 􀀀 3x2 + 5 en un
 intervalo, esto es que calcule el área bajo la curva, mediante un proceso de muestreo en
 pasos discretos.
 
 
 
-
-Construir un programa que calcule una raíz (cero) de la función f(x) =
+### Raiz cero
+>  <img src="iconos/prob.png"> Construir un programa que calcule una raíz (cero) de la función f(x) =
 x5 􀀀 x4 + x3 􀀀 3, mediante el método de bisección. Dicho método se basa
 en el teorema de Bolzano que dice que si una función f(x) es continua y toma en los extremos
 de un intervalo [a; b] valores de signo opuesto, entonces la función admite al menos una raíz
@@ -252,35 +246,28 @@ caso de que sean distintos y ninguno de ellos sea una raíz. El programa se ejec
 forma reiterada para un nuevo conjunto de datos de entrada, finalizando su ejecución cuando
 coincidan los límites izquierdo y derecho del intervalo.
 
-
-Diseñar un programa que lea por teclado las distancias recorridas por un
+### Velocidad media
+>  <img src="iconos/prob.png"> Diseñar un programa que lea por teclado las distancias recorridas por un
 coche y los tiempos empleados en los diferentes tramos de su trayectoria, y que calcule
 e imprima la velocidad media empleada en toda la trayectoria, así como el primer tramo
 donde se alcanzó la máxima velocidad media por tramo, presentando la misma en la pantalla.
 
-
-Diseñar un programa que lea por teclado un número natural menor de 20,
+### Figuras con asteriscos
+>  <img src="iconos/prob.png"> Diseñar un programa que lea por teclado un número natural menor de 20,
 y que imprima en pantalla bien un rombo de asteriscos si el número es impar, o bien un
 triángulo rectángulo si el número es par.
 
-
-¿Qué es el invariante de un bucle?. Determinar el invariante del bucle(s)
-del siguiente problema y a partir del mismo diseñar el bucle(s), explicando brevemente los
-pasos realizados: dado un número natural menor de 20 presentar en pantalla un triángulo
+### Triángulo
+>  <img src="iconos/prob.png"> Sado un número natural menor de 20 presentar en pantalla un triángulo
 rectángulo con base y altura igual al número introducido y formado por los primeros números
 naturales en orden inverso.
 
-
-Construir un programa que dibuje en pantalla mediante asteriscos las aristas
+### Paralelepípedo
+>  <img src="iconos/prob.png"> Construir un programa que dibuje en pantalla mediante asteriscos las aristas
 visibles de un paralelepípedo, dados por teclado las dimensiones del mismo adecuadamente
 validadas: ancho (entre 3 y 20 asteriscos), alto (entre 3 y 10) y profundidad (entre 3 y 10). En
 la impresión en pantalla se intentará simular una proyección paralela axonométrica de las caras
 visibles del paralelepípedo, según el formato indicado en los datos de prueba.
-
-
-
-
-
 
 
 
