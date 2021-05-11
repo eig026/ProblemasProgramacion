@@ -99,17 +99,17 @@ primeros números naturales
 
 
 ###  Rectángulo con asteriscos
->  <img src="iconos/prob.png"> 
+>  <img src="iconos/prob.png">  
  Construir un programa que imprima en pantalla mediante asteriscos las aristas
 de un rectángulo, dados por teclado las dimensiones del mismo, donde la base debe estar
 comprendida entre 3 y 40, y la altura entre 3 y 20
 
-* * * * * * * * * * * * * * *
-*                           *
-*                           *
-*                           *
-*                           *
-* * * * * * * * * * * * * * *
+> * * * * * * * * * * * * * * *
+> *                           *
+> *                           *
+> *                           *
+>  *                           *
+> * * * * * * * * * * * * * * *
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[rectanguloAsteriscos.psc](./Iteracion/rectanguloAsteriscos.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/rectanguloAsteriscos.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ rectanguloAsteriscos.c](./Iteracion/rectanguloAsteriscos.c)
