@@ -21,14 +21,13 @@ A menudo en la resolución de un problema es necesario ejecutar  una instrucció
 Construir un programa que calcule e imprima la mayor de un conjunto de datos de temperaturas introducidas por teclado. El número de datos es conocido a priori (se lee porteclado).
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  Mayor Temperatura.psc](./Iteracion/temperatura.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/temperatura.psc)
-&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ temperatura.c](./Iteracion/temperatura.c)
 
 ### Mayor temperatura con centinela
 
 Construir un programa que calcule e imprima la mayor de un conjunto de datos de temperaturas introducidas por teclado. El número de datos no es conocido a priori, finalizándose la introducción de datos con el valor –999.
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  Mayor Temperatura.psc](./Iteracion/temperaturaCentinela.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/temperaturaCentinela.psc)
-&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ temperaturaCentinela.c](./Iteracion/temperaturaCentinela.c)
+
 
 
 ### Fuerzas concurrentes
@@ -42,11 +41,19 @@ teclado de una en una, finalizándose la entrada de datos con una fuerza nula
 ### Adivinar un número
 Construir un programa que sea capaz de adivinar un número menor que 100, definido al azar en n intentos.
 
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  AdivinaNumero.psc](./Iteracion/AdivinaNumero.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/AdivinaNumero.psc)
+
+
+
+
 
 ### Sucesión de Fibonacci
 
 Construir un programa que calcule e imprima en pantalla el término n-ésimo
 de la serie de Fibonacci, dado por teclado el número del término a calcular
+
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  fibonacci.psc](./Iteracion/fibonacci.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/fibonacci.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ fibonacci.c](./Iteracion/fibonacci.c)
 
 ### Producto de Wallis
 
