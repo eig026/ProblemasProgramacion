@@ -65,10 +65,14 @@ programa leerá por teclado dicho valor de precisión, calculará el producto de
 término correspondiente (sin incluirlo) utilizando la siguiente fórmula y presentará el resultado
 en la pantalla
 
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  fibonacci.psc](./Iteracion/fibonacci.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/fibonacci.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ fibonacci.c](./Iteracion/fibonacci.c)
 
 ### Sumatoria
 >  <img src="iconos/prob.png">
-Construir un programa que calcule e imprima en pantalla la suma,
+Construir un programa que calcule e imprima en pantalla la sum <img src="https://render.githubusercontent.com/render/math?math=\[
+\sum_{i=1}^(i/2^i) 
+\]">
 Pn
 i=1(i=2i)
 donde el número de sumandos se introduce por teclado
