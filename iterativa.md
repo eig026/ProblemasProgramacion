@@ -95,7 +95,7 @@ número entero no negativo dado por teclado.
 
 ### Sumatoria
 >  <img src="iconos/prob.png">  Diseñar un programa que dado por teclado un valor x mayor que –1 y menor
-que +1, calcule y presente en pantalla la siguiente suma: (Solución A.16)
+que +1, calcule y presente en pantalla la siguiente suma: 
 S(x) = x􀀀(x2=2)+(x3=3)􀀀(x4=4)+::::(xn=n) 1) Para un valor n dado introducido por
 teclado.
 2) Hasta un sumando n (no incluido) tal que abs(xn=n)  E, donde el valor de E también se
