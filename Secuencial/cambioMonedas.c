@@ -14,7 +14,7 @@
 
 void main(){
 	char c;
-	int p,pc;   /* precio del articulo (euros+céntimos)*/
+	int p,pc;   /* precio del articulo (euros+cï¿½ntimos)*/
 	int i,ic;   /* importe pagado (euros+centimos      */
 	int resto;  /* resto de las divisiones sucesivas   */
 	int b500;   /* numero de billetes de 500 euros     */
@@ -26,12 +26,12 @@ void main(){
 	int b5;     /* numero de billetes de   5 euros     */
 	int m2;     /* numero de monedas de  2 euros       */
 	int m1;     /* numero de monedas de  1 euros       */
-	int m50c;   /* numero de monedas de 50 céntimos    */
-	int m20c;   /* numero de monedas de 20 céntimos    */
-	int m10c;   /* numero de monedas de 10 céntimos    */
-	int m5c;    /* numero de monedas de  5 céntimos    */
-	int m2c;    /* numero de monedas de  2 céntimos    */
-	int m1c;    /* numero de monedas de  1 céntimo     */
+	int m50c;   /* numero de monedas de 50 cï¿½ntimos    */
+	int m20c;   /* numero de monedas de 20 cï¿½ntimos    */
+	int m10c;   /* numero de monedas de 10 cï¿½ntimos    */
+	int m5c;    /* numero de monedas de  5 cï¿½ntimos    */
+	int m2c;    /* numero de monedas de  2 cï¿½ntimos    */
+	int m1c;    /* numero de monedas de  1 cï¿½ntimo     */
 
 	do{	system("cls");
 		printf("CALCULO DEL CAMBIO\n");

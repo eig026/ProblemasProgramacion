@@ -10,4 +10,3 @@ Var
 	an<-va*va*r;
 	Escribir "La aceleración normal vale: ",an," m/sg2";
 FinAlgoritmo
-	
