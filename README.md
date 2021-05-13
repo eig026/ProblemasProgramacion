@@ -5,9 +5,8 @@
 # **Cuaderno de problemas de PROGRAMACIÓN para estudios técnicos**
 
 
-Este material se ha plateado con un enfoque eminentemente práctico donde los conceptos básicos del diseño y codificación de algoritmos en divesos lenguajes de programación, en especial C, se describe a través de la resolución de casos prácticos ligados al ámbito de la ingeniería, por lo que es mas un cuaderno de trabajo que un libro como tal.
 
-Se organiza a través de la incorporación de una serie de problemas agrupados tres partes. En la primera se trabajan los tres tipos de instrucciones básicas de la programación estructurada: secuencia, selección o condicionales e iteración. La segunda parte profundiza en el diseño modular incorporando del concepto de función y procedimiento así como los tipos de datos complejos, vectores y registros. Finalmente, la tercera parte de este cuaderno cubre las nociones básicas de la gestión de los datos persistentes con el uso de archivos.
+Se organiza a través de la incorporación de una serie de problemas agrupados tres partes. En la primera se trabajan los tres tipos de instrucciones básicas de la programación estructurada: secuencia, selección o condicionales e iteración. La segunda parte profundiza en el diseño modular incorporando del concepto de función y procedimiento así como loC:\Users\imagu\Datos\Actuales\Apuntes\Materiales docentes\VSProgramacion\ProblemasProgramacion\Primeros_pasoss tipos de datos complejos, vectores y registros. Finalmente, la tercera parte de este cuaderno cubre las nociones básicas de la gestión de los datos persistentes con el uso de archivos.
 
 Todas las partes del cuaderno se estructuran en capítulos, donde cada uno de ellos presenta una relación de ejercicios resueltos divididos en diversas secciones de acuerdo con la complejidad o aspecto específico a tratar, e incorpora una serie de problemas propuestos, cuya solución se describe en los apéndices y está enlazada con el enunciado de cada ejercicio.
 

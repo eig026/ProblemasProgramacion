@@ -216,6 +216,9 @@ densidad uniforme). El número de lados del polígono (n) será leído previamen
 comprobándose que es mayor o igual a 3, introduciéndose a continuación en orden la abscisa
 (x) y la ordenada (y) de cada uno de los n vértices del polígono
 
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[centroidePoligono.psc](./Iteracion/centroidePoligono.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/centroidePoligono.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ centroidePoligono.c](./Iteracion/centroidePoligono.c)
+
 
 ### Integral definida
 >  <img src="iconos/prob.png"> Diseñar un programa que integre la función f(x) = x3 􀀀 3x2 + 5 en un
