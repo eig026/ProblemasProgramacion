@@ -12,9 +12,6 @@ Todas las partes del cuaderno se estructuran en capítulos, donde cada uno de el
 
 Todos los problemas que aparecen en este libro se pueden descargar utilizando los enlaces  proporcionados a lo largo del libro de un repositorio de código público, por lo que se recomienda al lector crear una cuenta en github aunque no es estrictamente necesario. Si bien el lenguaje diana de las soluciones es C, las soluciones se proponen en pseudocódigo, puesto que el objetivo es el diseño de soluciones no la codificación de las mismas.
 
-De cara a simplificar la lectura y comprensión de los ejercicios no se muestra siempre la versión en C y en pseudocódigo de la solución propuesta, pero si se proporciona un enlace para descargar ambas soluciones, en concreto a partir de segunda parte del cuaderno sólo se incluyen los ejemplos en C y solo algunos de ellos o sólo parte de la solución completa, puesto que se habilita su descarga a los lectores de este libro.
-
-Se han incorporado también hiperenlaces en el propio documento que facilitan la navegabilidad dentro del mismo entre los ejercicios propuestos y sus soluciones.
 
 __________________
 
