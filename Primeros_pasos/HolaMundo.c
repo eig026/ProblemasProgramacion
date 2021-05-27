@@ -6,7 +6,6 @@
   Programa que saluda educadamente al usuario mostrando  el mensaje Hola Mundo
  */
 
-
 #include <stdio.h>
 
 int main(){
