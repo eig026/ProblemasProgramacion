@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+
 # Programación estructurada. Secuencia
 
 Las fases que se definen para resolver un problema utilizando programacióne estructurada son:

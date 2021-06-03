@@ -18,5 +18,4 @@ Algoritmo Adivina_Numero
 		SiNo
 			Escribir "El numero era: ",num_secreto
 		Fin Si
-
 Fin Algoritmo

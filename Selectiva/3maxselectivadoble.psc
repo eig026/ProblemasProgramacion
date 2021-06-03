@@ -11,4 +11,3 @@ Algoritmo 3tempdoble
   Finsi
   Escribir tmax
 Fin Algoritmo
-

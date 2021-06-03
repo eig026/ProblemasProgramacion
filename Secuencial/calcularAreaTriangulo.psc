@@ -15,4 +15,3 @@ Algoritmo calcularAreaTriangulo
 		Finsi
 	Finsi
 Finalgoritmo
-			

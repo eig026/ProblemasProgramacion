@@ -3,7 +3,7 @@
  * @university  UAL
  * @date 2019-02-06
 /* calcularNumeroEnvases                           */
-/* programa que calcula el numero mínimo de        */
+/* programa que calcula el numero mï¿½nimo de        */
 /* envases completos necesarios para n litros.     */
 /* Envases disponibles: 50, 20, 10, 5, 2 y 1 litro */
 
