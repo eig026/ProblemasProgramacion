@@ -1,0 +1,84 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <conio.h>
+#include <ctype.h>
+#include <math.h>
+
+int main(){
+    char cc;
+    double l1,l2,l3,l4,suma;
+    double a,d;
+    int ndb,nbm,ndm,n,n2,n3,pos;
+
+    do{ system("cls");
+        printf("RECUENTO DE CUADRILATEROS ARTICULADOS\n");
+        printf("=====================================\n\n");
+		n=n2=n3=ndb=nbm=ndm=0;
+		printf("Introducir 4 longitudes en orden\n");
+		printf("empezando por elemento fijo (fin: <=0): \n");
+		scanf(" %lf %lf %lf %lf",&l1,&l2,&l3,&l4);
+		while((l1>0)&&(l2>0)&&(l3>0)&&(l4>0)){
+			n++;
+			if((l1!=l2)&&(l1!=l3)&&(l1!=l4)&&(l2!=l3)&&
+			   (l2!=l4)&&(l3!=l4)){
+			   		n2++;
+			   		/* Ordenar longitudes y determinar posicion de a */
+					/* Calculo longitud maxima d  */
+					d=l1;
+					if(l2>d){
+						d=l2;
+					}
+					if(l3>d){
+						d=l3;
+					}
+					if(l4>d){
+						d=l4;
+					}
+					/* Calculo longitud minima y posicion */
+					a=l1;
+					pos=1;
+					if(l2<a){
+						a=l2;
+						pos=2;
+					}
+					if(l3<a){
+						a=l3;
+						pos=3;
+					}
+					if(l4<a){
+						a=l4;
+						pos=4;
+					}
+					/* Teorema de Grashoff */
+					suma=l1+l2+l3+l4;
+					if(2*(a+d)<suma){
+						n3++;
+						switch(pos){
+						case 1: ndm++;
+						        break;
+						case 2:
+						case 4: nbm++;
+						        break;
+						case 3: ndb++;
+						        break; 
+						}
+					}
+			   }
+			printf("Introducir 4 longitudes en orden\n");
+			printf("empezando por elemento fijo (fin: <=0): \n");
+			scanf(" %lf %lf %lf %lf",&l1,&l2,&l3,&l4);	
+		}
+		/* Resultados */
+		if(n){
+			printf("Num. de cuadrilateros:    %d\n",n);
+			printf("  longitudes diferentes:  %d\n",n2);
+			printf("  Cumplen ley de Grashof: %d\n",n3);
+			printf("  Doble manivela:    %10.2f%%\n",100.0*ndm/n);
+			printf("  Manivela-Balancin: %10.2f%%\n",100.0*nbm/n);
+			printf("  Doble Balancin:    %10.2f%%\n",100.0*ndb/n);
+		}
+        printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
+        cc=toupper(getch());
+   }while (cc!='N');
+   return 0;
+}
