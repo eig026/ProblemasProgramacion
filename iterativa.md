@@ -256,15 +256,15 @@ pasos discretos.
 
 ### Raiz cero
 >  <img src="iconos/prob.png"> Construir un programa que calcule una raíz (cero) de la función f(x) =
-x5 􀀀 x4 + x3 􀀀 3, mediante el método de bisección. Dicho método se basa
+x^5 - x^4 + x^3- 3, mediante el método de bisección. Dicho método se basa
 en el teorema de Bolzano que dice que si una función f(x) es continua y toma en los extremos
-de un intervalo [a; b] valores de signo opuesto, entonces la función admite al menos una raíz
-en dicho intervalo. Para el cálculo de la raíz, se parte del intervalo inicial [xizq; xder], se calcula
-el punto medio xm y se evalúa el signo del producto f(xizq)  f(xm)
+de un intervalo [a , b] valores de signo opuesto, entonces la función admite al menos una raíz
+en dicho intervalo. Para el cálculo de la raíz, se parte del intervalo inicial [x_izq, x_der], se calcula
+el punto medio xm y se evalúa el signo del producto f(x_izq) * f(x_m)
 
-Si f(xizq)  f(xm) < 0 se debe redefinir límite izquierdo del intervalo: xder   xm
-Si f(xizq)  f(xm) > 0 se debe redefinir límite izquierdo del intervalo: xizq   xm
-Si f(xizq)  f(xm) = 0 hay una raiz en xm
+Si f(x_izq) * f(x_m) < 0 se debe redefinir límite izquierdo del intervalo: x_der =  x_m
+Si f(x_izq) * f(x_m) > 0 se debe redefinir límite izquierdo del intervalo: x_izq  = x_m
+Si f(x_izq) * f(x_m) = 0 hay una raiz en x_m
 El proceso anterior de reducción del intervalo a la mitad se repite hasta encontrar una
 raíz o bien hasta que el tamaño del intervalo sea menor que un valor de precisión E dado. En
 este último caso la raíz se aproxima por el valor central de dicho intervalo.
@@ -276,21 +276,36 @@ caso de que sean distintos y ninguno de ellos sea una raíz. El programa se ejec
 forma reiterada para un nuevo conjunto de datos de entrada, finalizando su ejecución cuando
 coincidan los límites izquierdo y derecho del intervalo.
 
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[ceroFuncion.psc](./Iteracion/ceroFuncion.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/ceroFuncion.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ ceroFuncion.c](./Iteracion/ceroFuncion.c)
+
+
 ### Velocidad media
 >  <img src="iconos/prob.png"> Diseñar un programa que lea por teclado las distancias recorridas por un
 coche y los tiempos empleados en los diferentes tramos de su trayectoria, y que calcule
 e imprima la velocidad media empleada en toda la trayectoria, así como el primer tramo
 donde se alcanzó la máxima velocidad media por tramo, presentando la misma en la pantalla.
 
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[velocidadMediaTramo.psc](./Iteracion/velocidadMediaTramo.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/velocidadMediaTramo.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ velocidadMediaTramo.c](./Iteracion/velocidadMediaTramo.c)
+
 ### Figuras con asteriscos
 >  <img src="iconos/prob.png"> Diseñar un programa que lea por teclado un número natural menor de 20,
 y que imprima en pantalla bien un rombo de asteriscos si el número es impar, o bien un
 triángulo rectángulo si el número es par.
 
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[figuras.psc](./Iteracion/figuras.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/figuras.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ figuras.c](./Iteracion/figuras.c)
+
+
 ### Triángulo
 >  <img src="iconos/prob.png"> Sado un número natural menor de 20 presentar en pantalla un triángulo
 rectángulo con base y altura igual al número introducido y formado por los primeros números
 naturales en orden inverso.
+
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[trianguloNumeros.psc](./Iteracion/trianguloNumeros.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/trianguloNumeros.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ trianguloNumeros.c](./Iteracion/trianguloNumeros.c)
+
 
 ### Paralelepípedo
 >  <img src="iconos/prob.png"> Construir un programa que dibuje en pantalla mediante asteriscos las aristas
@@ -299,6 +314,8 @@ validadas: ancho (entre 3 y 20 asteriscos), alto (entre 3 y 10) y profundidad (e
 la impresión en pantalla se intentará simular una proyección paralela axonométrica de las caras
 visibles del paralelepípedo, según el formato indicado en los datos de prueba.
 
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[rectanguloAsteriscosFondo.psc](./Iteracion/rectanguloAsteriscosFondo.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/rectanguloAsteriscosFondo.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ rectanguloAsteriscosFondo.c](./Iteracion/rectanguloAsteriscosFondo.c)
 
 
 
