@@ -107,7 +107,7 @@ S(x) =  x - (x^2/2)+(x^3/3-(x^4/4)+ .... (x^n/n)
 
 1) Para un valor n dado introducido por teclado.
 
-2) Hasta un sumando n (no incluido) tal que abs(xn=n)  E, donde el valor de E también se
+2) Hasta un sumando n (no incluido) tal que abs(x^n/n) <= E, donde el valor de E también se
 introduce por teclado.
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[sumarSerie.psc](./Iteracion/sumarSerie.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/sumarSerie.psc)
