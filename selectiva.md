@@ -115,14 +115,14 @@ El sistema debe de ser compatible indeterminado y los autovectores son solucione
      a * x + b * y + c * z=0         d * x + e * y + f * z=0
 Las variables de las columnas j y l se pueden expresar en función de la tercera variable. Hay un autovector asociado al autovalor que se puede calcular asignando el valor 1 a la tercera variable, calculando los valores de las otras variables, y normalizando el vector resultante.
 
--  Rango =1
+-  Rango = 1
 
 a_ij <> 0  Solo hay una ecuación linealmente independiente (i):        a * x + b * y + c * z=0
 La variable j se puede expresar en función de las otras dos. Hay dos autovectores asociados al autovalor, que se pueden calcular asignando alternativamente los valores 0 y 1 a las dos variables libres, calculando la tercera variable, y normalizando los dos vectores resultantes
 
--  Rango 0
+-  Rango = 0
 
-a_ij=0, Hay tres autovectores asociados al autovalor: (1,0,0), (0,1,0)$ y $(0,0,1).
+a_ij=0, Hay tres autovectores asociados al autovalor: (1,0,0), (0,1,0) y (0,0,1).
 
 
  &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  autovectores.psc](./Selectiva/autovectores.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/autovectores.psc)
