@@ -85,21 +85,35 @@ por teclado
 >  <img src="iconos/prob.png">  Diseñar un programa que calcule e imprima en pantalla la potencia de un número, dados
 por teclado el número base (real) y el exponente (entero).
 
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[potencia.psc](./Iteracion/potencia.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/potencia.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ potencia.c](./Iteracion/potencia.c)
 
 
 ### Factorial
 >  <img src="iconos/prob.png">  Diseñar un programa que calcule e imprima en pantalla el factorial de un
 número entero no negativo dado por teclado.
 
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[factorial.psc](./Iteracion/factorial.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/factorial.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ factorial.c](./Iteracion/factorial.c)
+
 
 
 ### Sumatoria
 >  <img src="iconos/prob.png">  Diseñar un programa que dado por teclado un valor x mayor que –1 y menor
 que +1, calcule y presente en pantalla la siguiente suma: 
-S(x) = x􀀀(x2=2)+(x3=3)􀀀(x4=4)+::::(xn=n) 1) Para un valor n dado introducido por
-teclado.
+
+S(x) =  x - (x^2/2)+(x^3/3-(x^4/4)+ .... (x^n/n) 
+
+
+1) Para un valor n dado introducido por teclado.
+
 2) Hasta un sumando n (no incluido) tal que abs(xn=n)  E, donde el valor de E también se
 introduce por teclado.
+
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[sumarSerie.psc](./Iteracion/sumarSerie.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/sumarSerie.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ sumarSerie.c](./Iteracion/sumarSerie.c)
+
+
 
 
 ### Temperaturas en intervalo
@@ -109,6 +123,12 @@ tamaño del conjunto de datos no se especifica a priori, finalizándose la entra
 el valor –99.
 
 
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[mediaDesviacion.psc](./Iteracion/mediaDesviacion.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/mediaDesviacion.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ mediaDesviacion.c](./Iteracion/mediaDesviacion.c)
+
+
+
+
 ### Resistencia equivalente
 >  <img src="iconos/prob.png">  Diseñar un programa que calcule la resistencia equivalente de un conjunto
 de hasta un máximo de 100 resistencias en paralelo. El programa deberá leer por teclado las
@@ -116,6 +136,12 @@ resistencias individuales en ohmios, de una en una y adecuadamente validadas, fi
 la entrada de datos bien cuando se introduzca un valor 0 para la resistencia o bien cuando
 se haya introducido el nº máximo de resistencias, presentando en pantalla la resistencia
 equivalente en ohmios.
+
+
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[resistenciaEquivalente.psc](./Iteracion/resistenciaEquivalente.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/resistenciaEquivalente.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ resistenciaEquivalente.c](./Iteracion/resistenciaEquivalente.c)
+
+
 
 
 ## Problemas donde se necesita utilizar bucles anidados
@@ -225,7 +251,8 @@ comprobándose que es mayor o igual a 3, introduciéndose a continuación en ord
 intervalo, esto es que calcule el área bajo la curva, mediante un proceso de muestreo en
 pasos discretos.
 
-
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[integralDefinida.psc](./Iteracion/integralDefinida.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/integralDefinida.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ integralDefinida.c](./Iteracion/integralDefinida.c)
 
 ### Raiz cero
 >  <img src="iconos/prob.png"> Construir un programa que calcule una raíz (cero) de la función f(x) =
