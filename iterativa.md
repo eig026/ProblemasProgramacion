@@ -256,18 +256,24 @@ pasos discretos.
 
 ### Raiz cero
 >  <img src="iconos/prob.png"> Construir un programa que calcule una raíz (cero) de la función f(x) =
-x^5 - x^4 + x^3- 3, mediante el método de bisección. Dicho método se basa
+x^5 - x^4 + x^3- 3, mediante el método de bisección. 
+
+Dicho método se basa
 en el teorema de Bolzano que dice que si una función f(x) es continua y toma en los extremos
 de un intervalo [a , b] valores de signo opuesto, entonces la función admite al menos una raíz
 en dicho intervalo. Para el cálculo de la raíz, se parte del intervalo inicial [x_izq, x_der], se calcula
 el punto medio xm y se evalúa el signo del producto f(x_izq) * f(x_m)
 
 Si f(x_izq) * f(x_m) < 0 se debe redefinir límite izquierdo del intervalo: x_der =  x_m
+
 Si f(x_izq) * f(x_m) > 0 se debe redefinir límite izquierdo del intervalo: x_izq  = x_m
+
 Si f(x_izq) * f(x_m) = 0 hay una raiz en x_m
+
 El proceso anterior de reducción del intervalo a la mitad se repite hasta encontrar una
 raíz o bien hasta que el tamaño del intervalo sea menor que un valor de precisión E dado. En
 este último caso la raíz se aproxima por el valor central de dicho intervalo.
+
 El programa deberá leer por teclado dos valores a y b que cumplan la condición del teorema
 de Bolzano, así como un valor positivo para la precisión (exactitud o error) E deseada,
 escribiendo en pantalla la raíz (x) y el valor correspondiente de la función (f(x)). Si los valores
