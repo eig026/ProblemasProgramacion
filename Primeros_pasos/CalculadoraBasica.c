@@ -1,15 +1,14 @@
 /*
- * @authors Equipo docente ProgramaciÛn
- * @project CreaciÛn de Materiales Did·cticos en la Univer. de AlmerÌa (2021-2022)
- * Grados en IngenierÌa ElÈctrica, ElectrÛnica Industrial, Mec·nica y QuÌmica Industrial
+ * @authors Equipo docente Programaci√≥n
+ * @project Creaci√≥n de Materiales Did√°cticos en la Univer. de Almer√≠a (2021-2022)
+ * Grados en Ingenier√≠a El√©ctrica, Electr√≥nica Industrial, Mec√°nica y Qu√≠mica Industrial
  * @date 2021-02-06
 
-  Este programa realiza calculos aritmeticos sencillos con operandos enteros
+  Este programa realiza c√°lculos aritm√©ticos sencillos con operandos enteros
 
  */
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
 
 int main(){
 	int a, b;
@@ -35,7 +34,8 @@ int main(){
                     break;
 		}
 	   	printf("\nDesea efectuar una nueva operacion (S/N)? ");
-	   	c=toupper(getch());
-	}while (c!='N');
+		scanf(" %c",&c);   
+	
+	}while ((c!='N') && (c!='n'));
     return 0;
 }
