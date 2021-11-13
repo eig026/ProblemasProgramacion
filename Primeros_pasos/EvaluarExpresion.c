@@ -1,10 +1,10 @@
 /*
- * @authors Equipo docente Programaci髇
- * @project Creaci髇 de Materiales Did醕ticos en la Univer. de Almer韆 (2021-2022)
- * Grados en Ingenier韆 El閏trica, Electr髇ica Industrial, Mec醤ica y Qu韒ica Industrial
+ * @authors Equipo docente Programaci贸n
+ * @project Creaci贸n de Materiales Did谩cticos en la Univer. de Almer铆a (2021-2022)
+ * Grados en Ingenier铆a El茅ctrica, Electr贸nica Industrial, Mec谩nica y Qu铆mica Industrial
  * @date 2021-02-06
 
-  Calcular una expresion aritmetica sencilla
+  Calcular una expresi贸n aritm茅tica sencilla
 
  */
 #include <stdio.h>
@@ -16,7 +16,7 @@ int main(void){
     printf("Introduzca los valores de x e y separados por un espacio en blanco \n");
     //se leen o capturan dos valores escritos en las variables x e y.
     scanf(" %f %f",&x,&y);
-    //Se evalua la expresion y el resultado es asignado a la variable resultado.
+    //Se evalua la expresi贸n y el resultado es asignado a la variable resultado.
     resultado=(x+y)/(2*y);
     //se imprime el valor de la variable resultado.
     printf("Resultado expresion: %f",resultado);
