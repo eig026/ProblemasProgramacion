@@ -1,7 +1,7 @@
 /*
- * @authors Equipo docente ProgramaciÛn
- * @project CreaciÛn de Materiales Did·cticos en la Univer. de AlmerÌa (2021-2022)
- * Grados en IngenierÌa ElÈctrica, ElectrÛnica Industrial, Mec·nica y QuÌmica Industrial
+ * @authors Equipo docente Programaci√≥n
+ * @project Creaci√≥n de Materiales Did√°cticos en la Univer. de Almer√≠a (2021-2022)
+ * Grados en Ingenier√≠a El√©cctrica, Electr√≥nica Industrial, Mec√©nica y Qu√≠mica industrial
  * @date 2021-02-06
 
   Este programa saludara al usuario incorporando su nombre y apellidos al saludo
