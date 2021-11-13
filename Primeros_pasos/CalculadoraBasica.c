@@ -23,6 +23,7 @@ int main(){
 		printf("\n");
 		printf("Introduzca + para sumar, - para restar o * para multiplicar: ");
 		scanf(" %c",&operacion);
+
 		switch(operacion){
         case '+':   printf("El resultado es: %d\n", a+b);
                     break;
@@ -33,7 +34,7 @@ int main(){
         default:    printf("Operacion incorrecta\n");
                     break;
 		}
-	  printf("\nDesea efectuar una nueva operacion (S/N)? ");
+	    printf("\nDesea efectuar una nueva operacion (S/N)? ");
 		scanf(" %c",&c);   
 	
 	}while ((c!='N') && (c!='n'));
