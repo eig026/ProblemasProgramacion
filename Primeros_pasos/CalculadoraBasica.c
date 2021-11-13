@@ -14,7 +14,7 @@ int main(){
 	int a, b;
 	char operacion, c;
 
-	do{ system("cls");
+	do{ 
 		printf("Realizaremos una operacion aritmetica simple:\n\n");
 		printf("Introduzca el primer valor con el que operar: ");
 		scanf(" %d",&a);
@@ -33,7 +33,7 @@ int main(){
         default:    printf("Operacion incorrecta\n");
                     break;
 		}
-	   	printf("\nDesea efectuar una nueva operacion (S/N)? ");
+	  printf("\nDesea efectuar una nueva operacion (S/N)? ");
 		scanf(" %c",&c);   
 	
 	}while ((c!='N') && (c!='n'));
