@@ -4,7 +4,7 @@
  * Grados en Ingeniería Eléctrica, Electrónica Industrial, Mecánica y Química Industrial
  * @date 2021-02-06
  
-* Calculo de la aceleracion Normal */
+* Cálculo de la aceleración Normal */
 
 
 
