@@ -5,15 +5,21 @@
  * @date 2021-02-06
 */
 
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
 #include <math.h>
 
+
+#define BORRADO "cls"  // para windows
+// #define BORRADO "clear"  // linux
+
 int main(){
 	char c;
 
-	do{
+	do{ system(BORRADO);
 			printf("\n");
 			printf("======\n\n");
 
