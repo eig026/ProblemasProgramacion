@@ -47,8 +47,8 @@ int main(){
         printf("\nSuma: (%.1f,%.1f,%.1f)",sx,sy,sz);
         printf("\nProducto escalar: %.1f",e);
         printf("\nProducto vectorial: (%.1f,%.1f,%.1f)",px,py,pz);
-        printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        c=toupper(getch());
-    }while (c!='N');
+	    printf("\nDesea efectuar una nueva operacion (S/N)? ");
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
     return 0;
 }

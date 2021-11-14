@@ -1,7 +1,7 @@
 /*
- * @authors Equipo docente Programación
- * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
- * Grados en Ingeniería Eléctrica, Electrónica Industrial, Mecánica y Química Industrial
+ * @authors Equipo docente ProgramaciÃ³n
+ * @project CreaciÃ³n de Materiales DidÃ¡cticos en la Univer. de AlmerÃ­a (2021-2022)
+ * Grados en IngenierÃ­a ElÃ©ctrica, ElectrÃ³nica Industrial, MecÃ¡nica y QuÃ­mica Industrial
  * @date 2021-02-06
 
   Este programa muestra el resultado de la expresion (3x^2 + 4y^2)^(1/2)

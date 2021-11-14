@@ -20,7 +20,7 @@ int main(){
     float radio;          /* radio de la esfera (cm)  */
     float volumen;        /* volumen de la esfera     */
     float masa;           /* masa en kg               */
-    do{ system("cls");
+    do{
 
       printf("CALCULO DE LA MASA DE UNA BOLA DE HIERRO\n");
       printf("========================================\n\n");
@@ -30,9 +30,8 @@ int main(){
       volumen=4*PI*radio*radio*radio/3;
       masa=densidad*volumen;
       printf("\nMasa: %.2f Kg", masa);
-      printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-      fflush(stdin);
-      c=toupper(getchar());
-    }while (c!='N');
+	    printf("\nDesea efectuar una nueva operacion (S/N)? ");
+		  scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 return 0;
 }

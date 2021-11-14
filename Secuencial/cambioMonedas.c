@@ -91,8 +91,8 @@ void main(){
 		printf("\tMonedas de    5 cents: %4d\n",m5c);
 		printf("\tMonedas de    2 cents: %4d\n",m2c);
 		printf("\tMonedas de    1 cents: %4d\n",m1c);
-		printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		c=toupper(getch());
-	}while (c!='N');
+	    printf("\nDesea efectuar una nueva operacion (S/N)? ");
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }

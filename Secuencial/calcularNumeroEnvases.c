@@ -3,13 +3,12 @@
  * @university  UAL
  * @date 2019-02-06
 /* calcularNumeroEnvases                           */
-/* programa que calcula el numero m�nimo de        */
+/* programa que calcula el numero mñinimo de        */
 /* envases completos necesarios para n litros.     */
 /* Envases disponibles: 50, 20, 10, 5, 2 y 1 litro */
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <ctype.h>
 
 int main(){
@@ -23,7 +22,7 @@ int main(){
     int n1;     /* num. de envases de 1 litros   */
     int resto;  /* resto de divisiones sucesivas */
 
-    do{ system("cls");
+    do{ 
         printf("CALCULO DEL NUMERO MINIMO DE ENVASES\n");
         printf("====================================\n\n");
         printf("Introduzca num. de litros a envasar: ");
@@ -45,8 +44,8 @@ int main(){
         printf("\tEnvases de  5 litros: %4d\n",n5);
         printf("\tEnvases de  2 litros: %4d\n",n2);
         printf("\tEnvases de  1 litro:  %4d\n",n1);
-        printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        c=toupper(getch());
-    }while (c!='N');
+	    printf("\nDesea efectuar una nueva operacion (S/N)? ");
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
     return 0;
 }

@@ -16,7 +16,7 @@ int main(){
 	char c;
 	float fah,cel;
 
-	do{	system("cls");
+	do{	
 		printf("CONVERSION DE GRADOS CENTIGRADOS A FAHRENHEIT\n");
 		printf("=============================================\n\n");
 		printf("Introduzca temperatura (grados celsius): ");
