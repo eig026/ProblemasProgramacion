@@ -1,8 +1,8 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria
- * @university  UAL
- * @date 2019-02-06
-
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
   calcularMasaBolaHierro: programa que calcula la masa en Kg de una bola
   esferica de hierro, a partir de su diametro en cm
  */
@@ -20,7 +20,8 @@ int main(){
     float radio;          /* radio de la esfera (cm)  */
     float volumen;        /* volumen de la esfera     */
     float masa;           /* masa en kg               */
-    do{
+  
+    do{ system("cls||clear");
 
       printf("CALCULO DE LA MASA DE UNA BOLA DE HIERRO\n");
       printf("========================================\n\n");

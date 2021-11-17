@@ -19,7 +19,7 @@ int main(){
 	float rx,ry,rz,mx,my,mz;
 	float m;
 
-	do{	system("cls");
+	do{	system("cls||clear");
 		printf("MOMENTO DE UNA FUERZA\n");
 		printf("=====================\n\n");
 		printf("Introduzca componentes de la fuerza:\n");
@@ -55,7 +55,7 @@ int main(){
 		if(m)
 			printf("\n\tVectorunitario: (%.2f,%.2f,%.2f)",mx/m,my/m,mz/m);
 		printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		c=toupper(getch());
-	}while (c!='N');
+			  scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }

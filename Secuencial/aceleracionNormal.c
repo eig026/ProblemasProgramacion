@@ -1,11 +1,10 @@
 /*
  * @authors Equipo docente Programación
  * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
- * Grados en Ingeniería Eléctrica, Electrónica Industrial, Mecánica y Química Industrial
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
  * @date 2021-02-06
  
 * Cálculo de la aceleración Normal */
-
 
 
 #include <stdio.h>
@@ -17,7 +16,7 @@ int main(){
 	char c;
 	float an,va,r;
 
-	do{	
+	do{	system("cls||clear");
 		printf("ACELERACION NORMAL (O CENTRIPETA)\n");
 		printf("=================================\n\n");
 		printf("Introduzca velocidad angular (rad/sg): ");

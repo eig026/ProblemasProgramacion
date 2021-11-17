@@ -1,8 +1,8 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria
- * @university  UAL
- * @date 2019-02-06
-
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
 */
 
 
@@ -12,10 +12,10 @@
 #include <conio.h>
 #include <ctype.h>
 
-void main(){
+void main(){ system("cls||clear");
 	char c;
-	int p,pc;   /* precio del articulo (euros+c�ntimos)*/
-	int i,ic;   /* importe pagado (euros+centimos      */
+	int p,pc;   /* precio del articulo (euros+céntimos)*/
+	int i,ic;   /* importe pagado (euros+céntimos      */
 	int resto;  /* resto de las divisiones sucesivas   */
 	int b500;   /* numero de billetes de 500 euros     */
 	int b200;   /* numero de billetes de 200 euros     */
@@ -26,14 +26,14 @@ void main(){
 	int b5;     /* numero de billetes de   5 euros     */
 	int m2;     /* numero de monedas de  2 euros       */
 	int m1;     /* numero de monedas de  1 euros       */
-	int m50c;   /* numero de monedas de 50 c�ntimos    */
-	int m20c;   /* numero de monedas de 20 c�ntimos    */
-	int m10c;   /* numero de monedas de 10 c�ntimos    */
-	int m5c;    /* numero de monedas de  5 c�ntimos    */
-	int m2c;    /* numero de monedas de  2 c�ntimos    */
-	int m1c;    /* numero de monedas de  1 c�ntimo     */
+	int m50c;   /* numero de monedas de 50 céntimos    */
+	int m20c;   /* numero de monedas de 20 céntimos    */
+	int m10c;   /* numero de monedas de 10 céntimos    */
+	int m5c;    /* numero de monedas de  5 céntimos    */
+	int m2c;    /* numero de monedas de  2 céntimos    */
+	int m1c;    /* numero de monedas de  1 céntimo     */
 
-	do{	system("cls");
+	do{   system("cls||clear");
 		printf("CALCULO DEL CAMBIO\n");
 		printf("==================\n\n");
 		printf("Introduzca precio de articulo:\n");

@@ -1,10 +1,11 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
- * @university  UAL
- * @date 2019-02-06
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
+*/
 /* calcularNumeroEnvases                           */
-/* programa que calcula el numero mñinimo de        */
-/* envases completos necesarios para n litros.     */
+/* programa que calcula el numero mínimo de envases completos necesarios para n litros.     */
 /* Envases disponibles: 50, 20, 10, 5, 2 y 1 litro */
 
 #include <stdio.h>
@@ -22,7 +23,7 @@ int main(){
     int n1;     /* num. de envases de 1 litros   */
     int resto;  /* resto de divisiones sucesivas */
 
-    do{ 
+    do{ system("cls||clear");
         printf("CALCULO DEL NUMERO MINIMO DE ENVASES\n");
         printf("====================================\n\n");
         printf("Introduzca num. de litros a envasar: ");

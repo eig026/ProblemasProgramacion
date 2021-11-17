@@ -1,10 +1,10 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria
- * @university  UAL
- * @date 2019-02-06
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
 
 */
-
 
 
 #include <stdio.h>
@@ -19,7 +19,7 @@ int main(){
 	char cc;
 	float a,b,h,v,m;
 
-	do{	system("cls");
+	do{	system("cls||clear");
 		printf("MASA PIEZA DE HIERRO TRONCO CONO CIRCULAR RECTO\n");
 		printf("===============================================\n\n");
 		printf("Introduzca longitudes de los radios (cm):\n");
@@ -33,7 +33,7 @@ int main(){
 		m=DENSIDAD*v;
 		printf("\nMasa: %.3f Kg",m);
 		printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		cc=toupper(getch());
-	}while (cc!='N');
+		  scanf(" %c",&cc);   
+	}while ((cc!='N') && (cc!='n'));
 	return 0;
 }
