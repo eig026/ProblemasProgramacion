@@ -13,19 +13,17 @@
 #include <math.h>
 
 
-#define BORRADO "cls"  // para windows
-// #define BORRADO "clear"  // linux
 
-int main(){
+int main(){ 
 	char c;
 
-	do{ system(BORRADO);
+	do{ system("cls||clear");
 			printf("\n");
 			printf("======\n\n");
 
 
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
 			scanf(" %c",&c);
-	}while (c!='N');
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
