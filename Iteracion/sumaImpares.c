@@ -1,10 +1,10 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria
- * @university  UAL
- * @date 2019-02-06
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
 
 *  */
-
 
 
 #include <stdio.h>
@@ -17,7 +17,7 @@ int main(){
 	int i,n;
 	float suma;
 
-	do{ 	//clrscr();
+	do{ system("cls||clear");
 			printf("SUMA DE NUMEROS IMPARES ENTRE 0 y 1000\n");
 			printf("======================================\n\n");
 			do{	printf("Introduzca limite superior: ");
@@ -32,7 +32,7 @@ int main(){
 			}
          printf("\nLa suma vale: %.0f",suma);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
    return 0;
 }

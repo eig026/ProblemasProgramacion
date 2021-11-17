@@ -1,3 +1,11 @@
+/*
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
+
+
+
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -9,7 +17,7 @@ int main(){
     int a,h,z;	        /* ancho, alto, profundo*/
     int i,j,k,m, altura;   /*PAra los bucles */
 
-    do{ system("cls");
+    do{ system("cls||clear");
         printf("proyección paralela axonométrica \n");
         printf("========================================\n\n");
         do{
@@ -82,8 +90,8 @@ int main(){
         printf("\n");
 
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        c=toupper(getch());
-    }while (c!='N');
+ 		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
     return 0;
 }
 

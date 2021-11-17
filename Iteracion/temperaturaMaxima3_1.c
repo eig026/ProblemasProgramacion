@@ -1,6 +1,11 @@
+/*
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
+
 /* temperaturaMaxima3_1                         */
-/* programa que calcula la mayor temperatura de */
-/* un conjunto de datos de temperaturas.        */
+/* programa que calcula la mayor temperatura de  un conjunto de datos de temperaturas.        */
 /* El numero de datos es conocido a priori      */
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,10 +16,10 @@ int main(){
     char c;
     int n;            /* numero de datos a leer */
     int i;            /* contador del bucle     */
-    float t;          /* temperatura le�da      */
-    float tmax;       /* temperatura m�xima     */
+    float t;          /* temperatura leída      */
+    float tmax;       /* temperatura máxima     */
 
-    do{ system("cls");
+    do{ system("cls||clear");
         printf("TEMPERATURA MAXIMA\n");
         printf("==================\n\n");
         printf("Introduzca numero de datos: ");
@@ -33,7 +38,7 @@ int main(){
               printf("\nTemperatura maxima: %.0f", tmax);
         }
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        c=toupper(getch());
-    }while(c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
     return 0;
 }

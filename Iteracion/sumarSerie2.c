@@ -1,10 +1,10 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
- * @university  UAL
- * @date 2019-02-06
- 
-*  */
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
 
+*  */
 
 
 #include <stdio.h>
@@ -18,7 +18,7 @@ int main(){
     double x,suma,p,term,error;
     int n,i;
 
-    do{ system("cls");
+    do{ system("cls||clear");
         printf("SUMA SERIE x-x**2/2+x**3/3-x**4/4...\n");
         printf("====================================\n\n");
         do{ printf("Introduzca valor de x (-1..+1): ");
@@ -40,7 +40,7 @@ int main(){
         printf("\nSuma= %.15f\n", suma);
         printf("(para n= %d)\n",i-1);
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        c=toupper(getch());
-    }while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
     return 0;
 }

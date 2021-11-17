@@ -1,10 +1,10 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
- * @university  UAL
- * @date 2019-02-06
- 
-*  */
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
 
+*  */
 
 
 #include <stdio.h>
@@ -18,7 +18,7 @@ int main(){
 	int amax,bmax,cmax,dmax;
 	char cc;
 
-	do{	system("cls");
+	do{	system("cls||clear");
 		printf("TEOREMA DE LOS CUATRO CUADRADOS\n");
 		printf("===============================\n\n");
 		do{	printf("Introduzca un num. natural: ");
@@ -48,7 +48,7 @@ int main(){
 			++a;
 		}
 		printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		cc=toupper(getch());
-	}while (cc!='N');
+		scanf(" %c",&cc);   
+	}while ((cc!='N') && (cc!='n'));
 	return 0;
 }

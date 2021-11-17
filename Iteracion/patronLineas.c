@@ -1,3 +1,12 @@
+/*
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
+*/
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -12,7 +21,7 @@ int main(){
 	int nf,nc,d;
   int i,j,inc;
 
-	do{ 	system("cls");
+	do{ 	system("cls||clear");
 			printf("PATRON DE RAYAS DIAGONALES\n");
 			printf("==========================\n\n");
 			do{  printf("Introduzca nº de filas: ");
@@ -25,7 +34,7 @@ int main(){
 				  scanf(" %d", &d);
 			}while(d<0);
 
-            system("cls");
+           system("cls||clear");
             if(d<0)
                 d=0;
             i=1;
@@ -44,7 +53,7 @@ int main(){
                 printf("\n");
             }
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		c=toupper(getch());
-	}while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }

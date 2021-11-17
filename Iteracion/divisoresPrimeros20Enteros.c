@@ -1,10 +1,10 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
- * @university  UAL
- * @date 2019-02-06
- 
-*  */
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
 
+ */
 
 
 #include <stdio.h>
@@ -16,7 +16,7 @@ void main()
 {  char c;
 	int i,j;
 
-	do{ clrscr();
+	do{ system("cls||clear");
 		 printf("DIVISORES DE LOS PRIMEROS 20 NUMEROS ENTEROS\n");
 		 printf("============================================\n\n");
 		 i=1;
@@ -31,6 +31,6 @@ void main()
 			i++;
 		 }
 		 printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-       c=toupper(getch());
-   }while (c!='N');
-}
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
+}

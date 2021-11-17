@@ -1,11 +1,11 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria
- * @university  UAL
- * @date 2019-02-06
-*  */
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
+
 /* calculoSumatoria                           */
-/* programa que calcula:    sumatoria(i/2**i) */
-/* donde el numero de terminos de la suma     */
+/* programa que calcula:    sumatoria(i/2**i)  donde el numero de terminos de la suma     */
 /* se introduce por teclado                   */
 #include <stdio.h>
 #include <stdlib.h>
@@ -19,7 +19,7 @@ int main(){
     double suma;   /* valor de la suma        */
     double p;      /* potencia: 1/2**i        */
 
-    do{ system("cls");
+    do{ system("cls||clear");
         printf("SUMATORIA DE i/2**i\n");
         printf("===================\n\n");
         do{ printf("Introduzca numero de sumandos: ");
@@ -35,7 +35,7 @@ int main(){
         }
         printf("\n\nSumatoria= %.15f",suma);
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        c=toupper(getch());
-    }while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
     return 0;
 }

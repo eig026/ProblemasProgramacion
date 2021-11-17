@@ -1,8 +1,8 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria
- * @university  UAL
- * @date 2019-02-06
-
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
 *  */
 
 
@@ -20,7 +20,7 @@ int main(){
 	float z;
 	int pos,neg;
 	int n,i;
-	do{ system("cls");
+	do{ system("cls||clear");
 		printf("CONCAVIDAD/CONVEXIDAD POLIGONO\n");
 		printf("==============================\n\n");
 		do{	printf("Num. de vertices: ");
@@ -99,7 +99,7 @@ int main(){
 			}
 		}
 		printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		c=toupper(getch());
-	}while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }

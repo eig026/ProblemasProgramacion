@@ -1,10 +1,10 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
- * @university  UAL
- * @date 2019-02-06
- 
-*  */
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
 
+*  */
 
 
 #include <stdio.h>
@@ -19,7 +19,7 @@ int main(){
 	double prec;
 	int i;
 
-	do{	system("cls");
+	do{	system("cls||clear");
 		printf("DETERMINACION DE UN CERO DE UNA FUNCION\n");
 		printf("=======================================\n\n");
 		do{	printf("Introduzca limites del intervalo:\n");
@@ -63,7 +63,7 @@ int main(){
 			}
 		}
 		printf("\n\nPulse una tecla para continuar");
-		getch();
+		getchar();
 	}while (a!=b);
 	return 0;
 }
