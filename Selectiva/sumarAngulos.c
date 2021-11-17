@@ -1,8 +1,8 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
- * @university  UAL
- * @date 2019-02-06
- 
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
  */
 
 
@@ -17,7 +17,7 @@ int main(){
 	char c;
 	int g,m,s,g1,m1,s1,g2,m2,s2;
 
-	do{	system("cls");
+	do{	system("cls||clear");
 		printf("SUMAS DE ANGULOS\n");
 		printf("================\n\n");
 		printf("Introduzca primer angulo: \n");
@@ -58,7 +58,7 @@ int main(){
 		printf("      ====       ====        ====\n");
 		printf("%10d grados %3d minutos %3d segundos\n",g,m,s);
 		printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		c=toupper(getch());
-	}while (c!='N');
+		  scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }

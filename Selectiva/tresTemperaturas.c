@@ -1,10 +1,10 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
- * @university  UAL
- * @date 2019-02-06
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
  
  */
-
 
 
 #include <stdio.h>
@@ -17,7 +17,7 @@ int main(){
 	char c;
 	double t1,t2,t3;
 
-	do{	system("cls");
+	do{	 system("cls||clear");
 		printf("TRES TEMPERATURAS: COMPROBAR SI COINCIDEN\n");
 		printf("=========================================\n\n");
 		printf("Introduzca tres temperaturas:\n");
@@ -37,7 +37,7 @@ int main(){
 						printf("\nHay dos temperaturas iguales: t2 y t3");
 					else	printf("\nLas tres temperaturas son distintas");
 		printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		c=toupper(getch());
-	}while (c!='N');
+		  scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }

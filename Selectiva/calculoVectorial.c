@@ -1,9 +1,9 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
- * @university  UAL
- * @date 2019-02-06
- 
- */
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
+*/
 
 
 
@@ -18,7 +18,7 @@ int main(){
 	float v1x,v1y,v1z,v2x,v2y,v2z;
 	float e,vx,vy,vz;
 
-	do{	system("cls");
+	do{	system("cls||clear");
 		printf("CALCULO VECTORIAL\n");
 		printf("=================\n\n");
 		printf("Introduzca primer vector:\n");
@@ -84,7 +84,7 @@ int main(){
 			c=toupper(getche());
 		}while(c!='N');
 		printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		c=toupper(getch());
-	}while (c!='N');
+		  scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
    return 0;
 }

@@ -1,3 +1,12 @@
+/*
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
+
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -11,7 +20,7 @@ int main(){
     float b11,b12,b13,b21,b22,b23,b31,b32,b33;
     float c11,c12,c21,c22,c31,c32;
 
-	do{ system("cls");
+	do{system("cls||clear");
 		printf("RESOLUCION SISTEMA LINEAL DE ECUACIONES 3x3\n");
 		printf("    (Metodo de reduccion)\n");
 		printf("===========================================\n\n");
@@ -87,7 +96,7 @@ int main(){
                 printf("\tz = %15.2f\n",z);
         }
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        c=toupper(getch());
-	}while (c!='N');
+	  scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }

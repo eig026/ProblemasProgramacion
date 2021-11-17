@@ -1,8 +1,8 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria
- * @university  UAL
- * @date 2019-02-06
-
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
  */
 /* temperatura Maxima0           */
 /* programa que calcula el mayor */
@@ -18,7 +18,7 @@ int main(){
     float t1,t2;    /* dos valores de temperatura */
     float tmax;     /* temperatura maxima         */
 
-    do{ system("cls");
+    do{  system("cls||clear");
         printf("TEMPERATURA MAXIMA\n");
         printf("==================\n\n");
         printf("Introduzca temperatura 1: ");
@@ -30,7 +30,7 @@ int main(){
         else tmax=t2;
         printf("\nTemperatura maxima: %.2f",tmax);
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        c=toupper(getch());
-    }while (c!='N');
+		  scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
     return 0;
 }

@@ -1,11 +1,12 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria
- * @university  UAL
- * @date 2019-02-06
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
 
+*/
 /* temperaturaMaxima                                  */
 /* programa que calcula la mayor de tres temperaturas */
-
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -14,10 +15,10 @@
 
 int main(){
     char c;
-    float t1,t2,t3;    /* temperaturas le�das */
-    float tmax;        /* temperatura m�xima  */
+    float t1,t2,t3;    /* temperaturas leídas */
+    float tmax;        /* temperatura máxima  */
 
-    do{ system("cls");
+    do{ system("cls||clear");
         printf("MAXIMA DE TRES TEMPERATURAS\n");
         printf("===========================\n\n");
         printf("Introduzca tres temperaturas:\n");
@@ -36,7 +37,7 @@ int main(){
              else tmax=t3;
         printf("\nTemperatura maxima: %.1f", tmax);
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        c=toupper(getch());
-    }while (c!='N');
+		  scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
     return 0;
 }

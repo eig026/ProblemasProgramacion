@@ -1,8 +1,8 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
- * @university  UAL
- * @date 2019-02-06
- 
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
  */
 /* raicesEcuacionSegundoGrado                     */
 /* programa que calcula e imprime en pantalla las */
@@ -19,7 +19,7 @@ int main(){
     float d;		  /* discriminante: b*b-4*a*c */
     float x1,x2;      /* raices de la ecuacion    */
 
-    do{ system("cls");
+    do{ system("cls||clear");
         printf("SOLUCIONES EC. SEGUNDO GRADO: A*x*x+B*x+C=0\n");
         printf("==========================================\n\n");
         printf("Introduzca coeficiente de x*x: ");
@@ -44,7 +44,7 @@ int main(){
               }
         }
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        c1=toupper(getch());
-    }while (c1!='N');
+		  scanf(" %c",&c1);   
+	}while ((c1!='N') && (c1!='n'));
     return 0;
 }

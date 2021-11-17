@@ -1,8 +1,8 @@
 /*
- * @authors Equipo docente programacion grado de ingenieria 
- * @university  UAL
- * @date 2019-02-06
-
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
  */
 /* programa que calcula el exceso de velocidad    */
 /* con respecto a un limite dado                  */
@@ -19,7 +19,7 @@ int main(){
     float v;               /* velocidad (km/h)    */
     float exceso;          /* exceso de velocidad */
 
-    do{ system("cls");
+    do{ system("cls||clear");
         printf("COMPROBACION EXCESO VELOCIDAD\n");
         printf("=============================\n\n");
         printf("Introducir velocidad (Km/h): ");
@@ -30,7 +30,7 @@ int main(){
             printf(" en %.2f Km/h",exceso);
         }
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        c=toupper(getch());
-    }while (c!='N');
+		  scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
     return 0;
 }
