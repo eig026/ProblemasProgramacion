@@ -10,15 +10,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define BORRADO "cls"  // para windows
-// #define BORRADO "clear"  // linux
+
 
 
 int main(){
 	int a, b;
 	char operacion, c;
 
-	do{ system(BORRADO);
+	do{ system("cls||clear");
 		printf("Realizaremos una operacion aritmetica simple:\n\n");
 		printf("Introduzca el primer valor con el que operar: ");
 		scanf(" %d",&a);
