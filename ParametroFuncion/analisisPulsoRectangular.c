@@ -17,7 +17,7 @@ int main(){
 	double izq,der;
 	double x;
 
-	do{ 	      system("cls||clear");
+	do{    system("cls||clear");
 			printf("ANALISIS PULSO RECTANGULAR\n");
 			printf("==========================\n\n");
 			leer_datos(&p,&h,&a,&e,&t);
@@ -98,4 +98,3 @@ double integral_simpson(double (*f)(double p,double h,double a,double e,double t
 	}
 	return(inc*suma/3);
 }
-

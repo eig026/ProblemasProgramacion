@@ -67,4 +67,4 @@ void sumar_vectores(float ax,float ay,float az,float bx,float by,float bz,
 
 void escribir_vector(float x, float y, float z){
 	printf("(%.2f,%.2f,%.2f)",x,y,z);
-}
+}
