@@ -16,7 +16,7 @@ int main(){
 	float ax,ay,az,bx,by,bz,cx,cy,cz,dx,dy,dz;
 	float c1,c2;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("CALCULO D=B*(A.C)-C*(A.B)\n");
 			printf("=========================\n\n");
 			printf("Introduzca vector A:\n");
@@ -33,8 +33,8 @@ int main(){
 			printf("\n\nD = ");
          escribir_vector(dx,dy,dz);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+           scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

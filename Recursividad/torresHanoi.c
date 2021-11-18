@@ -12,15 +12,15 @@ int main(){
 	char c;
 	int n;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("TORRES DE HANOI\n");
 			printf("===============\n\n");
 			printf("Numero de discos:\n");
 			leer_entero_positivo(&n);
 			mover_discos(n,'i','d','c');
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

@@ -19,7 +19,7 @@ int main(){
 	char c;
 	cadena50 cad,cad2;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("EJERCICIOS DE CADENAS DE CARACTERES\n");
 			printf("===================================\n\n");
 			printf("Introduzca una cadena de caracteres: ");
@@ -45,8 +45,8 @@ int main(){
 					}
 			}while(c!='0');
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 
@@ -69,7 +69,7 @@ void leer_cadena(char *cad, int n){
 }
 
 void leer_opcion_menu(char *c){
-	clrscr();
+	      system("cls||clear");
 	printf("OPERACIONES CON CADENAS DE CARACTERES\n");
 	printf("=====================================\n\n");
 	printf("\t1.- Invertir cadena\n");

@@ -15,7 +15,7 @@ int main(){
 	FILE *f;
 
 	f=fopen("xx.dat","w");
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("SUMA DE n TERMINOS SERIES: i**e\n");
 			printf("===============================\n\n");
 			printf("Numero de terminos:\n");
@@ -29,8 +29,8 @@ int main(){
 				printf("%.0lf\n",calcular_suma(n,p));
 			//}
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
    fclose(f);
 	return 0;
 }

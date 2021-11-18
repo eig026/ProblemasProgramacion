@@ -23,10 +23,10 @@ int main(){
 	int n;
 
 	randomize();
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("CALCULO DE MEDIA ARITMETICA Y MEDIANA\n");
 			printf("=====================================\n\n");
-			do{	printf("\tIntroduzca nº de datos a introducir: ");
+			do{	printf("\tIntroduzca nï¿½ de datos a introducir: ");
 					scanf(" %d", &n);
 			}while((n<=0)||(n>N));
 			inicializar_vector(v,n);
@@ -39,8 +39,8 @@ int main(){
 			printf("\n\tMedia aritmetica: %.2f",calcular_media(v,n));
 			printf("\n\tMediana: %.2f",calcular_mediana(v2,n));
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

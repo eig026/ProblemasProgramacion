@@ -26,8 +26,8 @@ int main(){
 			leer_cadena(cad2,N);
 			escribir_palabras(cad1,cad2);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

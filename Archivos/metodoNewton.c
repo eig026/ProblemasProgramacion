@@ -15,7 +15,7 @@ int main(){
 	int n;
 
 	g=fopen("zz.dat","w");
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("METODO DE NEWTON PARA SOLUCION f(x)=0\n");
 			printf("=====================================\n\n");
 			printf("Introduzca valor inicial (x0): ");
@@ -23,13 +23,13 @@ int main(){
 			do{ printf("Introduzca precision: ");
 					scanf(" %lf",&h);
 			}while(h<=0);
-			do{	printf("Introduzca nº maximo de iteraciones: ");
+			do{	printf("Introduzca nï¿½ maximo de iteraciones: ");
 					scanf(" %d",&n);
 			}while(n<=0);
 			metodo_newton(f,x0,h,n);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	fclose(g);
 	return 0;
 }
@@ -60,14 +60,14 @@ void metodo_newton(double (*f)(double x),double x0,double h,int n){
 		}else sal=1;
 	}
 	if(sal){
-		printf("Encontrada derivada nula en iteracion nº: %d\n",i);
+		printf("Encontrada derivada nula en iteracion nï¿½: %d\n",i);
 		printf("Ultima aproximacion encontrada: %.6lf\n",x);
-		fprintf(g,"Encontrada derivada nula en iteracion nº: %d\n",i);
+		fprintf(g,"Encontrada derivada nula en iteracion nï¿½: %d\n",i);
 		fprintf(g,"Ultima aproximacion encontrada: %.6lf\n",x);
 	}else if (i>n){
-				printf("Excedido nº maximo de iteraciones: %d\n",n);
+				printf("Excedido nï¿½ maximo de iteraciones: %d\n",n);
 				printf("Ultima aproximacion encontrada: %.6lf\n",x);
-				fprintf(g,"Excedido nº maximo de iteraciones: %d\n",n);
+				fprintf(g,"Excedido nï¿½ maximo de iteraciones: %d\n",n);
 				fprintf(g,"Ultima aproximacion encontrada: %.6lf\n",x);
 			}else{	printf("Solucion aproximada: %.6lf",xsig);
 						fprintf(g,"Solucion aproximada: %.6lf",xsig);

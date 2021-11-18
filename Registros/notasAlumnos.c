@@ -31,7 +31,7 @@ int main(){
 
 	n=0;
 	nc=0;
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("GESTION DE NOTAS DE ALUMNOS\n");
 			printf("===========================\n\n");
 			printf("\t1.- Insertar nuevo alumno\n");
@@ -74,7 +74,7 @@ void insertar_alumno(tipo_vector v,int *n,int nc){
 		getch();
 	}
 	while((*n<N)&&(c=='S')){
-		clrscr();
+		      system("cls||clear");
 		printf("Insercion de nuevos alumnos\n");
 		printf("===========================\n\n");
 		do{ printf("\tNombre y apellidos: ");
@@ -137,8 +137,8 @@ void insertar_calificaciones(tipo_vector v,int n,int *nc){
 	int i;
 	float r;
 
-	if(*nc<NOT){ clrscr();
-					 printf("Introducir calificaciones examen nº %d\n",*nc+1);
+	if(*nc<NOT){       system("cls||clear");
+					 printf("Introducir calificaciones examen nï¿½ %d\n",*nc+1);
 					 printf("=====================================\n\n");
 					 for(i=0; i<n; ++i){
 						 printf("Alumno: %s\n",v[i].nom);
@@ -158,7 +158,7 @@ void consulta(tipo_vector v,int n, int nc){
 	int i,k;
 	char c;
 
-	do{	clrscr();
+	do{	      system("cls||clear");
 			printf("Consulta de alumnos\n");
 			printf("===================\n\n");
 			printf("Nombre y apellidos: ");
@@ -188,7 +188,7 @@ int buscar_alumno(tipo_vector v,int n,cadena20 cad){
 void listado(tipo_vector v,int n,int nc){
 	int i,j;
 
-	clrscr();
+	      system("cls||clear");
 	printf("Listado de alumnos y notas parciales\n");
 	printf("====================================\n\n");
 	printf(" %-20s", "Nombre y apellidos");
@@ -208,7 +208,7 @@ void calificacion_final(tipo_vector v,int n,int nc){
 	int i,j,cal;
 	float suma;
 
-	clrscr();
+	      system("cls||clear");
 	printf("Listado de calificacion final\n");
 	printf("=============================\n\n");
 	printf(" %-20s %-10s\n", "Nombre y apellidos","Nota final");

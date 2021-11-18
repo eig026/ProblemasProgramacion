@@ -13,7 +13,7 @@ int main(){
 	double xmin,xmax,ymin,ymax;
 	int m,n;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("INTEGRAL DOBLE\n");
 			printf("==============\n\n");
 			printf("Introduzca limites del rectangulo:\n");
@@ -27,16 +27,16 @@ int main(){
 			do{	printf("\tymax: ");
 					scanf(" %lf",&ymax);
 			}while(ymax<=ymin);
-			do{	printf("Nº de filas: ");
+			do{	printf("Nï¿½ de filas: ");
 					scanf(" %d", &m);
 			}while(m<=0);
-			do{	printf("Nº de columnas: ");
+			do{	printf("Nï¿½ de columnas: ");
 					scanf(" %d", &n);
 			}while(n<=0);
 			printf("\nVolumen encerrado: %.15f",integral_doble(f,xmin,xmax,ymin,ymax,m,n));
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

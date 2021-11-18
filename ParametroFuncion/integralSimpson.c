@@ -11,7 +11,7 @@ int main(){
 	double a,b;
 	long n;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("REGLA DE SIMPSON\n");
 			printf("================\n\n");
 			printf("\ta: ");
@@ -24,8 +24,8 @@ int main(){
 			}while(n<=0);
 			printf("\nIntegral: %.6f",integral_simpson(f,a,b,n));
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

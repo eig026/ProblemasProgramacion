@@ -19,7 +19,7 @@ int main(){
 	float a,b,c;	/* coeficientes polinomio		*/
 	float x1,x2;	/* raices de la ecuacion		*/
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("SOLUCIONES ECUACION DE SEGUNDO GRADO: A*x*x+B*x+C=0\n");
 			printf("===================================================\n\n");
 			printf("Introduzca coeficiente de x*x: ");

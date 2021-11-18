@@ -20,7 +20,7 @@ int main(){
 	int i;
 	double a,h,p,t,w,x;
 
-	do{ 	//clrscr();
+	do{ 	//      system("cls||clear");
 			printf("ANALISIS DE FOURIER MOVIMIENTO ONDULATORIO\n");
 			printf("==========================================\n\n");
 			leer_datos(&a,&h,&p,&t);
@@ -37,8 +37,8 @@ int main(){
 				  printf(" Pulso rectangular: %.0f\n",pulso_rectangular(a,h,p,t,x));
 			}while(x);*/
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

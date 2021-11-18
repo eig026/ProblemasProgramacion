@@ -51,7 +51,7 @@ void leer_cadena(char *cad, int n){
 }
 
 void leer_opcion_menu(char *c){
-	clrscr();
+	      system("cls||clear");
 	printf("OPERACIONES CON CADENAS DE CARACTERES\n");
 	printf("=====================================\n\n");
 	printf("\t1.- Extraccion de una subcadena\n");
@@ -88,7 +88,7 @@ void opcion1(void){
 	int i,pos;
 	char c;
 
-	do{	clrscr();
+	do{	      system("cls||clear");
 			printf("EXTRACCION DE SUBCADENAS\n");
 			printf("========================\n\n");
 			printf("Introduzca cadena original: ");
@@ -100,8 +100,8 @@ void opcion1(void){
 			subcadena(cad,pos,i,cad2);
 			printf("\nLa subcadena extraida es %s",cad2);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 }
 
 void opcion2(void){
@@ -109,7 +109,7 @@ void opcion2(void){
 	int pos;
 	char c;
 
-	do{	clrscr();
+	do{	      system("cls||clear");
 			printf("BUSQUEDA DE CADENA DENTRO DE OTRA\n");
 			printf("=================================\n\n");
 			printf("Introduzca cadena original: ");
@@ -121,8 +121,8 @@ void opcion2(void){
 				printf("\n\nPrimera ocurrencia: posicion=%d",pos);
 			else printf("\n\nNo se encuentra la subcadena");
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 }
 
 void opcion3(void){
@@ -130,7 +130,7 @@ void opcion3(void){
 	int pos;
 	char c;
 
-	do{	clrscr();
+	do{	      system("cls||clear");
 			printf("INSERCION DE UNA CADENA DENTRO DE OTRA\n");
 			printf("======================================\n\n");
 			printf("Introduzca cadena original: ");
@@ -142,8 +142,8 @@ void opcion3(void){
 			insertar(cad,pos,cad2);
 			printf("\nLa cadena resultante es %s",cad);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 }
 
 void opcion4(void){
@@ -151,7 +151,7 @@ void opcion4(void){
 	int i,pos;
 	char c;
 
-	do{	clrscr();
+	do{	      system("cls||clear");
 			printf("BORRADO DE PARTE DE UNA CADENA\n");
 			printf("==============================\n\n");
 			printf("Introduzca cadena original: ");
@@ -163,15 +163,15 @@ void opcion4(void){
 			borrar(cad,pos,i);
 			printf("\nLa cadena resultante es %s",cad);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 }
 
 void opcion5(void){
 	cadena cad,cad2,cad3;
 	char c;
 
-	do{	clrscr();
+	do{	      system("cls||clear");
 			printf("SUSTITUCION DE TODAS LAS OCURRENCIAS DE UNA SUBCADENA\n");
 			printf("=====================================================\n\n");
 			printf("Introduzca cadena original: ");
@@ -183,8 +183,8 @@ void opcion5(void){
 			sustituir(cad,cad2,cad3);
 			printf("\nLa cadena resultante es %s",cad);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 }
 
 void subcadena(char *c, int pos, int l, char *s){
@@ -279,4 +279,4 @@ void sustituir(char *c, char *s1, char *s2){
 		insertar(c,i,s2);
 		i=busqueda_subcadena(c,s1);
 	}
-}
+}

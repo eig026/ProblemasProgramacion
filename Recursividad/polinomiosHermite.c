@@ -22,7 +22,7 @@ int main(){
 	FILE *f;
 
 	f=fopen("xx.dat","w");
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("POLINOMIOS DE HERMITE\n");
 			printf("=====================\n\n");
 			printf("Introduzca valor de x: ");
@@ -34,8 +34,8 @@ int main(){
 				fprintf(f,"\nPolinomio nº %3d (%.2lf) = %.2lf",i,x,hermite(i,x));
 			}
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	fclose(f);
 	return 0;
 }

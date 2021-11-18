@@ -17,7 +17,7 @@ int main(){
 	int n;
    tipo_polinomio p,dp;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("DERIVACION DE POLINOMIOS\n");
 			printf("========================\n\n");
 			leer_polinomio(p,&n);
@@ -27,8 +27,8 @@ int main(){
 			printf("\nPolinomio derivado: ");
 			escribir_polinomio(dp,n);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

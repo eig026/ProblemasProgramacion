@@ -10,7 +10,7 @@ int main(){
 	char c;
 	int n;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("SUMA DE DIGITOS NUMERO ENTERO\n");
 			printf("=============================\n\n");
 			do{	printf("Introduzca numero entero positivo: ");
@@ -19,8 +19,8 @@ int main(){
 			printf("\n\nSuma digitos (version recursiva):    %d",suma1digitos(n));
 			printf("\n\nSuma digitos (version no recursiva): %d",suma2digitos(n));
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

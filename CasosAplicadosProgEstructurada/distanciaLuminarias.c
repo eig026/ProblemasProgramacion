@@ -23,7 +23,7 @@ int main(){
     int valido;
     double x;		// auxiliar (a/h,d/h)
 
-    do{ system("cls");
+    do{ system("cls||clear");
         printf("DISTANCIA ENTRE LUMINARIAS ALUMBRADO PUBLICO\n");
         printf("============================================\n\n");
 		/* Lectura de datos de entrada (I) */
@@ -124,7 +124,7 @@ int main(){
 			}
 		}
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        c=toupper(getch());
-   }while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
    return 0;
 }

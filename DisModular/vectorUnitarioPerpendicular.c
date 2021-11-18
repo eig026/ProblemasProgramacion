@@ -16,7 +16,7 @@ int main(){
 	char c;
 	float vx,vy,ux,uy;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("VECTOR UNITARIO PERPENDICULAR\n");
 			printf("=============================\n\n");
 			printf("Introduzca vector:\n");
@@ -26,7 +26,7 @@ int main(){
 			obtener_vector_perpendicular(vx,vy,&ux,&uy);
 			escribir_resultados(vx,vy,ux,uy);
 			getch();
-			clrscr();
+			      system("cls||clear");
 			printf("CALCULO DEL ANGULO ENTRE DOS VECTORES\n");
 			printf("=====================================\n\n");
 			printf("Introduzca primer vector:\n");
@@ -35,8 +35,8 @@ int main(){
 			leer_vector(&ux,&uy);
 			printf("\nEl angulo que forman es: %.2f",calcular_angulo(vx,vy,ux,uy));
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

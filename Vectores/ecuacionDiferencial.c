@@ -19,7 +19,7 @@ int main(){
 	double a,b,y0;
 	int n;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("ECUACIONES DIFERENCIALES ORDINARIAS\n");
 			printf("===================================\n\n");
 			printf("Introduzca intervalo[a,b]:\n");
@@ -30,15 +30,15 @@ int main(){
 			}while(b<=a);
 			printf("Introduzca condicion inicial y(%.2lf): ",a);
 			scanf(" %lf", &y0);
-			do{	printf("Introduzca nº de intervalos (1-%d): ",N);
+			do{	printf("Introduzca nï¿½ de intervalos (1-%d): ",N);
 					scanf(" %d", &n);
 			}while ((n<=0)&&(n>N));
 			metodo_euler(a,b,y0,n,eul);
 			metodo_runge_kutta(a,b,y0,n,rk);
 			escribir_resultados(a,b,eul,rk,n);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 
@@ -79,7 +79,7 @@ void escribir_resultados(double a,double b,tipo_vector eul,tipo_vector rk,int n)
 
 	f=fopen("xx.dat","w");
 	h=(b-a)/n;
-	clrscr();
+	      system("cls||clear");
 	printf("%-10s %-10s %-10s\n","x","y(Euler)","y(Runge-Kutta)");
 	fprintf(f,"%-10s %-10s %-10s\n","x","y(Euler)","y(Runge-Kutta)");
 	for(i=0;i<=n;++i){

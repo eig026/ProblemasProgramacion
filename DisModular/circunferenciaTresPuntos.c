@@ -19,7 +19,7 @@ int main(){
 	double x1,y1,x2,y2,x3,y3;		/* 3 puntos en el plano  */
 	double xc,yc,r;					/* centro y radio de la circunferencia */
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("Radio y centro de una circunferencia que pasa por 3 puntos\n");
 			printf("========================================================\n\n");
 			do{	printf("Introduzca coordenadas del primer punto: \n");
@@ -35,8 +35,8 @@ int main(){
 			r=calcular_radio(x1,y1,xc,yc);
 			Escribir_resultados(xc,yc,r);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

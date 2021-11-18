@@ -19,18 +19,18 @@ int main(){
 	tipo_vector v;
 
 	randomize();
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("LANZAMIENTO DE DOS MONEDAS\n");
 			printf("==========================\n\n");
-			do{ printf("Introduzca nº de lanzamientos de las dos monedas: ");
+			do{ printf("Introduzca nï¿½ de lanzamientos de las dos monedas: ");
 				 scanf(" %ld", &n);
 			}while(n<=0);
 			inicializar_vector(v);
 			simular_lanzamiento(v,n);
 			escribir_resultados(v,n);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

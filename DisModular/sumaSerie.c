@@ -23,7 +23,7 @@ int main(){
 	double x,suma;
 	int n;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("SUMA SERIE x-x**2/2+x**3/3-x**4/4...\n");
 			printf("====================================\n\n");
 			leer_numero(&x);
@@ -34,8 +34,8 @@ int main(){
 				fprintf(f,"x=%.2f   n=%d    S(x)=%.15f\n",x,n,suma);
             fclose(f);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

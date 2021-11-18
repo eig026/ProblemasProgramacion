@@ -10,7 +10,7 @@ int main(){
 	char c;
 	double a,b,base,area;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("INTEGRAL DEFINIDA EN UN INTERVALO\n");
 			printf("=================================\n\n");
 			printf("Introduzca intervalo de integracion:\n");
@@ -25,8 +25,8 @@ int main(){
 			area=integral_definida(f,a,b,base);
 			printf("\nIntegral definida: %.6lf",area);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

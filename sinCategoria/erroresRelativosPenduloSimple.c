@@ -14,7 +14,7 @@ int main(){
 	double prec,er;
 
 	f=fopen("zz.txt","w");
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("ERRORES RELATIVOS PERIODO OSCILACION PENDULO SIMPLE\n");
 			printf("===================================================\n\n");
 			do{  printf("Error relativo maximo: ");
@@ -26,8 +26,8 @@ int main(){
 			printf("\n\nLa maxima elongacion es: %.3f   Error relativo: %.5f", elongacion_maxima(prec,er),er);
 			fprintf(f,"\n\nLa maxima elongacion es: %.3f   Error relativo: %.5f", elongacion_maxima(prec,er),er);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	fclose(f);
 	return 0;
 }

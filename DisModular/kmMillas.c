@@ -17,11 +17,11 @@ void convertir_velocidad(void);
 int main(){
 	char c;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			convertir_velocidad();
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

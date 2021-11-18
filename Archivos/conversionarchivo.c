@@ -8,7 +8,7 @@
 #include <windows.h>
 #define	archivo "notas"
 
-/*** DISEÑO PRELIMINAR ***/
+/*** DISEÃ‘O PRELIMINAR ***/
 /* Nuevos tipos de datos */
 typedef char cadena50[51];
 typedef struct{
@@ -28,23 +28,23 @@ void leer_registro_archivo(FILE *f, tipo_alumno *a);
 void escribir_registro_archivo(FILE *f, tipo_alumno *a);
 void leer_cadena(char *cad, int n);
 
-/*** DISEÑO DETALLADO ***/
+/*** DISEÃ‘O DETALLADO ***/
 /* Definiciones de funciones */
 int main(){
 	char c;
 
 	/* Establecemos que vamos a usar caracteres locales */
 	setlocale(LC_CTYPE,"Spanish");
-	/* Para máquinas Windows también hay que cambiar  */
-	/* la página de códigos de la consola a la página */
-	/* de códigos ANSI (1252), ya que por defecto se  */
-	/* utiliza la página de códigos 437               */
+	/* Para mï¿½quinas Windows tambiï¿½n hay que cambiar  */
+	/* la pï¿½gina de cï¿½digos de la consola a la pï¿½gina */
+	/* de cï¿½digos ANSI (1252), ya que por defecto se  */
+	/* utiliza la pï¿½gina de cï¿½digos 437               */
 	SetConsoleCP(1252);
 	SetConsoleOutputCP(1252);
 	do{ system("cls");
 		printf("ARCHIVO BINARIO --> TEXTO\n");
 		printf("=========================\n\n");
-		printf("\t1.- Añadir registros al archivo binario\n");
+		printf("\t1.- Aï¿½adir registros al archivo binario\n");
 		printf("\t2.- Leer registros archivo binario\n");
 		printf("\t3.- Convertir binario en texto\n");
 		printf("\t4.- Fin programa\n");
@@ -67,7 +67,7 @@ int main(){
 }
 
 void anadir_binario(void){
-/* Función para añadir registros al archivo notas.bin */
+/* Funciï¿½n para aï¿½adir registros al archivo notas.bin */
 	char c;
 	FILE *f;
 	tipo_alumno alu;
@@ -99,7 +99,7 @@ void anadir_binario(void){
 }
 
 void escribir_binario(void){
-/* Función que lee el archivo binario notas.bin */
+/* Funciï¿½n que lee el archivo binario notas.bin */
 /* y lo imprime en pantalla registro a registro */
 	FILE *f;
 	tipo_alumno alu;
@@ -141,7 +141,7 @@ void escribir_registro_archivo(FILE *f, tipo_alumno *a){
 }
 
 void bin_texto(void){
-/* Función que convierte el archivo binario notas.bin */
+/* Funciï¿½n que convierte el archivo binario notas.bin */
 /* en un archivo de texto de nombre notas.txt         */
 	FILE *f,*g;
 	tipo_alumno alu;
@@ -180,7 +180,7 @@ void bin_texto(void){
 void leer_cadena(char *cad, int n){
 /* lee por teclado y devuelve una cadena de hasta n caracteres */
 /* Nota: la cadena debe preveer una posicion adicional para la */
-/* marca fin de cadena (\0) --> tamaño minimo n+1 caracteres   */
+/* marca fin de cadena (\0) --> tamaï¿½o minimo n+1 caracteres   */
     int i,fin;
     char c;
 

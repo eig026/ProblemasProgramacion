@@ -22,7 +22,7 @@ int main(){
 	char c;
 	double h,d,phoj,ppro,crep,cpro,sup,vol;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("COSTE LATA DE CONSERVAS\n");
 			printf("=======================\n\n");
 			leer_datos(&h,&d,&phoj,&ppro);
@@ -31,8 +31,8 @@ int main(){
 			calcular_costes(sup,vol,phoj,ppro,&crep,&cpro);
 			escribir_resultados(h,d,phoj,ppro,sup,vol,crep,cpro);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 
@@ -95,13 +95,13 @@ void escribir_dimensiones(double h,double d){
 }
 
 void escribir_costes_unitarios(double phoj,double ppro){
-	printf("\nCostes unitarios:  Hojalata: %10.3lf €/cm2",phoj);
-	printf("\n                   Producto: %10.3lf €/cm3",ppro);
+	printf("\nCostes unitarios:  Hojalata: %10.3lf ï¿½/cm2",phoj);
+	printf("\n                   Producto: %10.3lf ï¿½/cm3",ppro);
 }
 
 void escribir_coste_total(double sup,double vol,double crep,double cpro){
-	printf("\nCoste Total:       Hojalata: %10.2lf cm2  %10.2lf €",sup,crep);
-	printf("\n                   Producto: %10.2lf cm3  %10.2lf €",vol,cpro);
+	printf("\nCoste Total:       Hojalata: %10.2lf cm2  %10.2lf ï¿½",sup,crep);
+	printf("\n                   Producto: %10.2lf cm3  %10.2lf ï¿½",vol,cpro);
 	printf("\n                                 Total:  %10.2f",crep+cpro);
 }
 

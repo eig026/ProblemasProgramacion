@@ -27,8 +27,8 @@ int main(){
         printf("\nLongitud tramo: %.2f",longCurva(circunferenciaUnitaria,t1,t2));
         printf("\nDirectamente: %.2f",t2-t1);
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        cc=toupper(getch());
-   }while (cc!='N');
+        scanf(" %c",&cc);   
+	}while ((cc!='N') && (cc!='n'));
    return 0;
 }
 

@@ -1,4 +1,4 @@
-/* Programa para añadir, consultar y actualizar 	*/
+/* Programa para aï¿½adir, consultar y actualizar 	*/
 /* datos de nuevos materiales industriales			*/
 #include <stdio.h>
 #include <conio.h>
@@ -15,7 +15,7 @@ typedef struct{
 		double rt;		/* Resistencia a la traccion: MPa						*/
 		double me;		/* Modulo de elasticidad: MPa								*/
 		double rrp;		/* Resistencia relativa al peso (acero=1)				*/
-		double cetl;	/* Coeficiente de expansion termica lineal: 1/ºK	*/
+		double cetl;	/* Coeficiente de expansion termica lineal: 1/ï¿½K	*/
 }tipo_material;
 
 /* prototipos de funciones */
@@ -47,7 +47,7 @@ int main(){
 	char c;        		/* Opcion del menu			 	*/
 	cadena50 nombre;		/* Nombre del archivo maestro	*/
 
-	clrscr();
+	      system("cls||clear");
 	printf("PROGRAMA DE GESTION DE NUEVOS MATERIALES DE INGENIERIA:\n");
 	printf("=======================================================\n\n");
 	printf("Introduzca nombre del archivo maestro: ");
@@ -74,11 +74,11 @@ int main(){
 
 void leer_opcion_menu(char *c){
 /* Lee por teclado opcion del menu principal */
-	clrscr();
+	      system("cls||clear");
 	printf("GESTION DE NUEVOS MATERIALES INDUSTRIALES\n");
 	printf("=========================================\n\n");
 	printf("\t1.- Creacion del archivo\n");
-	printf("\t2.- Añadir nuevos materiales\n");
+	printf("\t2.- Aï¿½adir nuevos materiales\n");
 	printf("\t3.- Consulta de materiales\n");
 	printf("\t4.- Actualizacion de archivo de materiales\n");
 	printf("\t5.- Finalizar ejecucion\n");
@@ -115,7 +115,7 @@ void creacion(cadena50 nombre){
 	FILE *f;
 	char c;
 
-	clrscr();
+	      system("cls||clear");
 	printf("CREACION DEL ARCHIVO MAESTRO\n");
 	printf("============================\n\n");
 	if((f=fopen(nombre,"rb"))!=NULL){
@@ -140,7 +140,7 @@ void creacion(cadena50 nombre){
 }
 
 void anadir(cadena50 nombre){
-/* Añade datos de nuevos materiales leidos por  */
+/* Aï¿½ade datos de nuevos materiales leidos por  */
 /* teclado al final del archivo                 */
 	FILE *f;
 	tipo_material mat;
@@ -162,14 +162,14 @@ void anadir(cadena50 nombre){
 
 void leer_material(tipo_material *mat){
 /* Lee por teclado datos de un material  */
-	clrscr();
+	      system("cls||clear");
 	printf("Introduzca datos del nuevo material:\n\n");
 	leer_nombre(mat->nom);
 	leer_real_positivo("\tDensidad: ",&mat->den);
 	leer_real_positivo("\tResistencia a la traccion (MPa): ",&mat->rt);
 	leer_real_positivo("\tModulo de elasticidad (MPa): ",&mat->me);
 	leer_real_positivo("\tResistencia relativa al peso (acero=1): ",&mat->rrp);
-	leer_real_positivo("\tCoeficiente de expansion termica lineal (1/ºK): ",&mat->cetl);
+	leer_real_positivo("\tCoeficiente de expansion termica lineal (1/ï¿½K): ",&mat->cetl);
 }
 
 void leer_nombre(cadena50 nom){
@@ -196,13 +196,13 @@ void escribir_material(tipo_material mat){
 	printf("\tResistencia a la traccion (MPa): %.2lf\n",mat.rt);
 	printf("\tModulo de elasticidad (MPa): %.2lf\n",mat.me);
 	printf("\tResistencia relativa al peso (acero=1): %.2lf\n",mat.rrp);
-	printf("\tCoeficiente de expansion termica lineal (10**-6/ºK): %.2lf\n",mat.cetl*1e6);
+	printf("\tCoeficiente de expansion termica lineal (10**-6/ï¿½K): %.2lf\n",mat.cetl*1e6);
 	fprintf(f,"\tNombre: %s\n",mat.nom);
 	fprintf(f,"\tDensidad (g/cm3): %.2lf\n",mat.den);
 	fprintf(f,"\tResistencia a la traccion (MPa): %.2lf\n",mat.rt);
 	fprintf(f,"\tModulo de elasticidad (MPa): %.2lf\n",mat.me);
 	fprintf(f,"\tResistencia relativa al peso (acero=1): %.2lf\n",mat.rrp);
-	fprintf(f,"\tCoeficiente de expansion termica lineal (10**-6/ºK): %.2lf\n",mat.cetl*1e6);
+	fprintf(f,"\tCoeficiente de expansion termica lineal (10**-6/ï¿½K): %.2lf\n",mat.cetl*1e6);
    fclose(f);
 }
 
@@ -211,7 +211,7 @@ void consulta(cadena50 nombre){
 /* lee la opcion y ejecuta la accion correspondiente */
 	char c;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("CONSULTA DE NUEVOS MATERIALES\n");
 			printf("=============================\n\n");
 			printf("\t1.- De un material individual\n");
@@ -248,7 +248,7 @@ void c_individual(cadena50 nombre){
 	int enc1;				/* Verdadero: hay al menos 1 ocurrencia */
 	char c;
 
-	do{	clrscr();
+	do{	      system("cls||clear");
 			printf("CONSULTA INDIVIDUAL DE MATERIALES\n");
 			printf("=================================\n\n");
 			if ((f=fopen(nombre,"rb"))==NULL){
@@ -297,7 +297,7 @@ void c_secuencial(cadena50 nombre){
 	char c;
 	int n;
 
-	clrscr();
+	      system("cls||clear");
 	printf("LISTADO DE MATERIALES\n");
 	printf("=====================\n");
 	if ((f=fopen(nombre,"rb"))==NULL){
@@ -307,8 +307,8 @@ void c_secuencial(cadena50 nombre){
 				n=1;
 				fread(&mat,sizeof(mat),1,f);
 				while((!feof(f))&&(c!='F')){
-					 clrscr();
-					 printf("Material nº %d\n\n",n);
+					       system("cls||clear");
+					 printf("Material nï¿½ %d\n\n",n);
 					 escribir_material(mat);
 					 fread(&mat,sizeof(mat),1,f);
 					 printf("\nPulse cualquier tecla para continuar (F=Finalizar)\n");
@@ -334,7 +334,7 @@ void listado_selectivo(cadena50 nombre){
 	FILE *f;
 	tipo_material mat;
 
-	clrscr();
+	      system("cls||clear");
 	printf("LISTADO SELECTIVO DE MATERIALES\n");
 	printf("===============================\n\nn");
 	if((f=fopen(nombre,"rb"))==NULL){
@@ -369,7 +369,7 @@ void actualizacion(cadena50 nombre){
 	tipo_material mat;
 	char c;
 
-	clrscr();
+	      system("cls||clear");
 	printf("ACTUALIZACION DEL ARCHIVO DE MATERIALES\n");
 	printf("=======================================\n\n");
 	do{	printf("Introduzca nombre maestro historico: ");
@@ -390,7 +390,7 @@ void actualizacion(cadena50 nombre){
 				g=fopen(nom_hist,"rb");
 				fread(&mat,sizeof(mat),1,g);
 				while(!feof(g)){
-					clrscr();
+					      system("cls||clear");
 					escribir_material(mat);
 					leer_opcion_modificacion(&c);
 					if(c!='3'){
@@ -421,7 +421,7 @@ void modificar_material(tipo_material *mat){
 /* la modificacion de cualquier dato  */
 	char c;
 
-	do{	clrscr();
+	do{	      system("cls||clear");
 			printf("Modificacion de datos del material:\n");
 			printf("==================================\n\n");
 			escribir_material(*mat);
@@ -439,7 +439,7 @@ void modificar_material(tipo_material *mat){
 							break;
 			case 'P':	leer_real_positivo("\tResistencia relativa al peso (acero=1): ",&mat->rrp);
 							break;
-			case 'C':	leer_real_positivo("\tCoeficiente de expansion termica lineal (mm/ºK): ",&mat->cetl);
+			case 'C':	leer_real_positivo("\tCoeficiente de expansion termica lineal (mm/ï¿½K): ",&mat->cetl);
 							break;
 			}
 	}while(c!='T');

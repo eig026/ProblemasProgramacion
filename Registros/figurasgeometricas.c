@@ -36,8 +36,8 @@ int main(){
 			leer_figura(&fig);
 			printf("\nEl area vale: %.2lf",calcular_area(fig));
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

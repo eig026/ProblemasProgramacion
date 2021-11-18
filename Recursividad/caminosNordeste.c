@@ -18,8 +18,8 @@ int main(){
 			scanf(" %d,%d",&x2,&y2);
 			printf("Numero de caminos nordeste: %ld",caminos_NE(x1,y1,x2,y2));
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

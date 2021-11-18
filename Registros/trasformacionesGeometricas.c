@@ -44,20 +44,20 @@ int main(){
 	tipo_matriz m;
 	tipo_transformacion t;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("TRANSFORMACIONES GEOMETRICAS 2D BASICAS\n");
 			printf("=======================================\n\n");
 			leer_transformacion(&t);
 			construir_matriz_transformacion(t,m);
 			escribir_matriz(m);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 
 void leer_transformacion(tipo_transformacion *t){
-	clrscr();
+	      system("cls||clear");
 	do{	printf("Tipos de transformaciones geometricas basicas:\n");
 			printf("\tT: Traslacion:\n");
 			printf("\tR: Rotacion\n");
@@ -83,7 +83,7 @@ void leer_traslacion(double *tx,double *ty){
 }
 
 void leer_rotacion(double *zeta){
-	do{	printf("\n\tAngulo de rotacion (0-360º): ");
+	do{	printf("\n\tAngulo de rotacion (0-360ï¿½): ");
 			scanf(" %lf",zeta);
 	}while((*zeta<0)||(*zeta>360));
 }
@@ -128,7 +128,7 @@ void construir_escalado(double sx,double sy,tipo_matriz m){
 
 void escribir_matriz(tipo_matriz m){
 	int i,j;
-	clrscr();
+	      system("cls||clear");
 	printf("Matriz de la transformacion:\n\n");
 	for(i=0;i<N;++i){
 		for(j=0;j<N;++j)

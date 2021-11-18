@@ -13,7 +13,7 @@ int main(){
 	double z0,z1,z2;	// Raices ecuación reducida
 	int n;				// Número de raices reales
 	
-    do{ system("cls");
+    do{ system("cls||clear");
         printf("ECUACION CUBICA: A*x3+B*x2+C*x+D=0\n");
         printf("==================================\n\n");
         /* Lectura de coeficientes de ecuación cúbica */
@@ -80,8 +80,8 @@ int main(){
 				break;
 		}
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        cc=toupper(getch());
-   }while (cc!='N');
+		scanf(" %c",&cc);   
+	}while ((cc!='N') && (cc!='n'));
    return 0;
 }
 

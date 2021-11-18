@@ -10,7 +10,7 @@ int main(){
 	FILE *f;
 
 	f=fopen("zz.z","w");
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("POSICION Y VELOCIDAD - CAIDA DE OBJETOS\n");
 			printf("=======================================\n\n");
 			do{	printf("Introduzca altura de caida (m): ");
@@ -43,8 +43,8 @@ int main(){
 			printf("%10.2f %11.2f %14.2f\n",t,y,v);
          fprintf(f,"%10.2f %11.2f %14.2f\n",t,y,v);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
    fclose(f);
 	return 0;
-}
+}

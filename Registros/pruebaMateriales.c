@@ -27,7 +27,7 @@ int main(){
 	tipo_vector v;
 
 	n=0;
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("PRUEBAS DE MATERIALES\n");
 			printf("=====================\n\n");
 			printf("\t1.- Introducir nueva prueba\n");
@@ -54,11 +54,11 @@ int main(){
 }
 
 void introducir_prueba(tipo_vector v,int *n){
-	clrscr();
+	      system("cls||clear");
 	printf("ALTA DE NUEVAS PRUEBAS\n");
 	printf("======================\n\n");
 	if(*n<MAX){
-		printf("Prueba nº %d\n",*n+1);
+		printf("Prueba nï¿½ %d\n",*n+1);
 		printf("\tIntroduzca nombre de material: ");
 		scanf(" %s", v[*n].mat);
 		printf("\tIntroduzca nombre de fabricante: ");
@@ -84,7 +84,7 @@ void introducir_prueba(tipo_vector v,int *n){
 void listar_pruebas(tipo_vector v,int n){
 	int i;
 
-	clrscr();
+	      system("cls||clear");
 	printf("LISTADO DE TODAS LAS PRUEBAS:\n");
 	printf("============================\n\n");
 	printf("%-10s %-10s %10s %10s %10s %10s\n","Material","Fabricante","Densidad","Dureza","Res.Tracc.","Mod.Elast.");
@@ -100,11 +100,11 @@ void listar_fabricantes(tipo_vector v, int n){
 	int i,j,enc;
 	int cont,total;
 
-	clrscr();
+	      system("cls||clear");
 	total=0;
 	printf("LISTADO DE FABRICANTES:\n");
 	printf("=======================\n\n");
-	printf("%-10s %10s\n","Fabricante","Nº pruebas");
+	printf("%-10s %10s\n","Fabricante","Nï¿½ pruebas");
 	printf("%-10s %10s\n","----------","----------");
 	for(i=0;i<n;++i){
 		enc=0;

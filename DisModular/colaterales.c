@@ -45,8 +45,8 @@ int main(){
 			r=calcular_radio(x1,y1,xc,yc);
 			Escribir_resultados(xc,yc,r);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

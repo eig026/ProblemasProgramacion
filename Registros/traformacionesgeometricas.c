@@ -46,8 +46,8 @@ int main(){
 			construir_matriz_transformacion(t,m);
 			escribir_matriz(m);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 
@@ -78,7 +78,7 @@ void leer_traslacion(double *tx,double *ty){
 }
 
 void leer_rotacion(double *zeta){
-	do{	printf("\n\tAngulo de rotacion (0-360º): ");
+	do{	printf("\n\tAngulo de rotacion (0-360ï¿½): ");
 			scanf(" %lf",zeta);
 	}while((*zeta<0)||(*zeta>360));
 }

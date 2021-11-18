@@ -16,10 +16,10 @@ int main(){
 	do{
 			printf("PATRON DE RAYAS DIAGONALES\n");
 			printf("==========================\n\n");
-			do{  printf("Introduzca nº de filas: ");
+			do{  printf("Introduzca nï¿½ de filas: ");
 				  scanf(" %d", &nf);
 			}while((nf<=0)||(nf>MAXF));
-			do{  printf("Introduzca nº de columnas: ");
+			do{  printf("Introduzca nï¿½ de columnas: ");
 				  scanf(" %d", &nc);
 			}while((nf<=0)||(nf>MAXC));
 			do{  printf("Introduzca separacion lineas: ");
@@ -27,8 +27,8 @@ int main(){
 			}while(d<0);
 			dibujar_patron_rayas_diagonales(nf,nc,d);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

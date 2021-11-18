@@ -13,20 +13,20 @@ int main(){
 	FILE *f;
 
 	f=fopen("xx.dat","w");
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("POLINOMIOS DE LEGENDRE\n");
 			printf("======================\n\n");
 			printf("Introduzca valor de x: ");
 			scanf(" %lf", &x);
-			printf("Introduzca nº de polinomios:\n");
+			printf("Introduzca nï¿½ de polinomios:\n");
 			leer_entero_positivo(&n);
 			for(i=0;i<=n;++i){
-				printf("\nPolinomio nº %3d (%.2lf) = %.2lf",i,x,legendre(i,x));
-				fprintf(f,"\nPolinomio nº %3d (%.2lf) = %.2lf",i,x,legendre(i,x));
+				printf("\nPolinomio nï¿½ %3d (%.2lf) = %.2lf",i,x,legendre(i,x));
+				fprintf(f,"\nPolinomio nï¿½ %3d (%.2lf) = %.2lf",i,x,legendre(i,x));
 			}
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
    fclose(f);
 	return 0;
 }

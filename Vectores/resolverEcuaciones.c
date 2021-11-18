@@ -23,20 +23,20 @@ int main(){
 	tipo_matriz a;		/* matriz de coeficientes + terminos independientes	*/
 	int i;				/* 1: sistema compatible determinado	*/
 							/* 0: sistema compatible indeterminado o incompatible */
-	int n;				/* nº de ecuaciones							*/
-	int m;				/* nº de incognitas							*/
+	int n;				/* nï¿½ de ecuaciones							*/
+	int m;				/* nï¿½ de incognitas							*/
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("RESOLUCION SISTEMA DE n ECUACIONES CON m INCOGNITAS\n");
 			printf("===================================================\n\n");
 			printf("\ta[1,1] * x[1] + a[1,2] * x[2] + ... + a[1,m] *x[m] = c[1]\n");
 			printf("\ta[2,1] * x[1] + a[2,2] * x[2] + ... + a[2,m] *x[m] = c[2]\n");
 			printf("\t ....\n");
 			printf("\ta[n,1] * x[1] + a[n,2] * x[2] + ... + a[n,m] *x[m] = c[n]\n\n");
-			do{	printf("Introduzca nº de ecuaciones: ");
+			do{	printf("Introduzca nï¿½ de ecuaciones: ");
 					scanf(" %d", &n);
 			}while((n<=0)||(n>MAX));
-			do{	printf("Introduzca nº de incognitas: ");
+			do{	printf("Introduzca nï¿½ de incognitas: ");
 					scanf(" %d", &m);
 			}while((m<=0)||(m>MAX));
 			printf("Introduzca coeficientes de variables: \n");

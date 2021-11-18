@@ -20,7 +20,7 @@ int main(){
 	float x,y,z;
 	float r, zeta, fi;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("COORDENADAS CARTESIANAS --> ESFERICAS\n");
 			printf("=====================================\n\n");
 			printf("Introduzca coordenadas cartesianas:\n");
@@ -36,8 +36,8 @@ int main(){
 			printf("\tzeta=%10.2f\n",zeta);
 			printf("\tfi=  %10.2f\n",fi);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

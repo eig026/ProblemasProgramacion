@@ -5,7 +5,7 @@
 #include <math.h>
 #define N 1000
 
-/* Diseño preliminar */
+/* Diseï¿½o preliminar */
 /* Nuevos tipos de datos */
 typedef int tipo_vector[N];
 
@@ -14,7 +14,7 @@ void inicializar_vector(tipo_vector v, int n);
 void criba_erastotenes(tipo_vector v, int n);
 void escribir_primos(tipo_vector v, int n);
 
-/* Diseño Detallado */
+/* Diseï¿½o Detallado */
 /* Definiciones de funciones */
 int main(){
 	char c;
@@ -24,15 +24,15 @@ int main(){
 	do{ 	system("cls");
 			printf("CRIBA DE ERASTOTENES\n");
 			printf("====================\n\n");
-			do{	printf("Introduzca nº entero (1-%d): ",N);
+			do{	printf("Introduzca nï¿½ entero (1-%d): ",N);
 					scanf(" %d", &n);
 			}while(n<=0);
 			inicializar_vector(v,n);
 			criba_erastotenes(v,n);
 			escribir_primos(v,n);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

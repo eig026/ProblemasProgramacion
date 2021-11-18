@@ -21,7 +21,7 @@ void resumen_anual(FILE *f,int j,double sumac,double sumai,double totalc,double 
 int main(){
 	char c;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("ASESORAMIENTO PRESTAMOS HIPOTECARIOS\n");
 			printf("====================================\n\n");
 			leer_opcion(&c);
@@ -57,7 +57,7 @@ void analisis(void){
 	int na;
 	char tc;
 
-	clrscr();
+	      system("cls||clear");
 	printf("Datos del prestamo:\n");
 	printf("===================\n\n");
 	leer_datos(&c,&na,&tc,&ia);
@@ -84,7 +84,7 @@ void leer_capital(double *c){
 }
 
 void leer_annos(int *na){
-	do{	printf("\tNumero de años: ");
+	do{	printf("\tNumero de aï¿½os: ");
 			scanf(" %d", na);
 	}while((*na<1)||(*na>50));
 }
@@ -168,26 +168,26 @@ void tabla_amortizacion(double c,int na,char tc,double ia){
 }
 
 void cabecera(FILE *f,double c,double ia,int na,int n){
-	clrscr();
+	      system("cls||clear");
 	printf("\t\tCapital:         %10.2f\n",c);
 	printf("\t\tInteres anual:   %10.2f %%\n",ia);
-	printf("\t\tNumero años:     %7d\n",na);
+	printf("\t\tNumero aï¿½os:     %7d\n",na);
 	printf("\t\tNumero plazos:   %7d\n\n",n);
-	printf("Nº plazo      Cuota  Cap_amort  Intereses Cap_pendiente\n");
+	printf("Nï¿½ plazo      Cuota  Cap_amort  Intereses Cap_pendiente\n");
 	fprintf(f,"\t\tCapital:         %10.2f\n",c);
 	fprintf(f,"\t\tInteres anual:   %10.2f %%\n",ia);
-	fprintf(f,"\t\tNumero años:     %7d\n",na);
+	fprintf(f,"\t\tNumero aï¿½os:     %7d\n",na);
 	fprintf(f,"\t\tNumero plazos:   %7d\n\n",n);
-	fprintf(f,"Nº plazo      Cuota  Cap_amort  Intereses Cap_pendiente\n");
+	fprintf(f,"Nï¿½ plazo      Cuota  Cap_amort  Intereses Cap_pendiente\n");
 }
 
 void resumen_anual(FILE *f,int j,double sumac,double sumai,double totalc,double totali){
-	printf("\n\tAño nº: %d\n",j);
+	printf("\n\tAï¿½o nï¿½: %d\n",j);
 	printf("\t\tCapital amortizado: %10.2f\n",sumac);
 	printf("\t\tintereses pagados:  %10.2f\n",sumai);
 	printf("\tCapital total amortizado:   %10.2f\n",totalc);
 	printf("\tIntereses totales pagados:  %10.2f\n",totali);
-	fprintf(f,"\n\tAño nº: %d\n",j);
+	fprintf(f,"\n\tAï¿½o nï¿½: %d\n",j);
 	fprintf(f,"\t\tCapital amortizado: %10.2f\n",sumac);
 	fprintf(f,"\t\tintereses pagados:  %10.2f\n",sumai);
 	fprintf(f,"\tCapital total amortizado:   %10.2f\n",totalc);

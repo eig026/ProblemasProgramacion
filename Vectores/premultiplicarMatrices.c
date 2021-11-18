@@ -17,7 +17,7 @@ int main(){
 	char cc;
 	tipo_matriz a,b,c;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("PRE-MULTIPLICACION DE MATRICES\n");
 			printf("==============================\n\n");
 			printf("Introduzca primera matriz: \n");

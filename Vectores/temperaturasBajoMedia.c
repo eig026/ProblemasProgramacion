@@ -17,15 +17,15 @@ int main(){
 	float media;
    tipo_vector v;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("TEMPERATURAS POR DEBAJO DE LA MEDIA\n");
 			printf("===================================\n\n");
 			leer_vector(v);
 			media=calcular_media(v);
 			escribir_inferior_media(media,v);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

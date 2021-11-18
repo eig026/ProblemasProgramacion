@@ -24,7 +24,7 @@ int main(){
 	double x;
 	int n,d;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("RAIZ n-esima DE UN NUMERO REAL\n");
 			printf("==============================\n\n");
 			do{ 	printf("Introduzca un numero real positivo: ");
@@ -37,8 +37,8 @@ int main(){
 			printf("\Raiz: %.10lf\n\n",calcular_raiz_n(x,n,d+1));
 			escribir_real(calcular_raiz_n(x,n,d+1),d);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

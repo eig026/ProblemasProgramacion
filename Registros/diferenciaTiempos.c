@@ -23,7 +23,7 @@ int main(){
 	char c;
 	tipo_tiempo t1,t2,t;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("DIFERENCIA DE DOS TIEMPOS\n");
 			printf("=========================\n\n");
 			printf("Introduzca instante de tiempo inicial:\n");
@@ -40,8 +40,8 @@ int main(){
 			printf("\nTiempo transcurrido: ");
 			escribir_tiempo(t);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

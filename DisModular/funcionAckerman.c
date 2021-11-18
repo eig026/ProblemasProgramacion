@@ -10,7 +10,7 @@ int main(){
 	char c;
 	int n,m;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("FUNCION DE ACKERMANN A(m,n)\n");
 			printf("=========================\n\n");
 			printf("Introduzca valor de m:\n");
@@ -19,8 +19,8 @@ int main(){
 			leer_entero_no_negativo(&n);
 			printf("\n\nAckermann(%d,%d) = %d",m,n,ackermann(m,n));
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

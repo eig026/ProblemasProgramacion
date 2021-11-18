@@ -17,15 +17,15 @@ int main(){
 	cadena50 cad;			/* cadena */
 	char c;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("LONGITUD DE UNA CADENA DE CARACTERES\n");
 			printf("======================================\n\n");
 			printf("Introduzca cadena: ");
 			leer_cadena(cad,N);
 			printf("\nLongitud: %d",longitud_cadena(cad));
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

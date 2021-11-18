@@ -28,7 +28,7 @@ int main(){
 	tipo_conjunto_piezas cp;
 
 	randomize();
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("GESTION DE PIEZAS RECTANGULARES\n");
 			printf("===============================\n\n");
 			printf("\t1.- Insertar nueva pieza\n");
@@ -57,7 +57,7 @@ int main(){
 void leer_pieza(tipo_conjunto_piezas *cp){
 	char c;
 
-	do{	clrscr();
+	do{	      system("cls||clear");
 			printf("INSERCION DE PIEZAS PLANAS RECTANGULARES\n");
 			printf("========================================\n\n");
 			if(cp->n==MAX){
@@ -88,7 +88,7 @@ void leer_piezas(tipo_conjunto_piezas *cp){
 void escribir_piezas(tipo_conjunto_piezas cp){
 	int i;
 
-	clrscr();
+	      system("cls||clear");
 	printf("LISTADO DE PIEZAS DEL CONJUNTO\n");
    printf("==============================\n\n");
 	printf("\n\n");
@@ -109,8 +109,8 @@ void eliminar_piezas(tipo_conjunto_piezas *cp){
 
 	j=0;
 	i=0;
-	clrscr();
-	printf("ELIMINACION DE PIEZAS NO CUADRADAS PEQUEÑAS\n");
+	      system("cls||clear");
+	printf("ELIMINACION DE PIEZAS NO CUADRADAS PEQUEï¿½AS\n");
 	printf("===========================================\n\n");
 	printf("Introduzca area minima: ");
 	scanf(" %f",&area);

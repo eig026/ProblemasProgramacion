@@ -21,7 +21,7 @@ int main(){
 	cadena100 cad;			/* cadena resultante		*/
 	char c;
 
-	do{ 	//clrscr();
+	do{ 	//      system("cls||clear");
 	        system("cls");
 			printf("INTERCALACION DE CADENAS DE CARACTERES\n");
 			printf("======================================\n\n");
@@ -32,8 +32,8 @@ int main(){
 			intercalar_cadenas(cad1,cad2,cad);
 			printf("\nCadena resultante: %s",cad);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

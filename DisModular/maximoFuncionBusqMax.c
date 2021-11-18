@@ -20,7 +20,7 @@ int main(){
 	char c;
 	double a,b,xmax,ymax;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("BUSQUEDA DEL MAXINO DE UNA FUNCION EN UN INTERVALO\n");
 			printf("==================================================\n\n");
 			leer_extremos_intervalo(&a,&b);
@@ -28,8 +28,8 @@ int main(){
 			ymax=f(xmax);
 			printf("\nxmax=%10.5lf   ymax==%10.5lf",xmax,ymax);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
    return 0;
 }
 

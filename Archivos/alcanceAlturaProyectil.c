@@ -10,7 +10,7 @@ int main(){
 	FILE *f;
 
 	f=fopen("zz.dat","w");
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("ALCANCE Y ALTURA DE UN PROYECTIL\n");
 			printf("================================\n\n");
 			do{	printf("Introduzca velocidad inicial: ");
@@ -31,8 +31,8 @@ int main(){
 				ang+=10;
 			}
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
    fclose(f);
 	return 0;
-}
+}

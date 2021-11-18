@@ -31,7 +31,7 @@ int main(){
 	double masa,xcm,ycm,ix,iy;
 	int m,n;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("CALCULOS DE MASA, CENTRO DE MASA Y MOMENTOS DE INERCIA\n");
 			printf("======================================================\n\n");
 			printf("Introduzca medidas del rectangulo:\n");
@@ -41,18 +41,18 @@ int main(){
 			do{	printf("\talto: ");
 					scanf(" %lf",&alto);
 			}while(alto<=0);
-			/*do{	printf("Nº de filas: ");
+			/*do{	printf("Nï¿½ de filas: ");
 					scanf(" %d", &m);
 			}while(m<=0);
-			do{	printf("Nº de columnas: ");
+			do{	printf("Nï¿½ de columnas: ");
 					scanf(" %d", &n);
 			}while(n<=0);*/
 			realizar_calculos(densidad1,ancho,alto,&masa,&xcm,&ycm,&ix,&iy);
 			printf("\nPieza Ancho(m)  Alto(m)  Masa (Kg) (xcm,ycm)   Ix		Iy\n");
 			escribir_resultados("A",ancho,alto,masa,xcm,ycm,ix,iy);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

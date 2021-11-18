@@ -24,7 +24,7 @@ int main(){
     char c;
     double a,b,x,area;
 
-    do{ system("cls");
+    do{  system("cls||clear");
         printf("TRIANGULO DE AREA MAXIMA\n");
         printf("========================\n");
         /* Pruebas ejercicio 2.1 */
@@ -63,8 +63,8 @@ int main(){
 			printf("\n");
 		}
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        c=toupper(getch());
-   }while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
    return 0;
 }
 

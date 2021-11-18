@@ -29,8 +29,8 @@ int main(){
 			scanf(" %d", &e);
 			printf("\nPotencia: %.1f ** %d = %.4f",b,e,potencia(b,e));
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

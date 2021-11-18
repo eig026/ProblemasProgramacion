@@ -16,15 +16,15 @@ void escribir_tabla(double (*f)(double x),double xizq, double xder, double paso,
 int main(){
 	char c;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("CURVATURAS EN INTERVALO\n");
 			printf("=======================\n\n");
 			escribir_tabla(f1,0,10,1,1e-6);
 			getch();
 			escribir_tabla(f2,-10,10,2,1e-6);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+            scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 
@@ -65,7 +65,7 @@ void escribir_tabla(double (*f)(double x),double xizq, double xder, double paso,
 	FILE *archivo;
 
 	archivo=fopen("zz.dat","a");
-	clrscr();
+	      system("cls||clear");
 	printf("CURVATURAS:\n");
 	printf("==========\n\n");
 	printf("%15s %15s %15s %15s\n","x","curvatura","derivada1","derivada2");

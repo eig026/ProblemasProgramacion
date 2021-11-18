@@ -15,7 +15,7 @@ int main(){
 	FILE *ff;
 
 	ff=fopen("xx.dat","w");
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("DERIVACION NUMERICA\n");
 			printf("===================\n\n");
 			printf("Prueba derivacion numerica de funcion: x**3-3*x**2+5\n");
@@ -46,8 +46,8 @@ int main(){
 				h=h/10;
 			}
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	fclose(ff);
 	return 0;
 }

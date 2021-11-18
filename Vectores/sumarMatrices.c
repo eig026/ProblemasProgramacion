@@ -22,7 +22,7 @@ int main(){
 	tipo_matriz a,b,c;
 	int f1,c1,f2,c2,f3,c3;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("SUMA Y PRODUCTO DE MATRICES\n");
 			printf("===========================\n\n");
 			printf("Introduzca primera matriz: \n");

@@ -37,8 +37,8 @@ int main(){
 			n=calcular_dias_entre_fechas(d1,m1,a1,d2,m2,a2);
 			escribir_resultados(d1,m1,a1,d2,m2,a2,n);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

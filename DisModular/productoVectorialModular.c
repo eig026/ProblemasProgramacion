@@ -32,15 +32,15 @@ int main(){
 	float cx,cy,cz;
 	float dx,dy,dz;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("CALCULO EXPRESION D=A^(B^C)\n");
 			printf("===========================\n\n");
 			leer_datos(&ax,&ay,&az,&bx,&by,&bz,&cx,&cy,&cz);
 			calcular_expresion(ax,ay,az,bx,by,bz,cx,cy,cz,&dx,&dy,&dz);
 			escribir_resultados(dx,dy,dz);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

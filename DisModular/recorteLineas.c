@@ -29,7 +29,7 @@ int main(){
 	float xmin,xmax,ymin,ymax;
 	float x1,y1,x2,y2;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("RECORTE DE LINEAS DE COHEN-SUTHERLAND\n");
 			printf("=====================================\n\n");
 			leer_datos(&xmin,&xmax,&ymin,&ymax,&x1,&y1,&x2,&y2);
@@ -41,8 +41,8 @@ int main(){
 				printf("\tLinea recortada completamente\n");
 			}
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

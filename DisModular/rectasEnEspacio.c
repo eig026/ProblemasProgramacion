@@ -55,8 +55,8 @@ int main(){
 			d=calcular_distancia_minima(x1,y1,z1,x2,y2,z2,x3,y3,z3,x4,y4,z4,&tipo);
 			escribir_resultados(d,tipo);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

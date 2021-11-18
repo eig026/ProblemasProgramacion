@@ -17,7 +17,7 @@ int main(){
 	cadena50 cad;
 	char c;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("INVERSION DE CADENAS DE CARACTERES\n");
 			printf("==================================\n\n");
 			printf("Introduzca cadena: ");
@@ -25,8 +25,8 @@ int main(){
 			invertir_cadena(cad);
 			printf("\nCadena resultante: %s",cad);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+		scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

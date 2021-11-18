@@ -17,13 +17,13 @@ double f2(double x, double y, double z);
 int main(){
 	char c;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("GRADIENTE\n");
 			printf("=========\n\n");
 
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

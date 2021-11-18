@@ -18,7 +18,7 @@ int main(){
 	char c;
 	float m,a,b,h;
 
-	do{ 	clrscr();
+	do{ 	      system("cls||clear");
 			printf("MOMENTO DE INERCIA DE UN CILINDRO HUECO\n");
 			printf("=======================================\n\n");
 			do{ printf("Introduzca masa (kg): ");
@@ -42,8 +42,8 @@ int main(){
 			}while((c!='C')&&(c!='P')&&(c!='D'));
 			printf("\n\nMomento de inercia= %.4f kg/m2",momento_inercia(m,a,b,h,c));
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 

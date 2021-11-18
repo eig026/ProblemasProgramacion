@@ -39,8 +39,8 @@ int main(){
 			printf("\nPolinomio derivado: ");
 			escribir_polinomio(pd,nd);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c=toupper(getch());
-	}while (c!='N');
+scanf(" %c",&c);   
+	}while ((c!='N') && (c!='n'));
 	return 0;
 }
 
