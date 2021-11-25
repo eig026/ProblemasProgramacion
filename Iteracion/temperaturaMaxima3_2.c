@@ -9,7 +9,6 @@
 /* El numero de datos no es conocido a priori      */
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <ctype.h>
 #define TFIN -999.0  /* valor centinela: termina E datos */
 

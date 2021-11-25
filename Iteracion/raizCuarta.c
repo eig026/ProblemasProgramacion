@@ -9,7 +9,6 @@
 /* Programa que calcula x**0.25 */
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <ctype.h>
 #define MAX 10   /* Numero maximo de cifras decimales */
 

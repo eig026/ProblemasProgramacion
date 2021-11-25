@@ -9,7 +9,6 @@
 /* por teclado. Finaliza la entrada con una fuerza nula */
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <ctype.h>
 
 int main(){
