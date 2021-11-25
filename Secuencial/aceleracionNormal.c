@@ -24,7 +24,7 @@ int main(){
 		printf("Introduzca radio de la trayectoria (m): ");
 		scanf(" %f",&r);
 		an=va*va*r;
-		printf("\nLaaceleracion normal vale: %.2f m/sg2",an);
+		printf("\nLa aceleracion normal vale: %.2f m/sg2",an);
 	    printf("\nDesea efectuar una nueva operacion (S/N)? ");
 		scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
