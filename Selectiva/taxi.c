@@ -9,7 +9,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 #define FIJO 30
@@ -38,7 +37,7 @@ int main(){
 			printf("\nTotal a pagar: %.1f",total);
 		}
 		printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		  scanf(" %c",&c);   
+		scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
    return 0;
 }

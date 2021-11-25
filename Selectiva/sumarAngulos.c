@@ -9,7 +9,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -58,7 +57,7 @@ int main(){
 		printf("      ====       ====        ====\n");
 		printf("%10d grados %3d minutos %3d segundos\n",g,m,s);
 		printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		  scanf(" %c",&c);   
+		scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
 	return 0;
 }

@@ -9,7 +9,6 @@
  
 #include <stdlib.h>
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -146,7 +145,7 @@ int main(){
 		        break;
 		}
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        cc=toupper(getch());
+         scanf(" %c",&cc); 
    }while (cc!='N');
    return 0;
 }

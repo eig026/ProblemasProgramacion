@@ -9,7 +9,6 @@
 /* se introduce por teclado                   */
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <ctype.h>
 
 int main(){
@@ -19,7 +18,7 @@ int main(){
     double suma;   /* valor de la suma        */
     double p;      /* potencia: 1/2**i        */
 
-    do{ system("cls||clear");
+    do{  system("cls||clear");
         printf("SUMATORIA DE i/2**i\n");
         printf("===================\n\n");
         do{ printf("Introduzca numero de sumandos: ");

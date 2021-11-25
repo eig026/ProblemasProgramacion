@@ -9,7 +9,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -23,7 +22,7 @@ int main(){
 	do{	system("cls||clear");
 		printf("CENTROIDE DE UN POLIGONO REGULAR\n");
 		printf("================================\n\n");
-		do{	printf("Introduzca nº de lados: ");
+		do{	printf("Introduzca numero de lados: ");
 			scanf(" %d", &n);
 		}while(n<3);
 		suma=sumax=sumay=0;

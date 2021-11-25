@@ -8,7 +8,6 @@
 
 
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #define MAX 20
 

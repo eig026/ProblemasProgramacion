@@ -4,12 +4,11 @@
  * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
  * @date 2021-02-06
 
-
+*/
 
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <ctype.h>
 
 int main(){

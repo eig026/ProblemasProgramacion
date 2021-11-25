@@ -10,7 +10,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <conio.h>
 #include <ctype.h>
 
 int main(){
@@ -44,7 +43,7 @@ int main(){
               }
         }
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		  scanf(" %c",&c1);   
+		scanf(" %c",&c1);   
 	}while ((c1!='N') && (c1!='n'));
     return 0;
 }

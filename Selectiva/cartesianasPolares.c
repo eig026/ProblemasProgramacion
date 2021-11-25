@@ -9,7 +9,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -37,7 +36,7 @@ int main(){
 		a=180*a/M_PI;
 		printf("\nCoordenadas polares: r=%.3f, ang=%.1f grados", r, a);
 		printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		  scanf(" %c",&c);   
+		scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
    return 0;
 }

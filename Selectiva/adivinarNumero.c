@@ -9,7 +9,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -21,7 +20,7 @@ int main(){
 		printf("ADIVINAR NUMERO DE UN DIGITO\n");
 		printf("============================\n\n");
 		do{	printf("Introduzca P (par) o I (impar): ");
-			c=toupper(getche());
+			scanf(" %c", &c);
 			printf("\n");
 		}while((c!='P')&&(c!='I'));
 		do{	printf("Introduzca resto de division entre 5: ");
