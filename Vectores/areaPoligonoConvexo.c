@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <string.h>
 #include <math.h>
@@ -52,7 +51,7 @@ int main(){
 							}else	printf("\nPoligono irregular (tiene aristas que intersectan)");
 					}
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-scanf(" %c",&c);   
+			scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
 	return 0;
 }
@@ -225,4 +224,3 @@ int interseccion_lineas(tipo_punto2d p1, tipo_punto2d p2,
 				else return 1; 	//printf("\nLos segmentos de linea no se cortan");
 	}
 }
-

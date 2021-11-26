@@ -96,4 +96,4 @@ double calcular_mediana(tipo_vector v, int n){
 	if(n%2)
 		return v[n/2];
 	else return(v[n/2]+v[n/2-1])/2.0;
-}
+}
