@@ -8,7 +8,6 @@
 
 
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -72,4 +71,3 @@ double calcular_suma(double x,double error){
 void escrbir_resultado(double suma){
 	printf("\nSuma= %.15f\n", suma);
 }
-

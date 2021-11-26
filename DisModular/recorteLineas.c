@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -193,4 +192,4 @@ void escribir_linea(float x1,float y1, float x2,float y2){
 
 void escribir_punto(float x,float y){
 	printf("(%.2f,%.2f)",x,y);
-}
+}

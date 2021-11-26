@@ -8,7 +8,6 @@
 /* Programa de prueba del modulo que calcula el maximo 	*/
 /* de una funcion	en un intervalo especificado 				*/
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -60,4 +59,4 @@ double calcular_maximo(double (*f)(double x), double a, double b, double prec){
 
 double f(double x){
 	return(x*cos(x));
-}
+}

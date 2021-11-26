@@ -8,7 +8,6 @@
  */
 
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -17,7 +16,7 @@ void convertir_velocidad(void);
 int main(){
 	char c;
 
-	do{ 	      system("cls||clear");
+	do{ 	 system("cls||clear");
 			convertir_velocidad();
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
 scanf(" %c",&c);   
@@ -36,4 +35,3 @@ void convertir_velocidad(void){
 	v1=v/3.6;
 	printf("\nLa velocidad en m/sg = %f",v1);
 }
-

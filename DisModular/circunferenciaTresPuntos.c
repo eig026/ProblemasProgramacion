@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -35,7 +34,7 @@ int main(){
 			r=calcular_radio(x1,y1,xc,yc);
 			Escribir_resultados(xc,yc,r);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-scanf(" %c",&c);   
+			scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
 	return 0;
 }
@@ -86,4 +85,3 @@ void Escribir_resultados(double xc,double yc,double r){
 	printf("\tCentro: (%.2f,%.2f)\n",xc,yc);
 	printf("\tRadio: %.2f",r);
 }
-

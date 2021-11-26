@@ -8,7 +8,6 @@
  */
 
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 #define 	MAX 10 	/* Número máximo de cifras decimales	*/
@@ -124,4 +123,3 @@ void escribir_real(double x, int n){
 		}
 	}
 }
-

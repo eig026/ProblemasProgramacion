@@ -8,7 +8,6 @@
  */
 
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -36,7 +35,7 @@ int main(){
 			printf("\tzeta=%10.2f\n",zeta);
 			printf("\tfi=  %10.2f\n",fi);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-scanf(" %c",&c);   
+			scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
 	return 0;
 }
@@ -66,4 +65,3 @@ void cartesianas_esfericas(float x,float y,float z,
 	*zeta=180*(*zeta)/M_PI;
 	*fi=180*(*fi)/M_PI;
 }
-

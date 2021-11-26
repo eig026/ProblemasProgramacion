@@ -8,7 +8,6 @@
  */
 
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -19,7 +18,7 @@ int main(){
 	float a,b,c;	/* coeficientes polinomio		*/
 	float x1,x2;	/* raices de la ecuacion		*/
 
-	do{ 	      system("cls||clear");
+	do{system("cls   ||clear");
 			printf("SOLUCIONES ECUACION DE SEGUNDO GRADO: A*x*x+B*x+C=0\n");
 			printf("===================================================\n\n");
 			printf("Introduzca coeficiente de x*x: ");
@@ -43,7 +42,7 @@ int main(){
 							break;
 			}
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			c1=toupper(getch());
+			scanf(" %c",&c1);  
 	}while (c1!='N');
 	return 0;
 }
@@ -70,4 +69,3 @@ char ecuacion_segundo_grado(float a, float b, float c, float *x1,float *x2){
 		 }
 		 return c1;
 }
-

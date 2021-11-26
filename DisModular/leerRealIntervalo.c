@@ -9,7 +9,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -32,7 +31,7 @@ int main(){
         leer_real_intervalo(a,b,&x);
         printf("\nNumero leido: %.2f",x);
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        c=toupper(getch());
+        scanf(" %c",&c);  
     }while (c!='N');
     return 0;
 }

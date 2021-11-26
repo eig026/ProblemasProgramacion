@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -19,7 +18,7 @@ int main(){
 			leer_entero_no_negativo(&n);
 			printf("\n\nAckermann(%d,%d) = %d",m,n,ackermann(m,n));
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-scanf(" %c",&c);   
+			scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
 	return 0;
 }
@@ -37,4 +36,3 @@ int ackermann(int m, int n){
 				return(ackermann(m-1,1));
 			else	return(ackermann(m-1,ackermann(m,n-1)));
 }
-

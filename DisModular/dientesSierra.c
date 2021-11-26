@@ -9,7 +9,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -26,7 +25,7 @@ int main(){
 		scanf(" %lf",&x);
 		printf("\nf(%.5lf) = %.5lf",x,pulso_triangular(x));
 		printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		c=toupper(getch());
+		scanf(" %c",&c);  
 	}while (c!='N');
 	return 0;
 }

@@ -8,7 +8,6 @@
  */
 
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -65,4 +64,3 @@ float momento_inercia(float m, float a, float b, float h, char eje){
 	}
    return mom;
 }
-
