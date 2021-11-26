@@ -1,6 +1,5 @@
 /* Programa que invierte una cadena de caracteres */
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 #include <string.h>
@@ -25,7 +24,7 @@ int main(){
 			invertir_cadena(cad);
 			printf("\nCadena resultante: %s",cad);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		scanf(" %c",&c);   
+			scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
 	return 0;
 }
@@ -60,4 +59,3 @@ void leer_cadena(char *cad, int n){
 	}
 	cad[i]='\0';
 }
-

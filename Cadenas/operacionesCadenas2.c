@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 #include <string.h>
@@ -183,7 +182,7 @@ void opcion5(void){
 			sustituir(cad,cad2,cad3);
 			printf("\nLa cadena resultante es %s",cad);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		scanf(" %c",&c);   
+			scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
 }
 

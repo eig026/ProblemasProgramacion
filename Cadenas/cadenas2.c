@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 #include <string.h>
@@ -126,5 +125,3 @@ void listar_palabras(char *cad){
 	}
 	getch();
 }
-
-

@@ -1,6 +1,5 @@
 /* Programa que calcula la longitud de una cadena   */
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 #include <string.h>
@@ -54,4 +53,3 @@ void leer_cadena(char *cad, int n){
 	}
 	cad[i]='\0';
 }
-

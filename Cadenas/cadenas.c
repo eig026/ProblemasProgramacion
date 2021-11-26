@@ -1,7 +1,6 @@
 /* Programa que combina dos cadenas en una nueva cadena, insertando
 	alternativamente los caracteres de ambas cadenas                  */
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 #include <string.h>
@@ -21,9 +20,8 @@ int main(){
 	cadena100 cad;			/* cadena resultante		*/
 	char c;
 
-	do{ 	//      system("cls||clear");
-	        system("cls");
-			printf("INTERCALACION DE CADENAS DE CARACTERES\n");
+	do{ 	      system("cls||clear");
+	        printf("INTERCALACION DE CADENAS DE CARACTERES\n");
 			printf("======================================\n\n");
 			printf("Introduzca primera cadena: ");
 			leer_cadena(cad1,N);

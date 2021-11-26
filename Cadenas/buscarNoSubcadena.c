@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 #include <string.h>
@@ -17,7 +16,7 @@ int main(){
 	char c;
 	cadena cad1,cad2;
 
-	do{ 	system("cls");
+	do{ 	    system("cls||clear");
 			printf("PALABRAS DE UNA CADENA QUE NO ESTAN EN OTRA\n");
 			printf("===========================================\n\n");
 			printf("Introduzca primera cadena: ");
@@ -102,4 +101,3 @@ int busqueda_subcadena(char *c, char *s){
 		return i+1;
 	else return 0;
 }
-
