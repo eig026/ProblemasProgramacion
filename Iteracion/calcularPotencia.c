@@ -6,44 +6,51 @@
 
 */
 
-
 #include <stdio.h>
 #include <ctype.h>
 #include <math.h>
 
-int main(){
+int main()
+{
 	char c;
-	int i,e;
-	double pot,b;
+	int i, e;
+	double pot, b;
 
-	do{ system("cls||clear");
-			printf("POTENCIA\n");
-			printf("========\n\n");
-			printf("Introduzca numero base: ");
-			scanf(" %lf", &b);
-			printf("Introduzca exponente: ");
-			scanf(" %d", &e);
-			printf("\nPotencia: %.3f ** %d = ",b,e);
-			if (b==0)
-				if(e==0)
-					printf("Indeterminacion");
-				else 	if(e>0)
-							printf("0");
-						else printf("infinito");
-			else{	pot=1;
-					if(e<0){
-						b=1/b;
-						e=-e;
-					}
-					i=1;
-					while(i<=e){
-						pot=pot*b;
-						i++;
-					}
-					printf("%.3f",pot);
+	do
+	{
+		system("cls||clear");
+		printf("POTENCIA\n");
+		printf("========\n\n");
+		printf("Introduzca numero base: ");
+		scanf(" %lf", &b);
+		printf("Introduzca exponente: ");
+		scanf(" %d", &e);
+		printf("\nPotencia: %.3f ** %d = ", b, e);
+		if (b == 0)
+			if (e == 0)
+				printf("Indeterminacion");
+			else if (e > 0)
+				printf("0");
+			else
+				printf("infinito");
+		else
+		{
+			pot = 1;
+			if (e < 0)
+			{
+				b = 1 / b;
+				e = -e;
 			}
-			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		scanf(" %c",&c);   
-	}while ((c!='N') && (c!='n'));
+			i = 1;
+			while (i <= e)
+			{
+				pot = pot * b;
+				i++;
+			}
+			printf("%.3f", pot);
+		}
+		printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
+		scanf(" %c", &c);
+	} while ((c != 'N') && (c != 'n'));
 	return 0;
 }

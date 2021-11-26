@@ -11,30 +11,36 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-int main(){
+int main()
+{
     char c;
-    int i;         /* contador de iteraciones */
-    int n;         /* numero de terminos suma */
-    double suma;   /* valor de la suma        */
-    double p;      /* potencia: 1/2**i        */
+    int i;       /* contador de iteraciones */
+    int n;       /* numero de terminos suma */
+    double suma; /* valor de la suma        */
+    double p;    /* potencia: 1/2**i        */
 
-    do{  system("cls||clear");
+    do
+    {
+        system("cls||clear");
         printf("SUMATORIA DE i/2**i\n");
         printf("===================\n\n");
-        do{ printf("Introduzca numero de sumandos: ");
-            scanf(" %d",&n);
-        }while(n<=0);
-        suma=0;
-        p=1;
-        i=1;
-        while(i<=n){
-            p=p/2;
-            suma=suma+i*p;
-            i=i+1;
+        do
+        {
+            printf("Introduzca numero de sumandos: ");
+            scanf(" %d", &n);
+        } while (n <= 0);
+        suma = 0;
+        p = 1;
+        i = 1;
+        while (i <= n)
+        {
+            p = p / 2;
+            suma = suma + i * p;
+            i = i + 1;
         }
-        printf("\n\nSumatoria= %.15f",suma);
+        printf("\n\nSumatoria= %.15f", suma);
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		scanf(" %c",&c);   
-	}while ((c!='N') && (c!='n'));
+        scanf(" %c", &c);
+    } while ((c != 'N') && (c != 'n'));
     return 0;
 }
