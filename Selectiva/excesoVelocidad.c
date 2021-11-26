@@ -11,25 +11,29 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <math.h>
-#define LIMITE 120  /* velocidad maxima permitida */
+#define LIMITE 120 /* velocidad maxima permitida */
 
-int main(){
+int main()
+{
     char c;
-    float v;               /* velocidad (km/h)    */
-    float exceso;          /* exceso de velocidad */
+    float v;      /* velocidad (km/h)    */
+    float exceso; /* exceso de velocidad */
 
-    do{ system("cls||clear");
+    do
+    {
+        system("cls||clear");
         printf("COMPROBACION EXCESO VELOCIDAD\n");
         printf("=============================\n\n");
         printf("Introducir velocidad (Km/h): ");
         scanf(" %f", &v);
-        if(v>LIMITE){
-            exceso=v-LIMITE;
+        if (v > LIMITE)
+        {
+            exceso = v - LIMITE;
             printf("\nSobepasado limite de velocidad");
-            printf(" en %.2f Km/h",exceso);
+            printf(" en %.2f Km/h", exceso);
         }
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		  scanf(" %c",&c);   
-	}while ((c!='N') && (c!='n'));
+        scanf(" %c", &c);
+    } while ((c != 'N') && (c != 'n'));
     return 0;
 }
