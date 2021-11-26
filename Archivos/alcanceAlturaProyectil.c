@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 #define g 9.81
@@ -14,7 +13,7 @@ int main(){
 			printf("ALCANCE Y ALTURA DE UN PROYECTIL\n");
 			printf("================================\n\n");
 			do{	printf("Introduzca velocidad inicial: ");
-					scanf(" %f", &v);
+				scanf(" %f", &v);
 			}while(v<=0);
 			printf("\n");
 			printf("%6s %10s %10s\n","Angulo","hmax","xmax");
@@ -31,7 +30,7 @@ int main(){
 				ang+=10;
 			}
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-		scanf(" %c",&c);   
+			scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
    fclose(f);
 	return 0;

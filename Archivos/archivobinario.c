@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <string.h>
 #include <stdlib.h>
@@ -7,7 +6,7 @@
 #define	archivo "poligono.bin"
 #define MAX 20
 
-/*** DISEÑO PRELIMINAR ***/
+/*** DISEÃ‘O PRELIMINAR ***/
 /* Nuevos tipos de datos */
 typedef char cadena50[51];
 typedef struct{
@@ -22,7 +21,7 @@ typedef struct{
 /* prototipos de funciones */
 void leer_poligono_archivo(FILE *f,tipo_poligono *p);
 
-/*** DISEÑO DETALLADO ***/
+/*** DISEÃ‘O DETALLADO ***/
 /* Definiciones de funciones */
 int main(){
 	FILE *f;
