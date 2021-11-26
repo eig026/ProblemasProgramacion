@@ -9,11 +9,12 @@
 
 #include <stdio.h>
 
-int main(){
+int main()
+{
 	char nombre[30];
 
 	printf("Por favor, introduzca su nombre: ");
-	scanf(" %[^\n]s",nombre);
+	scanf(" %[^\n]s", nombre);
 	printf("\n\nSaludos D. %s", nombre);
 	printf("\nBienvenido al fantastico mundo de la programacion");
 	printf("\n\nPulse una tecla para finalizar");

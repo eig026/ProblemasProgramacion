@@ -12,18 +12,18 @@
 #include <ctype.h>
 #include <math.h>
 
-
-
-int main(){ 
+int main()
+{
 	char c;
 
-	do{ system("cls||clear");
-			printf("\n");
-			printf("======\n\n");
+	do
+	{
+		system("cls||clear");
+		printf("\n");
+		printf("======\n\n");
 
-
-			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-			scanf(" %c",&c);
-	}while ((c!='N') && (c!='n'));
+		printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
+		scanf(" %c", &c);
+	} while ((c != 'N') && (c != 'n'));
 	return 0;
 }

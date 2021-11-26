@@ -10,33 +10,41 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
+int main()
+{
 	int a, b;
 	char operacion, c;
 
-	do{ system("cls||clear");
+	do
+	{
+		system("cls||clear");
 		printf("Realizaremos una operacion aritmetica simple:\n\n");
 		printf("Introduzca el primer valor con el que operar: ");
-		scanf(" %d",&a);
+		scanf(" %d", &a);
 		printf("Introduzca el segundo valor con el que operar: ");
-		scanf(" %d",&b);
+		scanf(" %d", &b);
 		printf("\n");
 		printf("Introduzca + para sumar, - para restar o * para multiplicar: ");
-		scanf(" %c",&operacion);
+		scanf(" %c", &operacion);
 
-		switch(operacion){
-        case '+':   printf("El resultado es: %d\n", a+b);
-                    break;
-        case '-':   printf("El resultado es: %d\n", a-b);
-                    break;
-        case '*':   printf("El resultado es: %d\n", a*b);
-                    break;
-        default:    printf("Operacion incorrecta\n");
-                    break;
+		switch (operacion)
+		{
+		case '+':
+			printf("El resultado es: %d\n", a + b);
+			break;
+		case '-':
+			printf("El resultado es: %d\n", a - b);
+			break;
+		case '*':
+			printf("El resultado es: %d\n", a * b);
+			break;
+		default:
+			printf("Operacion incorrecta\n");
+			break;
 		}
-	    printf("\nDesea efectuar una nueva operacion (S/N)? ");
-		scanf(" %c",&c);   
-	
-	}while ((c!='N') && (c!='n'));
-    return 0;
+		printf("\nDesea efectuar una nueva operacion (S/N)? ");
+		scanf(" %c", &c);
+
+	} while ((c != 'N') && (c != 'n'));
+	return 0;
 }
