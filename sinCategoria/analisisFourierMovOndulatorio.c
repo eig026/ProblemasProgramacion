@@ -1,7 +1,6 @@
 // Ejemplo sin catalogar
 
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 #define BASE 1E-6
@@ -37,7 +36,7 @@ int main(){
 				  printf(" Pulso rectangular: %.0f\n",pulso_rectangular(a,h,p,t,x));
 			}while(x);*/
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-scanf(" %c",&c);   
+			scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
 	return 0;
 }
@@ -97,4 +96,3 @@ double integral(double (*f)(double a, double h, double p, double t, double x),
 	return suma;
 }
 
-

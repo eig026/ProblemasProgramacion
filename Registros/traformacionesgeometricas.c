@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <ctype.h>
 #include <string.h>
 #include <math.h>
@@ -78,7 +77,7 @@ void leer_traslacion(double *tx,double *ty){
 }
 
 void leer_rotacion(double *zeta){
-	do{	printf("\n\tAngulo de rotacion (0-360�): ");
+	do{	printf("\n\tAngulo de rotacion (0-360 grados): ");
 			scanf(" %lf",zeta);
 	}while((*zeta<0)||(*zeta>360));
 }

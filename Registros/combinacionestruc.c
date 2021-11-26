@@ -1,10 +1,14 @@
 /* Programa ejemplo de combinacion de estructuras de datos:                */
-/* Definición de nuevos tipos de datos (array de registros jerárquicos)    */
+/* DefiniciÃ³n de nuevos tipos de datos (array de registros jerÃ¡rquicos)    */
 /* Lectura por teclado de los datos individuales de un array  de registros */
 /* Escritura en pantalla de los datos individuales del array de registros  */
+
+
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <ctype.h>
 #define  Max_alumnos  50
 #define  Max_notas 6
@@ -78,7 +82,7 @@ void leerFichasAlumnos(tipo_tabla tabla,int *n){
         do{ printf("\t\tMes: ");
             scanf(" %d",&tabla[*n].fecha_nacimiento.mes);
         }while((tabla[*n].fecha_nacimiento.mes<1)||(tabla[*n].fecha_nacimiento.mes>12));
-        printf("\t\tAño: ");
+        printf("\t\tAÃ±o: ");
         scanf(" %d",&tabla[*n].fecha_nacimiento.anno);
         do{ printf("\tNumero de convocatorias: ");
             scanf(" %d",&tabla[*n].numero_convocatorias);
@@ -99,7 +103,7 @@ void leerFichasAlumnos(tipo_tabla tabla,int *n){
         printf("\t\tE-mail: ");
         leer_cadena(tabla[*n].direccion.e_mail,40);
         (*n)++;
-        printf("\nDesea añadir otra ficha (S/N)? ");
+        printf("\nDesea incluir otra ficha (S/N)? ");
         c=toupper(getch());
         printf("\n\n");
     }
@@ -119,7 +123,7 @@ void escribirFichasAlumnos(tipo_tabla tabla,int n){
         printf("\tFecha de nacimiento:\n");
         printf("\t\tDia: %d\n",tabla[i].fecha_nacimiento.dia);
         printf("\t\tMes: %d\n",tabla[i].fecha_nacimiento.mes);
-        printf("\t\tAño: %d\n",tabla[i].fecha_nacimiento.anno);
+        printf("\t\tAï¿½o: %d\n",tabla[i].fecha_nacimiento.anno);
         printf("\tNumero de convocatorias: %d\n",tabla[i].numero_convocatorias);
         for(j=0;j<tabla[i].numero_convocatorias;++j){
             printf("\tNota[%d]: %.2f\n",j+1,tabla[i].notas[j]);
@@ -139,7 +143,7 @@ void escribirFichasAlumnos(tipo_tabla tabla,int n){
 void leer_cadena(char *cad, int n){
 /* lee por teclado y devuelve una cadena de hasta n caracteres */
 /* Nota: la cadena debe preveer una posicion adicional para la */
-/* marca fin de cadena (\0) --> tamaño minimo n+1 caracteres   */
+/* marca fin de cadena (\0) --> tamaï¿½o minimo n+1 caracteres   */
     int i,fin;
     char c;
 

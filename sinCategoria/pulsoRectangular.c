@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -98,4 +97,3 @@ double integral_simpson(double (*f)(double p,double h,double a,double e,double t
 	}
 	return(inc*suma/3);
 }
-

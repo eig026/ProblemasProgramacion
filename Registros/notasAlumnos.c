@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <string.h>
 #include <math.h>
@@ -138,7 +137,7 @@ void insertar_calificaciones(tipo_vector v,int n,int *nc){
 	float r;
 
 	if(*nc<NOT){       system("cls||clear");
-					 printf("Introducir calificaciones examen n� %d\n",*nc+1);
+					 printf("Introducir calificaciones examen num %d\n",*nc+1);
 					 printf("=====================================\n\n");
 					 for(i=0; i<n; ++i){
 						 printf("Alumno: %s\n",v[i].nom);
@@ -227,4 +226,3 @@ void calificacion_final(tipo_vector v,int n,int nc){
 	}
 	getch();
 }
-

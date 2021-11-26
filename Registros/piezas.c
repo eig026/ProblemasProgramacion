@@ -7,7 +7,7 @@
 #define MAX 5
 
 /* ********************* */
-/* DISEÑO PRELIMINAR     */
+/* DISEÃ‘O PRELIMINAR     */
 /* ********************* */
 
 /* Nuevos tipos de datos */
@@ -34,7 +34,7 @@ void clasificar_long(tipo_vector v,int n);
 int es_anterior(tipo_pieza a, tipo_pieza b);
 
 /* ********************* */
-/* DISEÑO DETALLADO      */
+/* DISEÃ‘O DETALLADO      */
 /* ********************* */
 
 /* Definiciones de funciones */
@@ -49,9 +49,9 @@ int main(){
 		printf("\t1.- Insertar nueva pieza\n");
 		printf("\t2.- Listar piezas registradas\n");
 		printf("\t3.- Eliminar piezas no cuadradas de area menor\n");
-		printf("\t4.- Listar nº de piezas por color\n");
+		printf("\t4.- Listar num de piezas por color\n");
 		printf("\t5.- Buscar pieza a medida\n");
-		printf("\t6.- Listar piezas por tamaño área\n");
+		printf("\t6.- Listar piezas por tamaÃ±o area\n");
 		printf("\t7.- Listar piezas por longitud lado mayor\n");
 		printf("\t8.- Terminar programa\n");
 		printf("\n\t\tIntroduzca opcion: ");
@@ -110,7 +110,7 @@ void leer_piezas(tipo_conjunto_piezas *cp){
 void leer_cadena(char *cad, int n){
 /* lee por teclado y devuelve una cadena de hasta n caracteres */
 /* Nota: la cadena debe preveer una posicion adicional para la */
-/* marca fin de cadena (\0) --> tamaño minimo n+1 caracteres   */
+/* marca fin de cadena (\0) --> tamaÃ±o minimo n+1 caracteres   */
     int i,fin;
     char c;
 
@@ -168,7 +168,7 @@ void eliminar_piezas(tipo_conjunto_piezas *cp){
 	float area;
 
 	system("cls");
-	printf("ELIMINACION DE PIEZAS NO CUADRADAS PEQUEÑAS\n");
+	printf("ELIMINACION DE PIEZAS NO CUADRADAS PEQUEÃ‘AS\n");
 	printf("===========================================\n\n");
 	do{	printf("Introduzca area minima: ");
 		scanf(" %f",&area);

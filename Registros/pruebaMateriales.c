@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <string.h>
 #include <math.h>
@@ -58,7 +57,7 @@ void introducir_prueba(tipo_vector v,int *n){
 	printf("ALTA DE NUEVAS PRUEBAS\n");
 	printf("======================\n\n");
 	if(*n<MAX){
-		printf("Prueba n� %d\n",*n+1);
+		printf("Prueba num. %d\n",*n+1);
 		printf("\tIntroduzca nombre de material: ");
 		scanf(" %s", v[*n].mat);
 		printf("\tIntroduzca nombre de fabricante: ");
@@ -104,7 +103,7 @@ void listar_fabricantes(tipo_vector v, int n){
 	total=0;
 	printf("LISTADO DE FABRICANTES:\n");
 	printf("=======================\n\n");
-	printf("%-10s %10s\n","Fabricante","N� pruebas");
+	printf("%-10s %10s\n","Fabricante","Num pruebas");
 	printf("%-10s %10s\n","----------","----------");
 	for(i=0;i<n;++i){
 		enc=0;
@@ -130,4 +129,4 @@ void listar_fabricantes(tipo_vector v, int n){
 	}
    printf("\n%10s %10d\n","Total:",total);
   getch();
-}
+}

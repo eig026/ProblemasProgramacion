@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <string.h>
 #include <math.h>
@@ -51,7 +50,7 @@ int main(){
 			construir_matriz_transformacion(t,m);
 			escribir_matriz(m);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-scanf(" %c",&c);   
+			scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
 	return 0;
 }
@@ -83,7 +82,7 @@ void leer_traslacion(double *tx,double *ty){
 }
 
 void leer_rotacion(double *zeta){
-	do{	printf("\n\tAngulo de rotacion (0-360�): ");
+	do{	printf("\n\tAngulo de rotacion (0-360 grados): ");
 			scanf(" %lf",zeta);
 	}while((*zeta<0)||(*zeta>360));
 }
@@ -144,4 +143,4 @@ void inicializar_matriz(tipo_matriz m){
 			if(i==j)
 				m[i][j]=1;
 			else m[i][j]=0;
-}
+}

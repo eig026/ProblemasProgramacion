@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <string.h>
 #include <math.h>
@@ -9,7 +8,7 @@
 //#define NOTAS 5
 
 /* ********************* */
-/* DISEÑO PRELIMINAR     */
+/* DISEÃ‘O PRELIMINAR     */
 /* ********************* */
 
 /* Nuevos tipos de datos */
@@ -39,7 +38,7 @@ void clasificar_nombre(tipo_vector v,int n);
 int es_anterior(tipo_identificacion a, tipo_identificacion b);
 
 /* ********************* */
-/* DISEÑO DETALLADO      */
+/* DISEÃ‘O DETALLADO      */
 /* ********************* */
 
 /* Definiciones de funciones */
@@ -143,7 +142,7 @@ void insertar_alumno(tipo_vector v,int *n,int np){
 void leer_cadena(char *cad, int n){
 /* lee por teclado y devuelve una cadena de hasta n caracteres */
 /* Nota: la cadena debe preveer una posicion adicional para la */
-/* marca fin de cadena (\0) --> tamaño minimo n+1 caracteres   */
+/* marca fin de cadena (\0) --> tamaï¿½o minimo n+1 caracteres   */
     int i,fin;
     char c;
 
@@ -171,8 +170,8 @@ void leer_cadena(char *cad, int n){
 }
 
 int buscar_alumno(tipo_vector v,int n,tipo_identificacion id){
-	/* Devuelve la posición del alumno en el vector */
-	/* ó -1 si no se encuentra registrado           */
+	/* Devuelve la posiciÃ³n del alumno en el vector */
+	/*  -1 si no se encuentra registrado           */
 	int i;
 
 	i=0;
@@ -190,7 +189,7 @@ void insertar_calificaciones(tipo_vector v,int n,int *np){
 	float r;
 
 	if(*np<NOTAS){ system("cls");
-				 printf("Introducir calificaciones examen nº %d\n",*np+1);
+				 printf("Introducir calificaciones examen num %d\n",*np+1);
 				 printf("=====================================\n\n");
 				 for(i=0; i<n; ++i){
 					 printf("Alumno: %s %s, %s\n",v[i].id.ape1,

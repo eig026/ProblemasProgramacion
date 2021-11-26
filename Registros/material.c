@@ -1,4 +1,4 @@
-/* Programa para a�adir, consultar y actualizar 	*/
+/* Programa para añadir, consultar y actualizar 	*/
 /* datos de nuevos materiales industriales			*/
 #include <stdio.h>
 #include <conio.h>
@@ -15,7 +15,7 @@ typedef struct{
 		double rt;		/* Resistencia a la traccion: MPa						*/
 		double me;		/* Modulo de elasticidad: MPa								*/
 		double rrp;		/* Resistencia relativa al peso (acero=1)				*/
-		double cetl;	/* Coeficiente de expansion termica lineal: 1/�K	*/
+		double cetl;	/* Coeficiente de expansion termica lineal: 1/K	*/
 }tipo_material;
 
 /* prototipos de funciones */
@@ -78,7 +78,7 @@ void leer_opcion_menu(char *c){
 	printf("GESTION DE NUEVOS MATERIALES INDUSTRIALES\n");
 	printf("=========================================\n\n");
 	printf("\t1.- Creacion del archivo\n");
-	printf("\t2.- A�adir nuevos materiales\n");
+	printf("\t2.- Incluir nuevos materiales\n");
 	printf("\t3.- Consulta de materiales\n");
 	printf("\t4.- Actualizacion de archivo de materiales\n");
 	printf("\t5.- Finalizar ejecucion\n");
@@ -140,7 +140,7 @@ void creacion(cadena50 nombre){
 }
 
 void anadir(cadena50 nombre){
-/* A�ade datos de nuevos materiales leidos por  */
+/* Añade datos de nuevos materiales leidos por  */
 /* teclado al final del archivo                 */
 	FILE *f;
 	tipo_material mat;
@@ -308,7 +308,7 @@ void c_secuencial(cadena50 nombre){
 				fread(&mat,sizeof(mat),1,f);
 				while((!feof(f))&&(c!='F')){
 					       system("cls||clear");
-					 printf("Material n� %d\n\n",n);
+					 printf("Material num. %d\n\n",n);
 					 escribir_material(mat);
 					 fread(&mat,sizeof(mat),1,f);
 					 printf("\nPulse cualquier tecla para continuar (F=Finalizar)\n");
@@ -574,4 +574,4 @@ long Tamano_archivo(char *nombre){
 		}
 		fclose(f);
 		return (cont);
-}
+}

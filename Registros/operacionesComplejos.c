@@ -3,7 +3,6 @@
 /* suma, resta, multiplicacion y division    */
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 

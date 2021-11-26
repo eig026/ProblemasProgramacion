@@ -4,11 +4,11 @@
 #include <ctype.h>
 #include <string.h>
 #include <math.h>
-#define MAX 10       // Número máximo de materiales
-#define MAX_CAD 30  // Longitud máxima de las cadenas de caracteres
+#define MAX 10       // NÃºmero mÃ¡ximo de materiales
+#define MAX_CAD 30  // Longitud mÃ¡xima de las cadenas de caracteres
 
 /* ********************* */
-/* DISEÑO PRELIMINAR     */
+/* DISEÃ‘O PRELIMINAR     */
 /* ********************* */
 
 /* Nuevos tipos de datos */
@@ -38,7 +38,7 @@ int es_anterior(tipo_experimento a, tipo_experimento b);
 void leer_cadena(char *c, int n);
 
 /* ********************* */
-/* DISEÑO DETALLADO      */
+/* DISEÃ‘O DETALLADO      */
 /* ********************* */
 
 /* Definiciones de funciones */
@@ -95,7 +95,7 @@ void introducir_experimento(tipo_vector v,int *n){
 	printf("ALTA DE NUEVOS MATERIALES\n");
 	printf("=========================\n\n");
 	if(*n<MAX){
-		printf("Prueba nº %d\n",*n+1);
+		printf("Prueba num %d\n",*n+1);
 		printf("\tIntroduzca nombre de material: ");
 		leer_cadena(v[*n].mat,MAX_CAD);
 		//scanf(" %s", v[*n].mat);
@@ -203,7 +203,7 @@ void listar_fabricantes(tipo_vector v, int n){
 	total=0;
 	printf("LISTADO DE FABRICANTES:\n");
 	printf("=======================\n\n");
-	printf("%-10s %10s\n","Fabricante","Nº experimentos");
+	printf("%-10s %10s\n","Fabricante","Nï¿½ experimentos");
 	printf("%-10s %10s\n","----------","---------------");
 	for(i=0;i<n;++i){
 		enc=0;
@@ -275,7 +275,7 @@ int es_anterior(tipo_experimento a, tipo_experimento b){
 void leer_cadena(char *cad, int n){
 /* lee por teclado y devuelve una cadena de hasta n caracteres */
 /* Nota: la cadena debe preveer una posicion adicional para la */
-/* marca fin de cadena (\0) --> tamaño minimo n+1 caracteres   */
+/* marca fin de cadena (\0) --> tamaï¿½o minimo n+1 caracteres   */
     int i,fin;
     char c;
 

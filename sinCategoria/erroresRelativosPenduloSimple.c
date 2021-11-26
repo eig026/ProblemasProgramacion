@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 #define PI (4*atan(1))
@@ -26,7 +25,7 @@ int main(){
 			printf("\n\nLa maxima elongacion es: %.3f   Error relativo: %.5f", elongacion_maxima(prec,er),er);
 			fprintf(f,"\n\nLa maxima elongacion es: %.3f   Error relativo: %.5f", elongacion_maxima(prec,er),er);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-scanf(" %c",&c);   
+			scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
 	fclose(f);
 	return 0;
@@ -76,4 +75,4 @@ double calcular_suma(double a, long int n){
 	}
    return(suma);
 }
-
+

@@ -1,9 +1,11 @@
+/// FAlla buscar definie
+
+
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <string.h>
 #include <math.h>
-#define
+//#define
 
 /* Nuevos tipos de datos */
 typedef struct{
@@ -40,7 +42,7 @@ int main(){
 			printf("\nTiempo transcurrido: ");
 			escribir_tiempo(t);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-scanf(" %c",&c);   
+			scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
 	return 0;
 }
