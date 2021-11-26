@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <string.h>
 #include <math.h>
@@ -37,4 +36,4 @@ void gradiente(double (*f)(double x,double y,double z),double x0,double y0,doubl
 									double gx,double gy,double gz);
 double f1(double x, double y, double z);
 double f2(double x, double y, double z);
-
+

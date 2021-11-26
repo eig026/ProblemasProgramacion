@@ -20,12 +20,12 @@ int main(){
 			do{ printf("Introduzca precision: ");
 					scanf(" %lf",&h);
 			}while(h<=0);
-			do{	printf("Introduzca n� maximo de iteraciones: ");
+			do{	printf("Introduzca num maximo de iteraciones: ");
 					scanf(" %d",&n);
 			}while(n<=0);
 			metodo_newton(f,x0,h,n);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-scanf(" %c",&c);   
+			scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
 	return 0;
 }

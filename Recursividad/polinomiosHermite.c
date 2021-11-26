@@ -8,7 +8,6 @@
 
 
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -34,7 +33,7 @@ int main(){
 				fprintf(f,"\nPolinomio nº %3d (%.2lf) = %.2lf",i,x,hermite(i,x));
 			}
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-scanf(" %c",&c);   
+			scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
 	fclose(f);
 	return 0;

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -27,10 +26,10 @@ int main(){
 			do{	printf("\tymax: ");
 					scanf(" %lf",&ymax);
 			}while(ymax<=ymin);
-			do{	printf("N� de filas: ");
+			do{	printf("N. de filas: ");
 					scanf(" %d", &m);
 			}while(m<=0);
-			do{	printf("N� de columnas: ");
+			do{	printf("N. de columnas: ");
 					scanf(" %d", &n);
 			}while(n<=0);
 			printf("\nVolumen encerrado: %.15f",integral_doble(f,xmin,xmax,ymin,ymax,m,n));
@@ -64,4 +63,3 @@ double f(double x,double y){
 	//return (x+y);
 	//return (x*x+y*y);
 }
-

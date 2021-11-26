@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -25,7 +24,7 @@ int main(){
 			area=integral_definida(f,a,b,base);
 			printf("\nIntegral definida: %.6lf",area);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-scanf(" %c",&c);   
+			scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
 	return 0;
 }

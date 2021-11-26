@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -45,7 +44,7 @@ int main(){
 			printf("Resultado:      %d",prod_camp_ruso(a,b));
 			printf("\nEl producto vale: %d",prod_camp_ruso2(a,b));
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-scanf(" %c",&c);   
+			scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
 	return 0;
 }

@@ -23,7 +23,7 @@ int main(){
 			do{ printf("Introduzca precision: ");
 					scanf(" %lf",&h);
 			}while(h<=0);
-			do{	printf("Introduzca n� maximo de iteraciones: ");
+			do{	printf("Introduzca num maximo de iteraciones: ");
 					scanf(" %d",&n);
 			}while(n<=0);
 			metodo_newton(f,x0,h,n);
@@ -60,14 +60,14 @@ void metodo_newton(double (*f)(double x),double x0,double h,int n){
 		}else sal=1;
 	}
 	if(sal){
-		printf("Encontrada derivada nula en iteracion n�: %d\n",i);
+		printf("Encontrada derivada nula en iteracion num: %d\n",i);
 		printf("Ultima aproximacion encontrada: %.6lf\n",x);
-		fprintf(g,"Encontrada derivada nula en iteracion n�: %d\n",i);
+		fprintf(g,"Encontrada derivada nula en iteracion num: %d\n",i);
 		fprintf(g,"Ultima aproximacion encontrada: %.6lf\n",x);
 	}else if (i>n){
-				printf("Excedido n� maximo de iteraciones: %d\n",n);
+				printf("Excedido num maximo de iteraciones: %d\n",n);
 				printf("Ultima aproximacion encontrada: %.6lf\n",x);
-				fprintf(g,"Excedido n� maximo de iteraciones: %d\n",n);
+				fprintf(g,"Excedido num maximo de iteraciones: %d\n",n);
 				fprintf(g,"Ultima aproximacion encontrada: %.6lf\n",x);
 			}else{	printf("Solucion aproximada: %.6lf",xsig);
 						fprintf(g,"Solucion aproximada: %.6lf",xsig);
@@ -83,4 +83,4 @@ double f(double x){
 	return (x*x*x-3*x*x+5);
 	//return (exp(-x*x));
 	//return(sin(x)*exp(-x));
-}
+}

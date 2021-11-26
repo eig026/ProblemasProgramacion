@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <string.h>
 #include <math.h>
@@ -80,4 +79,3 @@ void escribir_tabla(double (*f)(double x),double xizq, double xder, double paso,
    fclose(archivo);
 	getch();
 }
-

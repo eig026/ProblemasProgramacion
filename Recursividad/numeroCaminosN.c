@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -32,4 +31,4 @@ int caminos_NE(int x1, int y1, int x2, int y2){
 						return(1);
 					else	return(caminos_NE(x1+1,y1,x2,y2)+caminos_NE(x1,y1+1,x2,y2));
 }
-
+

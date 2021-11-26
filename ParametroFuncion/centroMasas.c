@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -41,10 +40,10 @@ int main(){
 			do{	printf("\talto: ");
 					scanf(" %lf",&alto);
 			}while(alto<=0);
-			/*do{	printf("N� de filas: ");
+			/*do{	printf("N. de filas: ");
 					scanf(" %d", &m);
 			}while(m<=0);
-			do{	printf("N� de columnas: ");
+			do{	printf("N. de columnas: ");
 					scanf(" %d", &n);
 			}while(n<=0);*/
 			realizar_calculos(densidad1,ancho,alto,&masa,&xcm,&ycm,&ix,&iy);
@@ -139,4 +138,3 @@ double densidad1(double x,double y){
 	//return (x*y+0.5);
 	return (sin(1/sqrt(x*y)));
 }
-

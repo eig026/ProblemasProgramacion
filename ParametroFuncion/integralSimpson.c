@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -24,7 +23,7 @@ int main(){
 			}while(n<=0);
 			printf("\nIntegral: %.6f",integral_simpson(f,a,b,n));
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-scanf(" %c",&c);   
+			scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
 	return 0;
 }
@@ -58,4 +57,4 @@ double f(double x){
 	//return(x*x*x-3*x*x+5);
 	//return(exp(-x*x));
 	return(sin(x)*exp(-x));
-}
+}

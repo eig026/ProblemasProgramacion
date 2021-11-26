@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -39,4 +38,4 @@ int suma2digitos(int n){
 		n=n/10;
 	}
    return(suma);
-}
+}

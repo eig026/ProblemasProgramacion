@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <math.h>
 
@@ -20,12 +19,12 @@ int main(){
 			do{ printf("Introduzca precision: ");
 					scanf(" %lf",&h);
 			}while(h<=0);
-			do{	printf("Introduzca n� maximo de iteraciones: ");
+			do{	printf("Introduzca num maximo de iteraciones: ");
 					scanf(" %d",&n);
 			}while(n<=0);
 			metodo_newton(f,x0,h,n);
 			printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-scanf(" %c",&c);   
+			scanf(" %c",&c);   
 	}while ((c!='N') && (c!='n'));
 	return 0;
 }
@@ -55,10 +54,10 @@ void metodo_newton(double (*f)(double x),double x0,double h,int n){
 		}else sal=1;
 	}
 	if(sal){
-		printf("Encontrada derivada nula en iteracion n�: %d\n",i);
+		printf("Encontrada derivada nula en iteracion num: %d\n",i);
 		printf("Ultima aproximacion encontrada: %.10lf\n",x);
 	}else if (i>n){
-				printf("Excedido n� maximo de iteraciones: %d\n",n);
+				printf("Excedido num maximo de iteraciones: %d\n",n);
 				printf("Ultima aproximacion encontrada: %.10lf\n",x);
 			}else	printf("Solucion aproximada: %.10lf",xsig);
 
@@ -70,4 +69,4 @@ double derivada(double (*f)(double x), double x0, double h){
 
 double f(double x){
 	return (x*x-1);
-}
+}
