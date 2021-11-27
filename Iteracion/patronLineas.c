@@ -26,12 +26,12 @@ int main()
         printf("==========================\n\n");
         do
         {
-            printf("Introduzca nº de filas: ");
+            printf("Introduzca num de filas: ");
             scanf(" %d", &nf);
         } while ((nf <= 0) || (nf > MAXF));
         do
         {
-            printf("Introduzca nº de columnas: ");
+            printf("Introduzca num de columnas: ");
             scanf(" %d", &nc);
         } while ((nc <= 0) || (nc > MAXC));
         do
