@@ -57,14 +57,14 @@ programa leerá por teclado dicho valor de precisión, calculará el producto de
 término correspondiente (sin incluirlo) utilizando la siguiente fórmula y presentará el resultado
 en la pantalla
 
-&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  fibonacci.psc](./Iteracion/fibonacci.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/fibonacci.psc)
-&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ fibonacci.c](./Iteracion/fibonacci.c)
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  productoWallis.psc](./Iteracion/productoWallis.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/productoWallis.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ productoWallis.c](./Iteracion/productoWallis.c)
 
 ### Sumatoria
 >  <img src="iconos/prob.png"> Construir un programa que calcule e imprima en pantalla la sumatoria de n terminos de (i/2^i)
 donde el número de sumandos se introduce por teclado.
 
-&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[calculoSumatoria.psc](./Iteracion/3maxcalculoSumatoria.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/3maccalculoSumatoria.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[calculoSumatoria.psc](./Iteracion/calculoSumatoria.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/calculoSumatoria.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ calculoSumatoria.c](./Iteracion/calculoSumatoria.c)
 
 
@@ -77,8 +77,10 @@ divisor de dos números enteros positivos introducidos por teclado
 
 ### Múltiplos de tres
 >  <img src="iconos/prob.png">  Diseñar un programa que calcule e imprima en pantalla la suma de todos los
-números impares múltiplos de 3 comprendidos entre 0 y n, dado un número entero positivo n
-por teclado
+números impares múltiplos de 3 comprendidos entre 0 y n, dado un número entero positivo **n** por teclado
+
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[sumarImparesMultiplosTres.psc](./Iteracion/sumarImparesMultiplosTres.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/sumarImparesMultiplosTres.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/c.png">[ maximoComunDivisor.c](./Iteracion/sumarImparesMultiplosTres.c)
 
 
 ### Potencia de un número
@@ -102,13 +104,12 @@ número entero no negativo dado por teclado.
 >  <img src="iconos/prob.png">  Diseñar un programa que dado por teclado un valor x mayor que –1 y menor
 que +1, calcule y presente en pantalla la siguiente suma: 
 
-S(x) =  x - (x^2/2)+(x^3/3-(x^4/4)+ .... (x^n/n) 
+S(x) =  x - (x<sup>2</sup>/2)+(x<sup>3</sup>/3-(x<sup>4</sup>/4)+ .... (x<sup>n</sup>/n) 
 
 
 1) Para un valor n dado introducido por teclado.
 
-2) Hasta un sumando n (no incluido) tal que abs(x^n/n) <= E, donde el valor de E también se
-introduce por teclado.
+2) Hasta un sumando n (no incluido) tal que abs(x<sup>n</sup>/n) <= E, donde el valor de E también se introduce por teclado.
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[sumarSerie.psc](./Iteracion/sumarSerie.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/sumarSerie.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ sumarSerie.c](./Iteracion/sumarSerie.c)
@@ -118,8 +119,7 @@ introduce por teclado.
 
 ### Temperaturas en intervalo
 >  <img src="iconos/prob.png">  Diseñar un programa que lea por teclado un conjunto de datos de temperatura
-en el intervalo [-50,+50], y que calcule su media aritmética y su desviación estándar. El
-tamaño del conjunto de datos no se especifica a priori, finalizándose la entrada de datos con
+en el intervalo [-50,+50], y que calcule su media aritmética y su desviación estándar. El tamaño del conjunto de datos no se especifica a priori, finalizándose la entrada de datos con
 el valor –99.
 
 
@@ -247,7 +247,7 @@ comprobándose que es mayor o igual a 3, introduciéndose a continuación en ord
 
 
 ### Integral definida
->  <img src="iconos/prob.png"> Diseñar un programa que integre la función f(x) = x3 􀀀 3x2 + 5 en un
+>  <img src="iconos/prob.png"> Diseñar un programa que integre la función **f(x) = x<sup>3</sup> - 3x<sup>2</sup> + 5** en un
 intervalo, esto es que calcule el área bajo la curva, mediante un proceso de muestreo en
 pasos discretos.
 
@@ -255,8 +255,8 @@ pasos discretos.
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ integralDefinida.c](./Iteracion/integralDefinida.c)
 
 ### Raiz cero
->  <img src="iconos/prob.png"> Construir un programa que calcule una raíz (cero) de la función f(x) =
-x^5 - x^4 + x^3- 3, mediante el método de bisección. 
+>  <img src="iconos/prob.png"> Construir un programa que calcule una raíz (cero) de la función **f(x) =
+x<sup>5</sup> - x<sup>4</sup> + x<sup>3</sup>- 3**, mediante el método de bisección. 
 
 Dicho método se basa
 en el teorema de Bolzano que dice que si una función f(x) es continua y toma en los extremos
