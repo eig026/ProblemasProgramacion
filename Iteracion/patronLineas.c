@@ -12,7 +12,7 @@
 #define MAXF 25
 #define MAXC 80
 
-/* Diseño Detallado */
+/* Dis. Detallado */
 int main()
 {
     char c;
