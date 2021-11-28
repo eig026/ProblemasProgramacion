@@ -89,6 +89,29 @@ La tarifa de un taxi es la siguiente:
 >  <img src="iconos/prob.png">
 Construir un programa que determine si dos segmentos de línea recta en el plano XY se cruzan e imprima en pantalla el punto/segmento de intersección o un mensaje de texto en caso de que no se crucen, dados por teclado las coordenadas cartesianas (x,y) de dos parejas de puntos diferentes que definen cada uno de los segmentos.
 
+Nota: Ecuación de la recta que pasa por dos puntos:
+
+    (y-y1)/(x-x1)=(y2-y1)/(x2-x1)
+
+Representación explícita: 
+
+    y=m*x+b
+
+Representación polinómica:
+
+     A*x+B*y+C=0
+
+Representación paramétrica:
+
+    x=x1+(x2-x1)*u
+    y=y1+(y2-y1)*u
+
+Segmento de línea:
+
+    u:[0,1] 
+        -- u=0  -- (x,y)=(x1,y1)
+	    -- u=1  -- (x,y)=(x2,y2)
+ 
 
  &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  interseccion.psc](./Selectiva/interseccion.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/interseccion.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ interseccion.c](./Selectiva/interseccion.c) &ensp;&ensp;&ensp; 
@@ -99,30 +122,55 @@ Construir un programa que determine si dos segmentos de línea recta en el plano
 >  <img src="iconos/prob.png">
 Construir un programa en C que calcule e imprima en pantalla el autovector (o autovectores) asociado(s) a un autovalor, dados por teclado los coeficientes del sistema lineal homogéneo de ecuaciones a resolver:
 
-        a_11*x+a_12*y+a_13*z=0
-        a_21*x+a_22*y+a_23*z=0$
-        a_31*x+a_32*y+a_33*z=0$
+	a11*x+a12*y+a13*z=0
+    a21*x+a22*y+a23*z=0
+    a31*x+a32*y+a33*z=0
 
-El sistema debe de ser compatible indeterminado y los autovectores son soluciones no nulas, linealmente independientes. Para la determinación de los autovectores hay que analizar el rango de la matriz de coeficientes M:
+El sistema debe de ser compatible indeterminado y los autovectores son soluciones no nulas, linealmente independientes. *Nota:* para determinación de autovectores analizar rango de la matriz de coeficientes **M**:
 
--   Rango=3
+- **Rango=3**	Determinante(M)≠0  implica Sistema compatible determinado. 
+    La única solución es (0,0,0) que no es un autovector por tanto el sist. lineal de ecuac. no se corresponde con ningún autovalor.
 
-  **Determinante(M) <> 0**  Sistema compatible determinado. La única solución es (0,0,0) que no es un autovector, el sistema lineal de ecuaciones no se corresponde con ningún autovalor
+- **Rango=2**	```aij*akl-ail*akj≠0 ``` Hay dos ecuaciones linealmente independientes (i y k):
 
--  Rango =2
+        a*x+b*y+c*z=0
+        d*x+e*y+f*z=0
 
-	a_ij * a_kl-a_il * a_kj <> 0 Hay dos ecuaciones linealmente independientes (i y k):
-     a * x + b * y + c * z=0         d * x + e * y + f * z=0
-Las variables de las columnas j y l se pueden expresar en función de la tercera variable. Hay un autovector asociado al autovalor que se puede calcular asignando el valor 1 a la tercera variable, calculando los valores de las otras variables, y normalizando el vector resultante.
+    Las variables de las columnas j y l se pueden expresar en función de la tercera variable.
+    Hay un autovector asociado al autovalor que se puede calcular asignando el valor 1 a la tercera variable, calculando los valores de las otras variables, y normalizando el vector resultante. 
+    
+    Ejemplo:
+    ``` 
+        j=1, l=2 --> 
+        x=(-c*e+b*f)/(a*e-b*d) 
+        y=(-a*f+c*d)/(a*e-b*d)
+        z=1
+        norma=(x*x+y*y+z*z)1/2   
+        x=x/norma
+        y=y/norma
+        z=z/norma
+    ```
+- **Rango=1**	aij≠0  Solo hay una ecuación linealmente independiente (i):
 
--  Rango = 1
+        a*x+b*y+c*z=0
 
-a_ij <> 0  Solo hay una ecuación linealmente independiente (i):        a * x + b * y + c * z=0
-La variable j se puede expresar en función de las otras dos. Hay dos autovectores asociados al autovalor, que se pueden calcular asignando alternativamente los valores 0 y 1 a las dos variables libres, calculando la tercera variable, y normalizando los dos vectores resultantes
+La variable j se puede expresar en función de las otras dos. Hay dos autovectores asociados al autovalor, que se pueden calcular asignando alternativamente los valores 0 y 1 a las dos variables libres, calculando la tercera variable, y normalizando los dos vectores resultantes. 
 
--  Rango = 0
+Ejemplo:
+``` 
+j=1 
+(x,y,z)=(-b/a,1,0)
+(x,y,z)=(-c/a,0,1)
+norma=(x*x+y*y+z*z)1/2
+x=x/norma
+y=y/norma
+z=z/norma
+```
 
-a_ij=0, Hay tres autovectores asociados al autovalor: (1,0,0), (0,1,0) y (0,0,1).
+
+- **Rango=0**	aij≠0  --  Hay tres autovectores asociados al autovalor: 
+
+    (1,0,0), (0,1,0) y (0,0,1).
 
 
  &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  autovectores.psc](./Selectiva/autovectores.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/autovectores.psc)

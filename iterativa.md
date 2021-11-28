@@ -84,8 +84,7 @@ números impares múltiplos de 3 comprendidos entre 0 y n, dado un número enter
 
 
 ### Potencia de un número
->  <img src="iconos/prob.png">  Diseñar un programa que calcule e imprima en pantalla la potencia de un número, dados
-por teclado el número base (real) y el exponente (entero).
+>  <img src="iconos/prob.png">  Diseñar un programa que calcule e imprima en pantalla la potencia de un número, dados por teclado el número base (real) y el exponente (entero).
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[potencia.psc](./Iteracion/potencia.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/potencia.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ potencia.c](./Iteracion/potencia.c)
