@@ -160,12 +160,30 @@ primeros números naturales
 de un rectángulo, dados por teclado las dimensiones del mismo, donde la base debe estar
 comprendida entre 3 y 40, y la altura entre 3 y 20
 
+a=10
+h=10
+```
     * * * * * * * * * * * * * * *
     *                           *
     *                           *
     *                           *
     *                           *
+    *                           *
+    *                           *
+    *                           *
+    *                           *
     * * * * * * * * * * * * * * *
+```
+
+a=5
+h=5
+```
+ * * * * *   
+ *       *
+ *       *
+ *       *
+ * * * * *
+```
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[rectanguloAsteriscos.psc](./Iteracion/rectanguloAsteriscos.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/rectanguloAsteriscos.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ rectanguloAsteriscos.c](./Iteracion/rectanguloAsteriscos.c)
@@ -201,6 +219,15 @@ también por teclado y deberá ser inferior o igual a 10.
 (con un máximo de 20 filas)
 
 
+                    1
+                1   1
+                1   2   1
+            1   3   3   1
+            1   4   6   4   1
+        1   5  10  10   5   1
+        1   6  15  20  15   6   1
+    1   7  21  35  35  21   7   1
+
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[trianPascal.psc](./Iteracion/trianPascal.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/trianPascal.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ trianPascal.c](./Iteracion/trianPascal.c)
@@ -223,9 +250,9 @@ por teclado el nº de vértices del polígono (mayor o igual a 3), así como las
 >  <img src="iconos/prob.png"> Construir un programa que dado un número entero positivo por teclado,
 imprima en pantalla todas las formas diferentes en que puede expresarse dicho número como la suma de cuatro cuadrados de enteros no negativos (teorema de los cuatro cuadrados de Lagrange). Por ejemplo
 
- 10 = 02 + 02 + 12 + 32 = 0 + 0 + 1 + 9
- 
- 10 = 12 + 12 + 22 + 22 = 1 + 1 + 4 + 4
+
+10 = 0<sup>2</sup> + 0<sup>2</sup> + 1<sup>2</sup> + 3<sup>2</sup> = 0 + 0 + 1 + 9
+10 = 1<sup>2</sup> + 1<sup>2</sup> + 2<sup>2</sup> + 2<sup>2</sup> = 1 + 1 + 4 + 4
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[cuatroCuadrado.psc](./Iteracion/cuatroCuadrado.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/cuatroCuadrado.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ cuatroCuadrado.c](./Iteracion/cuatroCuadrado.c)
@@ -299,6 +326,8 @@ donde se alcanzó la máxima velocidad media por tramo, presentando la misma en 
 >  <img src="iconos/prob.png"> Diseñar un programa que lea por teclado un número natural menor de 20,
 y que imprima en pantalla bien un rombo de asteriscos si el número es impar, o bien un
 triángulo rectángulo si el número es par.
+
+
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[figuras.psc](./Iteracion/figuras.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/figuras.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ figuras.c](./Iteracion/figuras.c)
