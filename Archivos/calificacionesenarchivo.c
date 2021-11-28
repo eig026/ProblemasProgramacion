@@ -1,3 +1,12 @@
+/*
+ * @authors Equipo docente Programaci√≥n
+ * @project Creaci√≥n de Materiales Did√°cticos en la Univer. de Almer√≠a (2021-2022)
+ * Grados en Ingenier√≠a El√©ctrica, Electr√≥nica Industrial, Mec√°nica y Qu√≠mica Industrial
+ * @date 2021-02-06
+ */
+
+
+
 #include <stdio.h>
 #include <conio.h>
 #include <ctype.h>
@@ -49,10 +58,10 @@ int main(){
 
 	/* Establecemos que vamos a usar caracteres locales */
 	setlocale(LC_CTYPE,"Spanish");
-	/* Para m·quinas Windows tambiÈn hay que cambiar  */
-	/* la p·gina de cÛdigos de la consola a la p·gina */
-	/* de cÛdigos ANSI (1252), ya que por defecto se  */
-	/* utiliza la p·gina de cÛdigos 437               */
+	/* Para mÔøΩquinas Windows tambiÔøΩn hay que cambiar  */
+	/* la pÔøΩgina de cÔøΩdigos de la consola a la pÔøΩgina */
+	/* de cÔøΩdigos ANSI (1252), ya que por defecto se  */
+	/* utiliza la pÔøΩgina de cÔøΩdigos 437               */
 	SetConsoleCP(1252);
 	SetConsoleOutputCP(1252);
 	// n=0;
@@ -152,7 +161,7 @@ void insertar_alumno(tipo_vector v,int *n,int np){
 void leer_cadena(char *cad, int n){
 /* lee por teclado y devuelve una cadena de hasta n caracteres */
 /* Nota: la cadena debe preveer una posicion adicional para la */
-/* marca fin de cadena (\0) --> tamaÒo minimo n+1 caracteres   */
+/* marca fin de cadena (\0) --> tamaÔøΩo minimo n+1 caracteres   */
     int i,fin;
     char c;
 
@@ -180,8 +189,8 @@ void leer_cadena(char *cad, int n){
 }
 
 int buscar_alumno(tipo_vector v,int n,tipo_identificacion id){
-	/* Devuelve la posiciÛn del alumno en el vector */
-	/* Û -1 si no se encuentra registrado           */
+	/* Devuelve la posiciÔøΩn del alumno en el vector */
+	/* ÔøΩ -1 si no se encuentra registrado           */
 	int i;
 
 	i=0;
@@ -199,7 +208,7 @@ void insertar_calificaciones(tipo_vector v,int n,int *np){
 	float r;
 
 	if(*np<NOTAS){ system("cls");
-				 printf("Introducir calificaciones examen n∫ %d\n",*np+1);
+				 printf("Introducir calificaciones examen nÔøΩ %d\n",*np+1);
 				 printf("=====================================\n\n");
 				 for(i=0; i<n; ++i){
 					 printf("Alumno: %s %s, %s\n",v[i].id.ape1,
@@ -382,7 +391,7 @@ void inicializar_vector(tipo_vector v, int *n, int *np){
 		while((*n<N)&&(!feof(f))){
 			v[*n]=a;
 			(*n)++;
-			/* Calcular el n∫ de parciales evaluados */
+			/* Calcular el nÔøΩ de parciales evaluados */
 			for(j=0;j<NOTAS;++j){
 				if(a.notas[j]!=-2.0){
 					if(j==(*np))

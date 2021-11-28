@@ -1,3 +1,12 @@
+/*
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Eléctrica, Electrónica Industrial, Mecánica y Química Industrial
+ * @date 2021-02-06
+ */
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -8,7 +17,7 @@
 #define MAX_EST 100    /* Numero maximo de estaciones de monitorizacion */
 #define INTERVALOS 10  /* Numero de intervalos de clase para histograma */
 
-/* Dise�o Preliminar */
+/* Dise�o Preliminar */
 /* Nuevos tipos de datos */
 typedef int tipo_ica[MAX_EST];      /* Indice de calidad del aire */
 typedef int tipo_fa[INTERVALOS];    /* Frecuencias absolutas */
@@ -22,7 +31,7 @@ void calcular_frecuencias_relativas(tipo_fa vf,int ni,int n,tipo_fr vr);
 void imprimir_histograma(tipo_ica v,int n,int ni);
 void imprimir_grafico(tipo_fa vf,tipo_fr vr,int ni);
 
-/* Dise�o Detallado */
+/* Dise�o Detallado */
 int main(){
     char c;
     tipo_ica v;
@@ -99,7 +108,7 @@ void imprimir_histograma(tipo_ica v,int n,int ni){
 void imprimir_grafico(tipo_fa vf,tipo_fr vr,int ni){
      int i,j;
      float acum;
-     int na;      /* N� de asteriscos de la linea */
+     int na;      /* N� de asteriscos de la linea */
 
      acum=0;
      system("cls");

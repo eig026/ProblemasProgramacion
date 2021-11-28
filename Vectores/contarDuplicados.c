@@ -1,4 +1,12 @@
+/*
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Eléctrica, Electrónica Industrial, Mecánica y Química Industrial
+ * @date 2021-02-06
+ */
 // Contar elementos duplicados de un  Arrays
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX 100
@@ -11,7 +19,7 @@ int main()
 {
     tipo_vector arr1;
     int n, total=0;
-       printf("\n\nContar el n�mero total de elementos duplicados en un array:\n");
+       printf("\n\nContar el n�mero total de elementos duplicados en un array:\n");
        printf("---------------------------------------------------------\n");
        leer_vector(arr1,&n);
        total=contar_duplicados(arr1,n);

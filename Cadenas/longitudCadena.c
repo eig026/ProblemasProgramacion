@@ -1,4 +1,12 @@
+/*
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Eléctrica, Electrónica Industrial, Mecánica y Química Industrial
+ * @date 2021-02-06
+ */
 /* Programa que calcula la longitud de una cadena   */
+
+
 #include <stdio.h>
 #include <ctype.h>
 #include <math.h>

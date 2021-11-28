@@ -1,5 +1,11 @@
+/*
+ * @authors Equipo docente Programaci√≥n
+ * @project Creaci√≥n de Materiales Did√°cticos en la Univer. de Almer√≠a (2021-2022)
+ * Grados en Ingenier√≠a El√©ctrica, Electr√≥nica Industrial, Mec√°nica y Qu√≠mica Industrial
+ * @date 2021-02-06
+ */
 /* Gestion de materiales industriales           */
-/* Programa para aÒadir, consultar y actualizar */
+/* Programa para a√±adir, consultar y actualizar */
 /* datos de nuevos materiales industriales      */
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,7 +14,7 @@
 #include <string.h>
 #include <math.h>
 #define N 50
-/* DiseÒo Preliminar */
+/* Dise√±o Preliminar */
 /* Nuevos tipos de datos */
 typedef char cadena50[N+1];
 typedef struct{
@@ -17,7 +23,7 @@ typedef struct{
     double rt;                 /* Resistencia a la traccion: MPa */
     double me;                 /* Modulo de elasticidad: MPa     */
     double rrp; /* Resistencia relativa al peso (acero=1)        */
-    double cetl;/* Coeficiente de expansion termica lineal: 1/∫K */
+    double cetl;/* Coeficiente de expansion termica lineal: 1/ÔøΩK */
 }tipo_material;
 /* prototipos de funciones */
 void leer_cadena(char *cad, int n);
@@ -39,7 +45,7 @@ void modificar_material(tipo_material *mat);
 void leer_archivo_material(FILE *f, tipo_material *mat);
 void grabar_archivo_material(FILE *f, tipo_material mat);
 
-/* DiseÒo detallado */
+/* DiseÔøΩo detallado */
 /* Definiciones de funciones */
 int main(){
     char c;          /* Opcion del menu            */
@@ -87,7 +93,7 @@ void leer_opcion_menu(char *c){
 void leer_cadena(char *cad, int n){
 /* lee por teclado y devuelve una cadena de hasta n caracteres */
 /* Nota: la cadena debe preveer una posicion adicional para la */
-/* marca fin de cadena (\0) --> tamaÒo minimo n+1 caracteres   */
+/* marca fin de cadena (\0) --> tamaÔøΩo minimo n+1 caracteres   */
     int i,fin;
     char c;
 
@@ -150,7 +156,7 @@ void creacion(cadena50 nombre){
 }
 
 void anadir(cadena50 nombre){
-/* AÒade datos de nuevos materiales leidos por */
+/* AÔøΩade datos de nuevos materiales leidos por */
 /* teclado al final del archivo                */
     FILE *f;
     tipo_material mat;

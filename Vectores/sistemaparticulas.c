@@ -1,3 +1,9 @@
+/*
+ * @authors Equipo docente ProgramaciÃ³n
+ * @project CreaciÃ³n de Materiales DidÃ¡cticos en la Univer. de AlmerÃ­a (2021-2022)
+ * Grados en IngenierÃ­a ElÃ©ctrica, ElectrÃ³nica Industrial, MecÃ¡nica y QuÃ­mica Industrial
+ * @date 2021-02-06
+ */
 /* Programa que gestiona un sistema de particulas: */
 /* inserta, elimina, lista y escribe masa y        */
 /* centro de masas                                 */
@@ -70,12 +76,12 @@ void leer_opcion_menu(char *c){
 
 void insertar_particula(tipo_vector m, tipo_vector x,
         tipo_vector y, tipo_vector z, int *n){
-/* Módulo para insertar partículas; tras insertar una partícula  */
-/* pregunta si se desean introducir mas partículas.              */
+/* Mï¿½dulo para insertar partï¿½culas; tras insertar una partï¿½cula  */
+/* pregunta si se desean introducir mas partï¿½culas.              */
 /* Las particulas se insertan en orden de masa, de mayor a menor */
-    int i;                           /* posición de inserción    */
+    int i;                           /* posiciï¿½n de inserciï¿½n    */
     int j;                           /* contador de bucle        */
-    float nm, nx, ny, nz;            /* datos de nueva partícula */
+    float nm, nx, ny, nz;            /* datos de nueva partï¿½cula */
     char c;                          /* respuesta a pregunta     */
 
     do{ if(*n==MAX){
@@ -122,8 +128,8 @@ void leer_posicion(float *x, float *y, float *z){
 
 int posicion_ocupada(tipo_vector x, tipo_vector y,
         tipo_vector z,int n, float nx, float ny, float nz){
-/* Devuelve verdadero si en la nueva posición  ya hay  una partícula */
-    int res;        /* resultado de la comprobación */
+/* Devuelve verdadero si en la nueva posiciï¿½n  ya hay  una partï¿½cula */
+    int res;        /* resultado de la comprobaciï¿½n */
     int i;          /* contador de bucle            */
 
     res=0;
@@ -137,7 +143,7 @@ int posicion_ocupada(tipo_vector x, tipo_vector y,
 }
 
 int buscar_posicion_insercion(tipo_vector m, int n, float nm){
-/* Devuelve la posición del primer elemento de masa menor a nm	*/
+/* Devuelve la posiciï¿½n del primer elemento de masa menor a nm	*/
     int i;          /* contador de bucle   */
     int enc;        /* indicador de suceso */
 

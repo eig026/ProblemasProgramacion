@@ -1,5 +1,12 @@
+/*
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Eléctrica, Electrónica Industrial, Mecánica y Química Industrial
+ * @date 2021-02-06
+ */
 /* Programa que resuelve un sistema lineal de n ecuaciones con
 	m incognitas por el metodo de eliminacion de Gauss-Jordan        */
+
 #include <stdio.h>
 #include <conio.h>
 #include <ctype.h>
