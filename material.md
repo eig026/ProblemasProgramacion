@@ -41,22 +41,8 @@ Tachado
 
 ~Mistaken Text~
 
-Iconos
 
-:octocat:
-:computer:
-:loop:
-:pencil2:
-:notebook:
-:crossed_flags:
-:symbols:
 
-:repeat:
-:id:
-:eight_pointed_black_star:
-:sparkle:
-:ballot_box_with_check:
-:white_check_mark:
 
 Tabla HTML
 

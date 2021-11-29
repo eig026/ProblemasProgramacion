@@ -149,7 +149,7 @@ equivalente en ohmios.
 >  <img src="iconos/prob.png">  Construir un programa que imprima en pantalla la tabla de multiplicar de los 9
 primeros números naturales
 
-&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[tablaMultiplicarFinal.psc](./Iteracion/tablaMultiplicarFinal.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/maximoComunDivisor.psc)
+&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[tablaMultiplicarFinal.psc](./Iteracion/tablaMultiplicarFinal.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/tablaMultiplicarFinal)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ tablaMultiplicarFinal.c](./Iteracion/tablaMultiplicarFinal.c)
 
 
