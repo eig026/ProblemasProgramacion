@@ -1,3 +1,4 @@
+
 /*
  * @authors Equipo docente Programación
  * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
@@ -6,8 +7,7 @@
  */
 
 
-
-#include <stdio.h>
+ #include <stdio.h>
 #include <ctype.h>
 #include <math.h>
 #define g 9.81
