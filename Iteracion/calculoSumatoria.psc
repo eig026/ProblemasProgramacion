@@ -21,4 +21,3 @@ Var
 	Finmientras
 	Escribir "Sumatoria = ",suma; 
 Finalgoritmo
-			
