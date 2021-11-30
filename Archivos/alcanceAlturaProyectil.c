@@ -7,7 +7,7 @@
  */
 
 
- #include <stdio.h>
+#include <stdio.h>
 #include <ctype.h>
 #include <math.h>
 #define g 9.81
