@@ -20,4 +20,3 @@ Var
 	Finmientras
 	Escribir "Resultante: (",rx, ",",ry, ",",rz, ")"
 Finalgoritmo
-		

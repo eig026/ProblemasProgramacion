@@ -25,5 +25,4 @@ Algoritmo TrianguloPascal
 			Escribir " "
 			n<-n+1
 	Finmientras
-Finalgoritmo
-						
+Finalgoritmo					

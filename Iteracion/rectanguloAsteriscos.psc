@@ -35,4 +35,3 @@ Algoritmo RectanguloAsteriscos
 		j<-j+1
 	Fin mientras
 Fin algoritmo
-				

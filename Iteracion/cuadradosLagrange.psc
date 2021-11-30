@@ -1,7 +1,7 @@
 Algoritmo TeoremaCuatroCuadrados
 	
 	Repetir	
-		Escribir("Introduzca nº natural: ")
+		Escribir("Introduzca nï¿½ natural: ")
 		Leer n
 	Hasta que (n>=0)
 	a<-0

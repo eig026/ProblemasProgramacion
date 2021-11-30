@@ -1,5 +1,5 @@
 Algoritmo sumaDosPrimos
-    Escribir "Introduce un número positivo"
+    Escribir "Introduce un nÃºmero positivo"
 	leer n
 	i=2
 	//contamos en orden ascendiente hasta n/2
@@ -25,9 +25,9 @@ Algoritmo sumaDosPrimos
 			finsi
 		j=j+1
 		finmientras
-		// si ambos son primos distintos Éxito!!!
+		// si ambos son primos distintos Ã©xito!!!
 		si (flg1 = 1 y flg2 = 1 y i<>(n-i))  
-			//quitar la última operación de relacion para quese pueda repetir el primo
+			//quitar la Ãºltima operaciÃ³n de relacion para quese pueda repetir el primo
 			Escribir n " = " i  " + "  n - i 
 			flg3 = 1
 		finsi

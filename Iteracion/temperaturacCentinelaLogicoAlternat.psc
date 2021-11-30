@@ -17,7 +17,7 @@ Algoritmo temperaturaMaxima
 		Fin si
 	Fin mientras
 	Si (tmax!=Tfin) Entonces
-		Escribir "Temperatura m·xima: ", tmax 
-	Sino	Escribir "Sin datos v·lidos" 
+		Escribir "Temperatura m√°xima: ", tmax 
+	Sino	Escribir "Sin datos v√°lidos" 
 	Fin si
 Fin algoritmo

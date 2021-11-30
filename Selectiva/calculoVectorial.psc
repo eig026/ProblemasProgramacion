@@ -50,4 +50,3 @@ Var	c: caracter
 			Escribir("Opcion no valida")
 	Finsegun
 FinAlgoritmo
-

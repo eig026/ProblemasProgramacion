@@ -21,4 +21,4 @@ Escribir "RESISTENCIA EQUIVALENTE CONJUNTO DE RESISTENCIAS EN PARALELO"
 						Escribir "Resistencia equivalente (ohmios): ",rt
 					Sino		Escribir "No hay ninguna resistencia"
 					Finsi
-FinAlgoritmo						
+FinAlgoritmo	

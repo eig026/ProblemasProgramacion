@@ -31,7 +31,4 @@ Algoritmo TablaMultiplicar
 		Escribir " "
 		i<-i+1
 	Fin mientras
-Fin algoritmo
-
-											
-											
+Fin algoritmo					

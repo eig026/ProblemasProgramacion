@@ -1,6 +1,6 @@
 Algoritmo RectanguloAsteriscos
 	//	{ Programa que imprime en pantalla las aristas de	}
-	//	{ un rectángulo dadas la base y la altura del mismo	}
+	//	{ un rectï¿½ngulo dadas la base y la altura del mismo	}
 	Repetir	
 		Escribir("Introduzca ancho [3-40]: ")
 		Leer a 
@@ -35,4 +35,3 @@ Algoritmo RectanguloAsteriscos
 		j<-j+1
 	Fin mientras
 Fin algoritmo
-				

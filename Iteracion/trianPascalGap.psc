@@ -1,14 +1,14 @@
 Algoritmo TrianguloPascal
-//	{ programa que imprime en pantalla el triángulo de 	}
-//	{ Tartaglia dado por teclado el número de la última fila	}
+//	{ programa que imprime en pantalla el triÃ¡ngulo de 	}
+//	{ Tartaglia dado por teclado el nÃºmero de la Ãºltima fila	}
 	MAX=20
 	gap=". "
 	Repetir 
-		Escribir("Introduzca Nº de filas: ")
+		Escribir("Introduzca NÃºmero de filas: ")
 		Leer filas 
 	Hasta que (filas>0)y(filas<=MAX)
 	n<-0
-	Mientras (n<=filas) Hacer	//{ Espacios en blanco principio línea	}
+	Mientras (n<=filas) Hacer	//{ Espacios en blanco principio lÃ­nea	}
 			m<-filas-n
 			Mientras(m>0) Hacer	
 				Escribir Sin Saltar " "
@@ -27,4 +27,3 @@ Algoritmo TrianguloPascal
 			n<-n+1
 	Finmientras
 Finalgoritmo
-						

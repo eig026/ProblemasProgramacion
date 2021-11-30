@@ -1,10 +1,10 @@
 Algoritmo calcularAreaTriangulo
-// programa que calcula el ·rea de un tri·ngulo	
+// programa que calcula el √°rea de un tri√°ngulo	
 // dadas las longitudes de sus lados	
 Var
 	l1,l2,l3: real	// longitudes de los lados
-	s: real		// semiperÌmetro 
-	area: real		// ·rea del tri·ngulo
+	s: real		// semiper√≠metro 
+	area: real		// √Årea del tri√°ngulo
 
 	
 	Escribir "Introducir longitudes de lados: "

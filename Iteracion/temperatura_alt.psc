@@ -18,7 +18,6 @@ Algoritmo temperaturaMaxima
 			Fin si
 			i<- i+1
 		Fin mientras
-		Escribir "Temp. máxima: ", tmax
+		Escribir "Temp. mÃ¡xima: ", tmax
 	Fin si
 Fin algoritmo
-
