@@ -281,32 +281,16 @@ pasos discretos.
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ integralDefinida.c](./Iteracion/integralDefinida.c)
 
 ### Raiz cero
->  <img src="iconos/prob.png"> Construir un programa que calcule una raíz (cero) de la función **f(x) =
-x<sup>5</sup> - x<sup>4</sup> + x<sup>3</sup>- 3**, mediante el método de bisección. 
+>  <img src="iconos/prob.png"> Construir un programa que calcule una raíz (cero) de la función **f(x)=x<sup>5</sup>-x<sup>4</sup>+x<sup>3</sup>-3**, mediante el método de bisección. Dicho método se basa en el teorema de Bolzano que dice que si una función f(x) es continua y toma en los extremos de un intervalo [a,b] valores de signo opuesto, entonces la función admite al menos una raíz en dicho intervalo. Para el cálculo de la raíz, se parte del intervalo inicial [x<sub>izq</sub>x<sub>der</sub>], se calcula el punto medio x<sub>m</sub> y se evalúa el signo del producto f(<sub>izq</sub>)*f(x<sub>m</sub>):
 
-Dicho método se basa
-en el teorema de Bolzano que dice que si una función f(x) es continua y toma en los extremos
-de un intervalo [a , b] valores de signo opuesto, entonces la función admite al menos una raíz
-en dicho intervalo. Para el cálculo de la raíz, se parte del intervalo inicial [x_izq, x_der], se calcula
-el punto medio xm y se evalúa el signo del producto f(x_izq) * f(x_m)
+- Si f(<sub>izq</sub>)*f(x<sub>m</sub>)<0 -- redefinir límite izquierdo del intervalo: x<sub>der</sub> -- x<sub>m</sub>
+- Si f(<sub>izq</sub>)*f(x<sub>m</sub>)>0 -- redefinir límite derecho del intervalo: x<sub>izq</sub>x<sub>m</sub>
+- Si f(<sub>izq</sub>)*f(x<sub>m</sub>)=0 -- hay una raíz en x<sub>m</sub>
+  
+El proceso anterior de reducción del intervalo a la mitad se repite hasta encontrar una raíz o bien hasta que el tamaño del intervalo sea menor que un valor de precisión E dado. En este último caso la raíz se aproxima por el valor central de dicho intervalo.
 
-Si f(x_izq) * f(x_m) < 0 se debe redefinir límite izquierdo del intervalo: x_der =  x_m
-
-Si f(x_izq) * f(x_m) > 0 se debe redefinir límite izquierdo del intervalo: x_izq  = x_m
-
-Si f(x_izq) * f(x_m) = 0 hay una raiz en x_m
-
-El proceso anterior de reducción del intervalo a la mitad se repite hasta encontrar una
-raíz o bien hasta que el tamaño del intervalo sea menor que un valor de precisión E dado. En
-este último caso la raíz se aproxima por el valor central de dicho intervalo.
-
-El programa deberá leer por teclado dos valores a y b que cumplan la condición del teorema
-de Bolzano, así como un valor positivo para la precisión (exactitud o error) E deseada,
-escribiendo en pantalla la raíz (x) y el valor correspondiente de la función (f(x)). Si los valores
-dados no cumplen la condición de Bolzano se volverán a leer por teclado solo en el
-caso de que sean distintos y ninguno de ellos sea una raíz. El programa se ejecutará de
-forma reiterada para un nuevo conjunto de datos de entrada, finalizando su ejecución cuando
-coincidan los límites izquierdo y derecho del intervalo.
+El programa deberá leer por teclado dos valores a y b que cumplan la condición del teorema de Bolzano, así como un valor positivo para la precisión (exactitud o error) E deseada, escribiendo en pantalla la raíz (x) y el valor correspondiente de la función (f(x)). Si los valores dados de a y b no cumplen la condición de Bolzano se volverán a leer por teclado solo en el caso de que sean distintos y ninguno de ellos sea una raíz. El programa se ejecutará de forma reiterada para un nuevo conjunto de datos de entrada, finalizando su ejecución cuando coincidan los límites izquierdo y derecho del intervalo.
+.
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[ceroFuncion.psc](./Iteracion/ceroFuncion.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/ceroFuncion.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ ceroFuncion.c](./Iteracion/ceroFuncion.c)
