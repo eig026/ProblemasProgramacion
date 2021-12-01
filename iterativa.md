@@ -353,11 +353,24 @@ n=5                       n=7
 
 
 ### Paralelepípedo
->  <img src="iconos/prob.png"> Construir un programa que dibuje en pantalla mediante asteriscos las aristas
-visibles de un paralelepípedo, dados por teclado las dimensiones del mismo adecuadamente
-validadas: ancho (entre 3 y 20 asteriscos), alto (entre 3 y 10) y profundidad (entre 3 y 10). En
-la impresión en pantalla se intentará simular una proyección paralela axonométrica de las caras
-visibles del paralelepípedo, según el formato indicado en los datos de prueba.
+>  <img src="iconos/prob.png"> Construir un programa que dibuje en pantalla mediante asteriscos las aristas visibles de un paralelepípedo, dados por teclado las dimensiones del mismo adecuadamente  validadas: ancho (entre 3 y 20 asteriscos), alto (entre 3 y 10) y profundidad (entre 3 y 10). En  la impresión en pantalla se intentará simular una proyección paralela axonométrica de las caras visibles del paralelepípedo, según el formato indicado.
+```
+         * * * * * * * * * *
+       *                 * *
+     *                 *   *
+   *                 *     *
+ * * * * * * * * * *       *
+ *                 *       *
+ *                 *       *
+ *                 *       *
+ *                 *       *
+ *                 *       *
+ *                 *     *
+ *                 *   *
+ *                 * *
+ * * * * * * * * * *
+```
+
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[rectanguloAsteriscosFondo.psc](./Iteracion/rectanguloAsteriscosFondo.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/rectanguloAsteriscosFondo.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ rectanguloAsteriscosFondo.c](./Iteracion/rectanguloAsteriscosFondo.c)
