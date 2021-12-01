@@ -306,10 +306,25 @@ donde se alcanzó la máxima velocidad media por tramo, presentando la misma en 
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ velocidadMediaTramo.c](./Iteracion/velocidadMediaTramo.c)
 
 ### Figuras con asteriscos
->  <img src="iconos/prob.png"> Diseñar un programa que lea por teclado un número natural menor de 20,
-y que imprima en pantalla bien un rombo de asteriscos si el número es impar, o bien un
-triángulo rectángulo si el número es par.
+>  <img src="iconos/prob.png"> Diseñar un programa que lea por teclado un número natural menor de 20, y que imprima en pantalla bien un rombo de asteriscos si el número es impar, o bien un triángulo rectángulo si el número es par. Ejemplos:
 
+
+n=5 
+```
+     *
+   * * * 
+ * * * * *
+   * * *
+     *
+```
+
+n=4 
+  ```
+  *
+  * *
+  * * *
+  * * * *
+  ```
 
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[figuras.psc](./Iteracion/figuras.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/figuras.psc)
@@ -317,9 +332,21 @@ triángulo rectángulo si el número es par.
 
 
 ### Triángulo
->  <img src="iconos/prob.png"> Sado un número natural menor de 20 presentar en pantalla un triángulo
-rectángulo con base y altura igual al número introducido y formado por los primeros números
-naturales en orden inverso.
+>  <img src="iconos/prob.png"> 
+¿Qué es el invariante de un bucle?. Determinar el invariante del bucle(s) del siguiente problema y a partir del mismo diseñar el bucle(s), explicando brevemente los pasos realizados: dado un número natural menor de 20 presentar en pantalla un triángulo rectángulo con base y altura igual al número introducido y formado por los primeros números naturales escritos en orden inverso. Ejemplos:
+
+
+```
+n=5                       n=7
+   15                     28
+   14 13                  27 26
+   12 11 10               25 24 23
+   9  8  7  6             22 21 20 19
+   5  4  3  2  1          18 17 16 15 14
+                          13 12 11 10  9  8
+                          7   6  5  4  3  2 1 
+```
+
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[trianguloNumeros.psc](./Iteracion/trianguloNumeros.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Iteracion/trianguloNumeros.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ trianguloNumeros.c](./Iteracion/trianguloNumeros.c)
