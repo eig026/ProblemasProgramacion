@@ -1,11 +1,11 @@
+/*
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
 
 
-
-
-
-
-
-
+ */
 
 #include <stdio.h>
 #include <ctype.h>

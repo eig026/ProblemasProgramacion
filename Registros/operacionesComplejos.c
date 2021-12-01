@@ -1,6 +1,12 @@
+/* @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
+ */
 /* Programa que realiza diversas operaciones */
 /* con dos numeros complejos:                */
 /* suma, resta, multiplicacion y division    */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>

@@ -1,7 +1,12 @@
-/* Ejemplo de registro con parte variante:  */
-/* Coordenadas bidimensionales de un punto: */
-/* Cartesianas: (x,y)                       */
-/* Polares: (modulo,angulo)                 */
+/*
+ * @authors Equipo docente Programación
+ * @project Creación de Materiales Didácticos en la Univer. de Almería (2021-2022)
+ * Grados en Ingeniería Elécctrica, Electrónica Industrial, Mecénica y Química industrial
+ * @date 2021-02-06
+ */
+/* Ejemplo de registro con parte variante:  Coordenadas bidimensionales de un punto: */
+/* Cartesianas: (x,y) Polares: (modulo,angulo)                 */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
