@@ -36,7 +36,7 @@ ___
 ### [Primeros pasos ][Primeros_pasos]
 ### [Programación estructurada. Secuencia ][Secuencia]
 ### [Programación estructurada. Selectiva ][Selectiva]
-### [Programación estructurada. Iteracion ][Iteracion]
+### [Programación estructurada. Iteración ][Iteracion]
 ### [Diseño estructurado. Abstracciones Funcionales ][Modulos]
 ### [Diseño estructurado. Abstracciones de datos. Vectores y Registros ][VecReg]
 ### [Gestion de archivos][Archivos]
