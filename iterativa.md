@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
 
-# Programación estructurada. Iterativa
+# Programación estructurada. Iterativa.
 
 A menudo en la resolución de un problema es necesario ejecutar  una instrucción o un bloque de instrucciones más de una vez. Por  ejemplo **Implementar un programa que calcule  la suma de N números leídos desde teclado**.
 
