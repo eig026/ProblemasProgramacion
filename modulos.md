@@ -15,7 +15,6 @@ El programa leerá por teclado la opción disponible y ejecutará las acciones p
 
 Nota: las tres opciones del menú se corresponden con  problemas descritos en otros apartados de este repositorio. Implementar directamente los programas de dichos ejercicios como módulos sin ninguna descomposición funcional adicional.
 
-&ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  menu.psc](./DisModular/menu.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/DisModular/menu.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ menu.c](./DisModular/menu.c)
 
 
