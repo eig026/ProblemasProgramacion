@@ -7,7 +7,7 @@ Var	n: entero		// numero del termino
 	fib_1,fib_2: entero	// dos terminos anteriores
 
 	Repetir
-		Escribir "Introduzca Nº de termino: ";
+		Escribir "Introduzca Numero de terminos: ";
 		Leer n;
 	Hasta que (n>0)
 	fib_1<-0;
