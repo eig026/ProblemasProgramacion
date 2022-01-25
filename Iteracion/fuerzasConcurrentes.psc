@@ -1,7 +1,7 @@
 Algoritmo resultanteFuerzasConcurrentes
-// programa que calcula la resultante de un conjunto de	
-// fuerzas concurrentes cuyas componentes se introducen	
-// por teclado. Finaliza la entrada con una fuerza nula  	
+	// programa que calcula la resultante de un conjunto de	
+	// fuerzas concurrentes cuyas componentes se introducen	
+	// por teclado. Finaliza la entrada con una fuerza nula  	
 Var
 	fx,fy,fz: real	// componentes de cada fuerza      	
 	rx,ry,rz: real	// componentes de resultante		

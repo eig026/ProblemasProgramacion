@@ -1,6 +1,6 @@
 Algoritmo temperaturaMaxima
 	
-	Escribir "Introduzca numero de datos: " 
+	Escribir "Introduzca número de datos: " 
 	Leer n
 	Si n=0 
 		Entonces

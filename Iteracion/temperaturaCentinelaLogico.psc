@@ -1,14 +1,14 @@
 Algoritmo temperaturaMaxima
-// programa que calcula la mayor temperatura de
-// un conjunto de datos de temperaturas             
-// El numero de datos es conocido a priori 
+	// programa que calcula la mayor temperatura de
+	// un conjunto de datos de temperaturas             
+	// El número de datos es conocido a priori 
 Const
-	Tfin=-999  	// valor centinela: termina E datos
+	Tfin=-999		// valor centinela: termina E datos
 Var     
-	n: entero        // numero de datos a leer       
- 	i: entero        // contador del bucle           
-	t: real       	 // temperatura leida              
-      	tmax: real   	// temperatura maxima
+	n: entero		// número de datos a leer       
+ 	i: entero		// contador del bucle           
+	t: real			// temperatura leída              
+    tmax: real   	// temperatura maxima
 
 	tmax<--10^38
 	final <- falso
