@@ -1,9 +1,9 @@
 Algoritmo calcularAreaTriangulo
-// programa que calcula el área de un triángulo	
-// dadas las longitudes de sus lados	
+    // programa que calcula el área de un triángulo	
+    // dadas las longitudes de sus lados	
 Var
 	l1,l2,l3: real	// longitudes de los lados
-	s: real		// semiperímetro 
+	s: real			// semiperímetro 
 	area: real		// Área del triángulo
 
 	
@@ -16,7 +16,7 @@ Var
 			s<-(l1+l2+l3)/2
 			area<-raiz(s*(s-l1)*(s-l2)*(s-l3))
 			Escribir "Area=",area
-		Sino		Escribir "No es un triangulo" 
+		Sino		Escribir "No es un triángulo" 
 		Finsi
 	Finsi
 Finalgoritmo

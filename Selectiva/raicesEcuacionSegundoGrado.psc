@@ -1,10 +1,10 @@
 Algoritmo raicesEcuacionSegundoGrado
-// programa que calcula e imprime en pantalla las 	
-// soluciones de la ecuaci�n: A*x*x+B*x+C=0		
+    // programa que calcula e imprime en pantalla las 	
+    // soluciones de la ecuación: A*x*x+B*x+C=0		
 Var
-	a,b,c: real		// coeficientes polinomio
-d: real		// discriminante: b*b-4*a*c	
-	x1,x2: real	// raices de la ecuacion
+	a,b,c: real	   // coeficientes polinomio
+    d: real		   // discriminante: b*b-4*a*c	
+	x1,x2: real    // raices de la ecuacion
 
 	Escribir "Introduzca coeficientes polinomio: ";
 	Leer a,b,c;

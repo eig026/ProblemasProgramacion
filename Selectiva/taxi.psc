@@ -1,9 +1,9 @@
 Algoritmo tarifaTaxi
 // calcula y muestra la tarifa de un taxi según los km recorridos
 Const
-	FIJO=30	   // Tarifa fija				
-	T1=15	   // Tarifa 1: euro/km de 30-100 km 
-	T2= 10	   // Tarifa 2: euro/km >100 km 	
+	FIJO=30	   		// Tarifa fija				
+	T1=15	   		// Tarifa 1: euro/km de 30-100 km 
+	T2= 10	   		// Tarifa 2: euro/km >100 km 	
 Var	
 	km: real		// kilómetros recorridos
 	total: real		// Total a cobrar en euros
