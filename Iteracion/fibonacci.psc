@@ -1,9 +1,9 @@
 Algoritmo fibonacci
-// programa que calcula el termino n-esimo de la serie de
-// Fibonacci, dado por teclado el n. del termino
-Var	n: entero		// numero del termino
-	fib: entero		// termino n-esimo
-	i: entero		// contador de iteraciones
+	// programa que calcula el termino n-esimo de la serie de
+	// Fibonacci, dado por teclado el n. del termino
+Var	n: entero           // numero del termino
+	fib: entero         // termino n-esimo
+	i: entero           // contador de iteraciones
 	fib_1,fib_2: entero	// dos terminos anteriores
 
 	Repetir

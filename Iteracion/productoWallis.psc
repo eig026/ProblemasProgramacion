@@ -1,12 +1,12 @@
 Algoritmo ProductoWallis
-// Programa que calcula el valor de PI/2 mediante	
-// el producto de Wallis				
+    // Programa que calcula el valor de PI/2 mediante	
+    // el producto de Wallis				
 Var	
-	pre: real	// Precision del ultimo factor	
-	wal: real	// Producto de Wallis			
-	fac: real	// factor (termino)			
-	num,den: real	// numerador y denominador	
-	aux: real     	// auxiliar para alm. temporal	}
+	pre: real      // Precision del ultimo factor	
+	wal: real      // Producto de Wallis			
+	fac: real      // factor (termino)			
+	num,den: real  // numerador y denominador	
+	aux: real      // auxiliar para alm. temporal	}
 
 	Repetir
 		Escribir "Introduzca precision: "
