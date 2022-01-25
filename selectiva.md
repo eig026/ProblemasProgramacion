@@ -20,7 +20,7 @@ Sin embargo, al describir la resolución de un problema, es normal que tengamos 
 
 ### Exceso de velocidad
 >  <img src="iconos/prob.png">
-Construir un programa que lea por teclado un valor de velocidad y que escriba en pantalla un mensaje si la velocidad supera los 120 Km/h y en cuanta cantidad los supera
+> Construir un programa que lea por teclado un valor de velocidad y que escriba en pantalla un mensaje si la velocidad supera los 120 Km/h y en cuanta cantidad los supera
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  excesoVelocidad.psc](./Selectiva/excesoVelocidad.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/excesoVelocidad.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ excesoVelocidad.c](./Selectiva/excesoVelocidad.c)
@@ -29,7 +29,7 @@ Construir un programa que lea por teclado un valor de velocidad y que escriba en
 
 ### Calcular la temperatura máxima
 >  <img src="iconos/prob.png">
-Construir un programa que lea por teclado dos valores de temperatura en grados centígrados y que determine e imprima en pantalla el mayor valor
+> Construir un programa que lea por teclado dos valores de temperatura en grados centígrados y que determine e imprima en pantalla el mayor valor
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  temperaturaMaximaSelectivaSimple.psc](./Selectiva/temperaturaMaximaSelectivaSimple.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/temperaturaMaximaSelectivaSimple.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ temperaturaMaximaSelectivaSimple.c](./Selectiva/temperaturaMaximaSelectivaSimple.c)
@@ -38,7 +38,7 @@ Construir un programa que lea por teclado dos valores de temperatura en grados c
 
 ### Identificar el nivel del huracan
 >  <img src="iconos/prob.png">
-Construir un programa que lea por teclado el nivel de un huracán y que presente en pantalla la categoría (daño) asociada al mismo, según la clasificación de Saffir-Simpson
+> Construir un programa que lea por teclado el nivel de un huracán y que presente en pantalla la categoría (daño) asociada al mismo, según la clasificación de Saffir-Simpson
 
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  huracanes.psc](./Selectiva/huracanes.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/huracanes.psc)
@@ -47,7 +47,7 @@ Construir un programa que lea por teclado el nivel de un huracán y que presente
 
 ### Calcular el área de un triangulo
 >  <img src="iconos/prob.png">
-La fórmula de Herón halla el área de un triángulo del cual se conocen todos sus lados. El área se calcula a partir del semiperímetro del triángulo s y de la longitud de los lados (l_1, l_2 y l_3)
+> La fórmula de Herón halla el área de un triángulo del cual se conocen todos sus lados. El área se calcula a partir del semiperímetro del triángulo s y de la longitud de los lados (l_1, l_2 y l_3)
 
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  calcularAreaTriangulo.psc](./Selectiva/calcularAreaTriangulo.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/calcularAreaTriangulo.psc)
@@ -56,7 +56,7 @@ La fórmula de Herón halla el área de un triángulo del cual se conocen todos 
 
 ### Raices de una ecuación de segundo grado
 >  <img src="iconos/prob.png">
-Construir un programa que calcule e imprima en pantalla las raíces de la ecuación de segundo grado:
+> Construir un programa que calcule e imprima en pantalla las raíces de la ecuación de segundo grado:
 <img src="https://render.githubusercontent.com/render/math?math=Ax^2^ +Bx+C=0">, dados por teclado los coeficientes A, B y C
 
 &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  raicesEcuacionSegundoGrado.psc](./Selectiva/raicesEcuacionSegundoGrado.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/raicesEcuacionSegundoGrado.psc)
@@ -65,7 +65,7 @@ Construir un programa que calcule e imprima en pantalla las raíces de la ecuaci
 
 ### Mayor de tres temperaturas
 >  <img src="iconos/prob.png">
- Construir un programa que calcule e imprima la mayor de tres temperaturas (Centígrados) introducidas por teclado.
+> Construir un programa que calcule e imprima la mayor de tres temperaturas (Centígrados) introducidas por teclado.
  
  &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  tresTemperaturas.psc](./Selectiva/tresTemperaturas.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/tresTemperaturas.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ tresTemperaturas.c](./Selectiva/tresTemperaturas.c) &ensp;&ensp;&ensp; 
@@ -73,8 +73,7 @@ Construir un programa que calcule e imprima en pantalla las raíces de la ecuaci
 
 ### Calcular la tarifa de taxi
 >  <img src="iconos/prob.png">
-
-La tarifa de un taxi es la siguiente:
+> La tarifa de un taxi es la siguiente:
  -     Una cantidad fija de 30 € si no se sobrepasan los 30 km de recorrido.
  -     Para más de 30 km se consideran los siguientes supuestos:
      -      Si no se sobrepasan los 100 km, 15 € por km que exceda de los 30, además de los 30 €.
@@ -87,7 +86,7 @@ La tarifa de un taxi es la siguiente:
 
 ### Intersección de dos segmentos en el plano
 >  <img src="iconos/prob.png">
-Construir un programa que determine si dos segmentos de línea recta en el plano XY se cruzan e imprima en pantalla el punto/segmento de intersección o un mensaje de texto en caso de que no se crucen, dados por teclado las coordenadas cartesianas (x,y) de dos parejas de puntos diferentes que definen cada uno de los segmentos.
+> Construir un programa que determine si dos segmentos de línea recta en el plano XY se cruzan e imprima en pantalla el punto/segmento de intersección o un mensaje de texto en caso de que no se crucen, dados por teclado las coordenadas cartesianas (x,y) de dos parejas de puntos diferentes que definen cada uno de los segmentos.
 
 Nota: Ecuación de la recta que pasa por dos puntos:
 
@@ -120,7 +119,8 @@ Segmento de línea:
 
 ### Calculo de autovectores
 >  <img src="iconos/prob.png">
-Construir un programa en C que calcule e imprima en pantalla el autovector (o autovectores) asociado(s) a un autovalor, dados por teclado los coeficientes del sistema lineal homogéneo de ecuaciones a resolver:
+> Construir un programa en C que calcule e imprima en pantalla el autovector (o autovectores) asociado(s) a un autovalor, dados por teclado los coeficientes del sistema lineal homogéneo de ecuaciones a resolver:
+
 
 	a11*x+a12*y+a13*z=0
     a21*x+a22*y+a23*z=0
@@ -180,7 +180,7 @@ z=z/norma
 
 ### Coincidencia de temperaturas
 >  <img src="iconos/prob.png">
-Diseñar un programa que lea por teclado tres temperaturas e imprima un mensaje en pantalla indicando si los tres valores coinciden, si al menos dos ellos coinciden o si los tres son diferentes.
+> Diseñar un programa que lea por teclado tres temperaturas e imprima un mensaje en pantalla indicando si los tres valores coinciden, si al menos dos ellos coinciden o si los tres son diferentes.
 
 
  &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  tresTemperaturas.psc](./Selectiva/tresTemperaturas.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/tresTemperaturas.psc)
@@ -192,7 +192,7 @@ Diseñar un programa que lea por teclado tres temperaturas e imprima un mensaje 
 
 ### Lectura de datos de sensor de temperatura
 >  <img src="iconos/prob.png">
-Un indicador de temperatura de un automóvil normalmente lee temperaturas en el intervalo -30º a 120º y el voltaje que proporciona el sensor a la salida del motor está comprendido entre 5 y 10 voltios. Suponiendo que la relación es lineal, diseñar un programa que calcule e imprima en pantalla la temperatura a partir de un valor del voltaje introducido previamente por teclado. Para valores de voltaje fuera del rango considerado, imprimir un mensaje de error en la lectura de la temperatura
+> Un indicador de temperatura de un automóvil normalmente lee temperaturas en el intervalo -30º a 120º y el voltaje que proporciona el sensor a la salida del motor está comprendido entre 5 y 10 voltios. Suponiendo que la relación es lineal, diseñar un programa que calcule e imprima en pantalla la temperatura a partir de un valor del voltaje introducido previamente por teclado. Para valores de voltaje fuera del rango considerado, imprimir un mensaje de error en la lectura de la temperatura
 
  &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[  temperaturaSensor.psc](./Selectiva/temperaturaSensors.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/temperaturaSensor.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ temperaturaSensor.c](./Selectiva/temperaturaSensor.c) &ensp;&ensp;&ensp; 
@@ -200,7 +200,7 @@ Un indicador de temperatura de un automóvil normalmente lee temperaturas en el 
 
 ### Trasformación de coordenadas polares a coordenadas cartesianas
 >  <img src="iconos/prob.png">
-Diseñar un programa que permita pasar de coordenadas cartesianas bidimensionales a coordenadas polares. El programa leerá por teclado las coordenadas cartesianas e imprimirá en pantalla las coordenadas polares correspondientes.
+> Diseñar un programa que permita pasar de coordenadas cartesianas bidimensionales a coordenadas polares. El programa leerá por teclado las coordenadas cartesianas e imprimirá en pantalla las coordenadas polares correspondientes.
 
  &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[ cartesianasPolares.psc](./Selectiva/cartesianasPolares.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/cartesianasPolares.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ cartesianasPolares.c](./Selectiva/cartesianasPolares.c) &ensp;&ensp;&ensp; 
@@ -209,7 +209,7 @@ Diseñar un programa que permita pasar de coordenadas cartesianas bidimensionale
 
 ### Juego de adivinar un número
 >  <img src="iconos/prob.png">
-Diseñar un programa para adivinar e imprimir en pantalla un número de un solo dígito teniendo como información de entrada por teclado un carácter que indique si el número es par ('p') o impar ('i') y el resto de la división del número entre 5.
+> Diseñar un programa para adivinar e imprimir en pantalla un número de un solo dígito teniendo como información de entrada por teclado un carácter que indique si el número es par ('p') o impar ('i') y el resto de la división del número entre 5.
 
  &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[ adivinarNumero.psc](./Selectiva/adivinarNumero.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/adivinarNumero.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ adivinarNumero.c](./Selectiva/adivinarNumero.c) &ensp;&ensp;&ensp; 
@@ -219,7 +219,7 @@ Diseñar un programa para adivinar e imprimir en pantalla un número de un solo 
 
 ###  Sumar dos ángulos
 >  <img src="iconos/prob.png">
-Construir un programa que lea por teclado dos ángulos y calcule e imprima en pantalla su suma. Cada ángulo vendrá dado en grados, minutos y segundos, los cuales serán leídos separadamente por teclado y adecuadamente validados (0<=grados<360, 0<=minutos<60, 0<=segundos<60). El resultado de la suma se presentará en pantalla con el mismo formato
+> Construir un programa que lea por teclado dos ángulos y calcule e imprima en pantalla su suma. Cada ángulo vendrá dado en grados, minutos y segundos, los cuales serán leídos separadamente por teclado y adecuadamente validados (0<=grados<360, 0<=minutos<60, 0<=segundos<60). El resultado de la suma se presentará en pantalla con el mismo formato
 
  &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[ sumarAngulos.psc](./Selectiva/sumarAngulos.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/sumarAngulos.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ sumarAngulos.c](./Selectiva/sumarAngulos.c) &ensp;&ensp;&ensp; 
@@ -227,7 +227,7 @@ Construir un programa que lea por teclado dos ángulos y calcule e imprima en pa
 
 ### Calculadora para vectores
 >  <img src="iconos/prob.png">
-Construir un algoritmo que pida por teclado dos vectores y un símbolo de operador (“+”: suma, “-”: resta, “.”: producto escalar, “x”: producto vectorial), realice la operación seleccionada y escriba el resultado en la pantalla
+> Construir un algoritmo que pida por teclado dos vectores y un símbolo de operador (“+”: suma, “-”: resta, “.”: producto escalar, “x”: producto vectorial), realice la operación seleccionada y escriba el resultado en la pantalla
 
  &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[ calculoVectorial.psc](./Selectiva/calculoVectorial.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/calculoVectorial.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ calculoVectorial.c](./Selectiva/calculoVectorial.c) &ensp;&ensp;&ensp; 
@@ -236,7 +236,7 @@ Construir un algoritmo que pida por teclado dos vectores y un símbolo de operad
 
 ### Ecuacion por reducción
 >  <img src="iconos/prob.png">
-Diseñar un programa que resuelva un sistema lineal de tres ecuaciones con tres incógnitas mediante el método de reducción, dados por teclado los coeficientes de las incógnitas y los términos independientes de cada ecuación, y que presente en pantalla las soluciones del mismo o un mensaje de error en el caso de que el sistema no tenga solución única (sistema incompatible o compatible indeterminado)
+> Diseñar un programa que resuelva un sistema lineal de tres ecuaciones con tres incógnitas mediante el método de reducción, dados por teclado los coeficientes de las incógnitas y los términos independientes de cada ecuación, y que presente en pantalla las soluciones del mismo o un mensaje de error en el caso de que el sistema no tenga solución única (sistema incompatible o compatible indeterminado)
 
  &ensp;&ensp;&ensp;  <img src="iconos/pseudo.png">[ ecuacionReduccion.psc](./Selectiva/ecuacionReduccion.psc) [Ver](https://github.com/MaterialesProgramacion/ProblemasProgramacion/blob/master/Selectiva/ecuacionReduccion.psc)
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ ecuacionReduccion.c](./Selectiva/ecuacionReduccion.c) &ensp;&ensp;&ensp; 

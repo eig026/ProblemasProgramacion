@@ -4,6 +4,7 @@
 <p>
 En este capítulo se recopilan un conjunto de ejemplos simples que tienen por objetivo ser el primer contacto de los alumnos con la programación estructurada. Debemos tener en cuenta que a partir del segundo capítulo la base fundamental de la resolución de los problemas será en pseudocódigo y el Lenguaje C.
 </p>
+
 *********
 
 ## Mensajes en pantalla
@@ -16,7 +17,7 @@ En este capítulo se recopilan un conjunto de ejemplos simples que tienen por ob
 
 Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
 
- Saludar al usuario utilizando su nombre y apellidos. Esta información será pedida de forma separada, utilizando el teclado como entrada.
+> Saludar al usuario utilizando su nombre y apellidos. Esta información será pedida de forma separada, utilizando el teclado como entrada.
 
  &ensp;&ensp;&ensp; <img src="iconos/c.png">[SaludoPersonalizadoFormal.c](./Primeros_pasos/SaludoPersonalizadoFormal.c)
 
@@ -33,21 +34,31 @@ Veamos un ejemplo un poco mas elaborado del "Hola Mundo".
 
 ## Un primer cálculo
 
-  <img src="iconos/prob.png">  Realizar un programa en C que lea los valores de **x** e **y** y muestre en pantalla el resultado de la función:
+>  <img src="iconos/prob.png">  Realizar un programa en C que lea los valores de **x** e **y** y muestre en pantalla el resultado de la función:
 **f(x,y)=(x+y)/2y**
+
+
 
  &ensp;&ensp;&ensp; <img src="iconos/c.png">[EvaluarExpresion.c](./Primeros_pasos/EvaluarExpresion.c)
 
- <img src="iconos/prob.png">  Realizar un programa en C que lea el valor de dos operandos enteros, y posteriormente, dependiendo que cual sea el código  de la operación a realizar **(+,*,/,-)**, muestre en pantalla el resultado de dicha operación.
+*********
+## Calculadora de operaciones básicas
+
+> <img src="iconos/prob.png">  Realizar un programa en C que lea el valor de dos operandos enteros, y posteriormente, dependiendo que cual sea el código  de la operación a realizar **(+,*,/,-)**, muestre en pantalla el resultado de dicha operación.
+
+
 
 &ensp;&ensp;&ensp; <img src="iconos/c.png">[CalculadoraBasica.c](./Primeros_pasos/CalculadoraBasica.c)
+
+
 
 &ensp;&ensp;&ensp; <img src="iconos/python.png">[CalculadoraBasica.py](./Primeros_pasos/CalculadoraBasica.py)
 
 *********
+
 ## Plantilla
 
-Para facilitar la ejecución de los casos de prueba es habitual que sea necesario repetir la ejecución del programa
+> Para facilitar la ejecución de los casos de prueba es habitual que sea necesario repetir la ejecución del programa
 
  &ensp;&ensp;&ensp; <img src="iconos/c.png">[Plantilla](./Primeros_pasos/template.c)
 
