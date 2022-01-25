@@ -1,8 +1,8 @@
 Algoritmo temperaturaMaximaselectivasimple
-// programa que calcula el mayor valor 	
-// de dos temperaturas 				
+    // programa que calcula el mayor valor 	
+    // de dos temperaturas 				
 Var
-	t1,t2: real 		// dos valores de temperatura 	
+	t1,t2: real 	// dos valores de temperatura 	
 	tmax: real		// temperatura máxima 		
 		     
 	Escribir "Introduzca dos temperaturas: " ;

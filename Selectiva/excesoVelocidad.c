@@ -11,6 +11,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <math.h>
+
 #define LIMITE 120 /* velocidad maxima permitida */
 
 int main()
@@ -29,7 +30,7 @@ int main()
         if (v > LIMITE)
         {
             exceso = v - LIMITE;
-            printf("\nSobepasado limite de velocidad");
+            printf("\nSobrepasado limite de velocidad");
             printf(" en %.2f Km/h", exceso);
         }
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
