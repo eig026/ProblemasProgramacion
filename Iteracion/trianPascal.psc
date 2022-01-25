@@ -1,9 +1,9 @@
 Algoritmo TrianguloPascal
-//	programa que imprime en pantalla el triángulo de 	
-//	Tartaglia dado por teclado el número de la última fila	
+    //	programa que imprime en pantalla el triángulo de 	
+    //	Tartaglia dado por teclado el número de la última fila	
 	MAX=20
 	Repetir 
-		Escribir "Introduzca numero de filas: "
+		Escribir "Introduzca número de filas: "
 		Leer filas 
 	Hasta que (filas>0)y(filas<=MAX)
 	n<-0
