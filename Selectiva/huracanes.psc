@@ -1,7 +1,7 @@
 Algoritmo  huracanes
-// programa que presenta en pantalla la categoría		
-// de un huracán a partir de su nivel, según			
-// clasificación de Saffir-Simpson 					
+    // programa que presenta en pantalla la categoría		
+    // de un huracán a partir de su nivel, según			
+    // clasificación de Saffir-Simpson 					
 Var
 	nivel: entero	// nivel del huracán: 1,2,3,4,5	
 
