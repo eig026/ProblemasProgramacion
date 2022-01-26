@@ -22,7 +22,7 @@ int main(){
 	do{ system("cls||clear");
 		printf("TRIANGULO DE PASCAL\n");
 		printf("===================\n\n");
-		do{	printf("Nº de filas: ");
+		do{	printf("Num. de filas: ");
 			scanf(" %d",&filas);
 		}while((filas<0)||(filas>MAX));
 		printf("\n\n");
