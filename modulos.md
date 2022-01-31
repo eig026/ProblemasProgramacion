@@ -16,14 +16,7 @@ El programa leerá por teclado la opción disponible y ejecutará las acciones p
 Nota: las tres opciones del menú se corresponden con  problemas descritos en otros apartados de este repositorio. Implementar directamente los programas de dichos ejercicios como módulos sin ninguna descomposición funcional adicional.
 
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ menu.c](./DisModular/menu.c)
-```mermaid
-graph TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
- ```
+
 # Problemas donde se hace uso de descomposición funcional
 
 
