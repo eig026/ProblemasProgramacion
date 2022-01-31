@@ -17,8 +17,13 @@ Nota: las tres opciones del menú se corresponden con  problemas descritos en ot
 
 &ensp;&ensp;&ensp;  <img src="iconos/c.png">[ menu.c](./DisModular/menu.c)
 
-
-
+:::mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+:::
 
 
 # Problemas donde se hace uso de descomposición funcional
