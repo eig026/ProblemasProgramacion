@@ -31,6 +31,6 @@ int main(){
              }else printf("\nNo es un triangulo");
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
         scanf(" %c", &c);
-    }while (c!='N');
+    }while ((c != 'N') && (c != 'n'));
     return 0;
 }
