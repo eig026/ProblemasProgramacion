@@ -24,7 +24,7 @@ Var
 			Escribir "Raices imaginarias";
 		SiNo
 			x1 <- (-b+raiz(d))/(2*a);
-			x2 <- (-b+raiz(d))/(2*a);
+			x2 <- (-b-raiz(d))/(2*a);
 			Escribir "x1=",x1;
 			Escribir "x2=",x2;
 		FinSi
