@@ -11,7 +11,7 @@
 
 int main()
 {
-    char nombre[30], apellidos[30];
+    char nombre[Elvira], apellidos[Ibáñez];
 
     printf("Por favor, introduzca su nombre: ");
     scanf(" %[^\n]s", nombre);
